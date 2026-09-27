@@ -1,11 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { Btn, SKILL_BUTTONS } from '../../src/core';
 import { labubuDef, twinkleDef } from '../../src/characters';
+import { TouchInput } from '../../src/input/touch';
 import {
   TOUCH_ATTACK_BUTTONS,
   TOUCH_DIRECTION_BUTTONS,
   TOUCH_SKILL_BUTTONS,
+  PointerDragSession,
   characterSkillLabels,
+  meterPercent,
+  playerCharacterLabel,
 } from '../../src/mobile/TouchControls';
 
 describe('mobile touch control definitions', () => {
@@ -31,5 +35,36 @@ describe('mobile touch control definitions', () => {
     expect(characterSkillLabels('labubu')).toEqual(labubuDef.skillSlots!.map(id => labubuDef.moves.find(move => move.id === id)!.name));
     expect(characterSkillLabels('twinkle')).toEqual(twinkleDef.skillSlots!.map(id => twinkleDef.moves.find(move => move.id === id)!.name));
     expect(characterSkillLabels('missing')).toEqual(Array.from({ length: 9 }, (_, index) => `技能${index + 1}`));
+    expect(playerCharacterLabel(0, 'labubu')).toBe('P1 · LABUBU');
+    expect(playerCharacterLabel(1, 'twinkle')).toBe('P2 · 星星人');
+  });
+
+  it('本机气槽百分比钳制异常值，不依赖底部桌面气条', () => {
+    expect(meterPercent(150)).toBe(50);
+    expect(meterPercent(-20)).toBe(0);
+    expect(meterPercent(500)).toBe(100);
+    expect(meterPercent(Number.NaN)).toBe(0);
+    expect(meterPercent(20, 0)).toBe(0);
+  });
+
+  it('触点拖过按钮间隙只释放输入，重新进入按钮仍属于同一次按压', () => {
+    const session = new PointerDragSession();
+    const input = new TouchInput();
+    session.begin(17);
+    input.setPointer(17, Btn.Left);
+    expect(input.snapshot()).toBe(Btn.Left);
+    expect(session.has(17)).toBe(true);
+    // gap: TouchControls calls input.releasePointer, but does not end this session.
+    input.releasePointer(17);
+    expect(input.snapshot()).toBe(0);
+    expect(session.has(17)).toBe(true);
+    // re-enter: pointermove is still accepted until a real end event.
+    input.setPointer(17, Btn.Right | Btn.Down);
+    expect(input.snapshot()).toBe(Btn.Right | Btn.Down);
+    expect(session.end(17)).toBe(true);
+    input.releasePointer(17);
+    expect(input.snapshot()).toBe(0);
+    expect(session.has(17)).toBe(false);
+    expect(session.end(17)).toBe(false);
   });
 });

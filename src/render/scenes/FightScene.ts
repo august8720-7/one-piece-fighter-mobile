@@ -46,6 +46,8 @@ import { adoptPresentation, presentationLabel, type PresentationData } from '../
 import { evaluateAnimeEntry } from '../anime/entryGate';
 import { DiagnosticsPanel } from '../ui/DiagnosticsPanel';
 import { fitFightFraming, unionFightBounds, type FightBounds, type FightFraming } from '../fightFraming';
+import type { NetworkRound } from '../../mobile/NetworkRound';
+import type { MobileFightSnapshot, MobileGameResult } from '../../mobile/gameTypes';
 
 export type GameMode = 'versus' | 'cpu' | 'training';
 
@@ -58,6 +60,9 @@ export interface FightSceneData extends PresentationData {
   /** 强制显示新手引导 */
   tutorial?: boolean;
   controlModes?: ControlModes;
+  mobile?: boolean;
+  network?: NetworkRound;
+  mobileGeneration?: number;
 }
 
 /** 地面在屏幕中的 y（像素）。 */
@@ -127,6 +132,8 @@ export function resolveAnimeSample(
 
 export class FightScene extends Phaser.Scene {
   private ready = false;
+  private mobileResultSent = false;
+  private networkAudioStarted = false;
   private diagnostics!: DiagnosticsPanel;
   private sim!: FightSim;
   private readonly audio = sfx();
@@ -204,6 +211,9 @@ export class FightScene extends Phaser.Scene {
 
   create(data: FightSceneData): void {
     this.ready = false;
+    this.mobileResultSent = false;
+    this.networkAudioStarted = false;
+    if (data.mobile && data.mobileGeneration !== this.registry.get('mobileGeneration')) { this.scene.stop(); return; }
     let p1 = characters[data.p1];
     let p2 = characters[data.p2];
     if (!p1 || !p2) throw new Error(`Unknown character: ${data.p1} / ${data.p2}`);
@@ -299,7 +309,8 @@ export class FightScene extends Phaser.Scene {
     this.data_.controlModes = controls;
     getInputHub().useMatchControls(controls);
     this.sim = new FightSim(
-      this.mode === 'training' ? { p1, p2, seed: 1, introFrames: 0, roundTime: -1, controlModes: controls } : { p1, p2, seed: 1, controlModes: controls },
+      this.mode === 'training' ? { p1, p2, seed: 1, introFrames: 0, roundTime: -1, controlModes: controls }
+        : { p1, p2, seed: data.network?.setup.seed ?? 1, controlModes: controls },
     );
     if (this.mode === 'training') this.sim.training = { infiniteHp: true, infiniteMeter: true };
     getInputHub().flush();
@@ -317,8 +328,10 @@ export class FightScene extends Phaser.Scene {
     this.audio.clearFightSounds();
     this.dailyAudio.reset();
     this.audio.resume();
-    this.audio.playMusic('battle', this.mode === 'training' ? 0.7 : 1);
-    this.audio.playCue('marineford_ambient');
+    if (!data.network) {
+      this.audio.playMusic('battle', this.mode === 'training' ? 0.7 : 1);
+      this.audio.playCue('marineford_ambient');
+    }
     this.superDimFrames = 0;
     this.superDim = this.add.rectangle(0, 0, SCREEN_W, SCREEN_H, 0x06080f).setOrigin(0).setDepth(-2).setAlpha(0);
     this.after = new Afterimages(this, this.worldLayer);
@@ -344,8 +357,8 @@ export class FightScene extends Phaser.Scene {
     this.prevMoveIds = [null, null];
     this.hud = new Hud(this, [p1.name, p2.name], [[], []], animeRequested ? 'anime' : 'classic', [p1.id, p2.id], controls);
     this.subtitles = new VoiceSubtitles(this, 90);
-    if (this.mode !== 'training') this.audio.playPresentation({ phase: 'round', key: `round-${this.sim.state.round}`, round: this.sim.state.round, finalRound: this.sim.state.wins.every(win => win === 1) });
-    this.skillBar = new SkillBar(this, controls);
+    if (this.mode !== 'training' && !data.network) this.audio.playPresentation({ phase: 'round', key: `round-${this.sim.state.round}`, round: this.sim.state.round, finalRound: this.sim.state.wins.every(win => win === 1) });
+    this.skillBar = new SkillBar(this, data.mobile ? ['classic', 'classic'] : controls);
     this.debug = new DebugOverlay(this, false, this.worldLayer);
 
     // 精灵视图：Preload 决定了每个角色可用的图集 key
@@ -360,7 +373,8 @@ export class FightScene extends Phaser.Scene {
     const version = this.add.text(ui(12), ui(77), presentationLabel(profile), {
       fontFamily: UI.mono, fontSize: font(10), color: '#afc4cd',
     }).setDepth(52).setInteractive({ useHandCursor: true });
-    version.on('pointerdown', () => { if (!this.paused) this.togglePause(); this.diagnostics.open(); });
+    if (!data.mobile) version.on('pointerdown', () => { if (!this.paused) this.togglePause(); this.diagnostics.open(); });
+    else version.setText('四角格斗 · 手机版').disableInteractive();
 
     this.controlText = this.add
       .text(
@@ -381,7 +395,7 @@ export class FightScene extends Phaser.Scene {
       .setVisible(this.mode === 'training');
 
     this.moveList = new MoveListPanel(this, [p1, p2], controls);
-    if (!sampleRequested && this.mode === 'training' && (data.tutorial || !tutorialDismissed(controls[0]))) {
+    if (!data.mobile && !sampleRequested && this.mode === 'training' && (data.tutorial || !tutorialDismissed(controls[0]))) {
       this.tutorial = new TutorialCoach(this, data.p1, () => { this.tutorialCompletePending = true; }, controls[0]);
     }
     this.game.events.on('opf-settings-closed', this.onSettingsClosed, this);
@@ -400,6 +414,7 @@ export class FightScene extends Phaser.Scene {
     const kb = this.input.keyboard;
     kb?.on('keydown-F4', () => (this.useSprites = !this.useSprites));
     kb?.on('keydown-ESC', () => {
+      if (this.data_.mobile) { this.game.events.emit('mobile-pause-request'); return; }
       if (this.settingsOverlay) return;
       if (this.moveList?.visible) {
         this.closeMoveList();
@@ -407,7 +422,7 @@ export class FightScene extends Phaser.Scene {
       }
       this.togglePause();
     });
-    kb?.on('keydown-F11', () => this.toggleMoveList());
+    kb?.on('keydown-F11', () => { if (!this.data_.mobile) this.toggleMoveList(); });
     kb?.on('keydown-F12', () => this.tutorial?.skip());
     if (this.mode === 'training') {
       kb?.on('keydown-F5', () => this.sample ? this.sample.next(this.sim) : this.dummy.next());
@@ -431,6 +446,33 @@ export class FightScene extends Phaser.Scene {
       });
     }
     this.ready = true;
+    if (data.mobile) {
+      this.trainingText.setVisible(false);
+      data.network?.markLoaded();
+      this.game.events.emit('mobile-fight-ready', this);
+    }
+  }
+
+  mobileSnapshot(): MobileFightSnapshot | null {
+    if (!this.ready || !this.data_.mobile) return null;
+    const w = this.sim.state, network = this.data_.network, localPlayer = network?.localPlayer ?? 0;
+    return { frame: w.frame, phase: w.phase, round: w.round, localPlayer,
+      character: w.fighters[localPlayer].def.id, characters: [w.fighters[0].def.id, w.fighters[1].def.id],
+      hp: [w.fighters[0].hp, w.fighters[1].hp], positions: [w.fighters[0].x / SUBPIXEL, w.fighters[1].x / SUBPIXEL],
+      states: [w.fighters[0].state, w.fighters[1].state], moves: [w.fighters[0].moveId, w.fighters[1].moveId],
+      meter: w.fighters[localPlayer].meter, skills: Array.from({ length: 9 }, (_, slot) => this.sim.skillAvailability(localPlayer, slot)),
+      paused: network ? network.localPaused || network.remotePaused : this.paused,
+      ...(network ? { networkStatus: network.status, networkReason: network.reason } : {}) };
+  }
+
+  setMobilePaused(paused: boolean): void {
+    if (!this.ready || !this.data_.mobile) return;
+    getInputHub().flush();
+    if (this.data_.network) this.data_.network.setPaused(paused);
+    else { this.paused = paused; if (paused) this.discardPendingInput(); }
+    this.step = new FixedStep();
+    const audioPaused = this.data_.network ? this.data_.network.localPaused || this.data_.network.remotePaused : this.paused;
+    if (audioPaused) this.audio.pause(); else this.audio.resume();
   }
 
   /** 防御步先留出后退窗口，再让木桩走近出拳。 */
@@ -453,6 +495,10 @@ export class FightScene extends Phaser.Scene {
   // ---------- 暂停 ----------
 
   private pauseOnFocusLoss(): void {
+    if (this.data_.mobile) {
+      if (document.visibilityState !== 'visible') this.game.events.emit('mobile-pause-request');
+      return;
+    }
     if (this.paused) return;
     this.togglePause();
     this.setPauseUiVisible(this.paused && !this.moveList?.visible);
@@ -657,11 +703,26 @@ export class FightScene extends Phaser.Scene {
     if (this.paused) return;
     const hub = getInputHub();
     for (let i = 0; i < steps; i++) {
+      if (this.data_.mobile && this.sim.state.phase === 'match_end') break;
+      if (this.data_.network) {
+        const phase = this.sim.state.phase;
+        const slow = phase === 'round_end' && this.sim.state.phaseFrame < FightScene.SLOWMO_FRAMES;
+        if (slow && ++this.slowAcc % 3 !== 0) continue;
+        const synchronized = this.data_.network.next(() => hub.snapshot().p1 & ~Btn.Start);
+        if (!synchronized) break;
+        if (!this.networkAudioStarted) {
+          this.networkAudioStarted = true; this.audio.resume(); this.audio.playMusic('battle');
+          this.audio.playCue('marineford_ambient');
+          this.audio.playPresentation({ phase: 'round', key: 'round-1', round: 1, finalRound: false });
+        }
+        this.lastInput = synchronized;
+      } else {
       const raw = hub.snapshot();
       const pressedStart = (raw.p1 | raw.p2) & Btn.Start & ~(this.lastInput.p1 | this.lastInput.p2);
       const phase = this.sim.state.phase;
       if (pressedStart && (phase === 'fight' || phase === 'intro')) {
         this.lastInput = raw;
+        if (this.data_.mobile) { this.game.events.emit('mobile-pause-request'); return; }
         this.togglePause();
         return;
       }
@@ -696,11 +757,13 @@ export class FightScene extends Phaser.Scene {
       // KO 慢镜头：回合刚结束的一小段，每 3 个渲染步进只推进 1 逻辑帧
       const slow = phase === 'round_end' && this.sim.state.phaseFrame < FightScene.SLOWMO_FRAMES;
       if (slow && ++this.slowAcc % 3 !== 0) continue;
+      }
 
       // The gate reads the same current history as core and runs once per real step,
       // after slow-motion/step buffering, never on skipped rendering ticks.
       if (this.sample) this.lastInput = this.sample.input(this.sim, this.lastInput);
       this.sim.step(this.lastInput);
+      this.data_.network?.afterStep(this.sim);
       this.sampleResetWorld = null;
       // Check before any hit/KO audio, effects or drawing can consume an uncovered ending pose.
       // Ordinary recovery waits until both fighters have finished attacks and reactions.
@@ -714,6 +777,12 @@ export class FightScene extends Phaser.Scene {
       if (this.superDimFrames > 0) this.superDimFrames--;
       this.after.tick();
       this.afterStep();
+      if (this.data_.mobile && !this.data_.network && !this.mobileResultSent && this.sim.state.phase === 'match_end') {
+        this.mobileResultSent = true;
+        const w = this.sim.state;
+        this.game.events.emit('mobile-result', { winner: w.wins[0] > w.wins[1] ? 0 : 1,
+          wins: [...w.wins], frame: w.frame, verified: false } satisfies MobileGameResult);
+      }
       if (this.tutorialCompletePending) {
         this.tutorialCompletePending = false;
         this.togglePause(true);

@@ -1,8 +1,10 @@
 # 四角色格斗 · 手机版
 
-正在开发的独立手机版，来自已公开验收的[桌面版](https://august8720-7.github.io/one-piece-fighter/)。路飞、赤犬、LABUBU、星星人及其全部技能、人物声音、舞台与音乐继续保留。
+独立手机预览版，来自已公开验收的[桌面版](https://august8720-7.github.io/one-piece-fighter/)。路飞、赤犬、LABUBU、星星人及其全部技能、人物声音、舞台与音乐继续保留。
 
-当前已完成独立基线导入、触控输入组件、输入同步基础模块及同机双端真实WebRTC验证，尚未接成完整手游、尚未完成真实双手机验收，也未发布手机正式运行版。当前进度见 `docs/手机版进度0927.md`，约束见 `AGENTS.md`。
+已接入横屏触控、单人人机、训练、房间配对、同步对战、暂停、结算与再战。内置浏览器已验证实际触控出招、完整游戏双端 WebRTC 开场与双方操作同步，退出后对端明确停止比赛。**真实两台手机、Wi-Fi/热点可达性、真机触控与音频仍未实测，因此当前发布为预览版。** 进度和验证边界见 [手机版进度0927](docs/手机版进度0927.md)。
+
+游玩地址：[手机预览版](https://august8720-7.github.io/one-piece-fighter-mobile/)。两人联机时，两台手机连接同一 Wi-Fi 或热点并横屏打开网址；一方创建房间并选择角色，另一方选择加入并输入 10 位房间码，双方准备后开局。首次配对仍需联网访问免费信令服务，网络隔离或信令不可达时无法建立房间；不支持纯离线蓝牙配对。单人模式不需要房间。
 
 目标是在手机横屏浏览器里通过触控进行单人练习与同 Wi-Fi/手机热点双人对战。使用 WebRTC 数据通道，配对与游戏输入传输分别验证；不把 GitHub Pages 当作联机服务器，不实现或声称蓝牙传输。
 
@@ -10,4 +12,6 @@
 
 连接使用PeerJS 1.5.5和浏览器WebRTC，仅配对元数据经过免费共享信令；双方显式关闭默认STUN/TURN。数据通道的实际可达性需要按网络验证。`connection-pair-check.html`是本地开发验收页：真实WebRTC传输＋脚本输入，并非两台手机或真人对战，不进入正式发行包。
 
-开发命令：`npm ci`、`npm run dev`；工程验证：`npm run typecheck`、`npm run lint`、`npm test`、`npm run build`。需要本机已验收的运行资源；准确导入清单见 `docs/桌面导入清单0927.json`。
+开发命令：`npm ci`、`npm run dev`；工程验证按改动选用 `npm run typecheck`、`npm run lint`、`npm test`。源码分支不含正式人物素材；开发需要本机已验收的运行资源，准确清单见 `docs/桌面导入清单0927.json`。公开运行白名单单独位于 `gh-pages` 分支，下载该分支即可托管当前预览。
+
+本机发行命令：`npm run build` 校验桌面 core/角色与运行素材、检查类型并构建到 D 盘独立候选目录；`npm run package:mobile -- --candidate "<构建site目录>" --output-root "D:/one-piece-fighter-crossover-0922/mobile/publish"` 生成白名单及哈希；`npm run serve:mobile -- --package "<打包目录>" --port 4184` 仅监听本机，需要同网设备访问时显式加 `--lan`。脚本不安装依赖、不改防火墙、不自动发布。其他机器可按脚本导出函数指定输出目录。

@@ -2,6 +2,7 @@ import type { ControlModes, InputFrame } from '@core/index';
 import { sfx } from '../audio/Sfx';
 import { GamepadInput } from './gamepad';
 import { KeyboardInput } from './keyboard';
+import { touchInput } from './touch';
 import { loadControlModes, loadKeyConfig, muteShortcutAvailable, saveControlModes, saveKeyConfig, type KeyConfig } from './keymap';
 
 /**
@@ -67,7 +68,7 @@ export class InputHub {
   snapshot(): InputFrame {
     const k = this.keyboard.snapshot();
     const g = this.gamepad.snapshot();
-    const cur = { p1: k.p1 | g.p1, p2: k.p2 | g.p2 };
+    const cur = { p1: k.p1 | g.p1 | touchInput.snapshot(), p2: k.p2 | g.p2 };
     this.prev = cur;
     return cur;
   }
@@ -84,6 +85,7 @@ export class InputHub {
 
   /** 场景切换时清空锁存，避免上一个界面的确认键漏到下一个界面 */
   flush(): void {
+    touchInput.clear();
     this.keyboard.clear();
     this.snapshot();
     this.snapshot();

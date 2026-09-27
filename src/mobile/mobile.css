@@ -39,8 +39,7 @@ body,
 .opf-game-stage {
   position: absolute;
   inset: 0;
-  display: grid;
-  place-items: center;
+  display: block;
   overflow: hidden;
 }
 
@@ -94,12 +93,11 @@ body,
 
 .opf-touch-topbar {
   position: absolute;
-  top: 4px;
-  left: 50%;
+  top: max(52px, var(--opf-hud-bottom, 14vh));
+  left: 4px;
   display: flex;
   align-items: center;
   gap: 8px;
-  transform: translateX(-50%);
   pointer-events: none;
 }
 
@@ -121,6 +119,34 @@ body,
   color: var(--opf-gold-soft) !important;
 }
 
+.opf-touch-meter {
+  position: relative;
+  width: clamp(92px, 16vw, 150px);
+  height: 18px;
+  overflow: hidden;
+  border: 1px solid rgb(242 193 78 / 62%);
+  border-radius: 999px;
+  background: rgb(5 16 27 / 78%);
+  pointer-events: none;
+}
+
+.opf-touch-meter-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  background: linear-gradient(90deg, #4bb8cd, var(--opf-gold, #f2c14e));
+}
+
+.opf-touch-meter-text {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff7dc;
+  font: 700 10px / 1 "Cascadia Mono", Consolas, monospace;
+  text-shadow: 0 1px 2px #061018;
+}
+
 .opf-touch-exit {
   border-color: rgb(239 86 97 / 78%) !important;
   color: #ffd7d9 !important;
@@ -140,7 +166,12 @@ body,
   left: 4px;
   width: clamp(156px, 35vh, 250px);
   aspect-ratio: 1;
-  grid-template: "ul u ur" 1fr "l . r" 1fr "dl d dr" 1fr / repeat(3, 1fr);
+  grid-template-areas:
+    "ul u ur"
+    "l . r"
+    "dl d dr";
+  grid-template-columns: repeat(3, minmax(44px, 1fr));
+  grid-template-rows: repeat(3, minmax(44px, 1fr));
 }
 
 .opf-touch-direction {
@@ -156,7 +187,11 @@ body,
   bottom: 4px;
   width: clamp(112px, 27vh, 184px);
   aspect-ratio: 1;
-  grid-template: "lp hp" 1fr "lk hk" 1fr / repeat(2, 1fr);
+  grid-template-areas:
+    "lp hp"
+    "lk hk";
+  grid-template-columns: repeat(2, minmax(44px, 1fr));
+  grid-template-rows: repeat(2, minmax(44px, 1fr));
 }
 
 .opf-touch-attack {
@@ -168,7 +203,7 @@ body,
 }
 
 .opf-touch-skills {
-  top: max(56px, 14vh);
+  top: max(52px, var(--opf-hud-bottom, 14vh));
   right: 4px;
   width: clamp(180px, 32vw, 330px);
   grid-template-columns: repeat(3, minmax(44px, 1fr));
@@ -189,21 +224,24 @@ body,
 
 .opf-touch-key {
   display: grid;
-  min-width: 23px;
-  min-height: 23px;
+  min-width: 19px;
+  min-height: 19px;
   place-items: center;
   border: 1px solid rgb(242 193 78 / 68%);
   border-radius: 7px;
   color: var(--opf-gold-soft);
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .opf-touch-name {
   overflow: hidden;
   font-size: clamp(9px, 1.6vh, 13px);
+  line-height: 1.05;
   text-align: left;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .opf-touch-skill.is-unavailable,
@@ -218,7 +256,7 @@ body,
 
 @media (max-height: 430px) and (orientation: landscape) {
   .opf-touch-topbar {
-    top: 0;
+    top: max(52px, var(--opf-hud-bottom, 14vh));
   }
 
   .opf-touch-character {
@@ -235,7 +273,7 @@ body,
   }
 
   .opf-touch-skills {
-    top: 52px;
+    top: max(52px, var(--opf-hud-bottom, 14vh));
     width: clamp(174px, 31vw, 280px);
     grid-auto-rows: 44px;
   }

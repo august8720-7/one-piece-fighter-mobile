@@ -52,6 +52,15 @@ export function characterSkillLabels(characterId: string): string[] {
   });
 }
 
+export function playerCharacterLabel(player: 0 | 1, characterId: string): string {
+  return `P${player + 1}${characters[characterId] ? ` · ${characters[characterId]!.name}` : ''}`;
+}
+
+export function meterPercent(meter: number, max = 300): number {
+  if (!Number.isFinite(meter) || !Number.isFinite(max) || max <= 0) return 0;
+  return Math.max(0, Math.min(100, meter / max * 100));
+}
+
 const REASON_LABEL: Readonly<Record<SkillAvailability['reason'], string>> = {
   ready: '可用', meter: '气不足', air: '空地条件不符', recovery: '硬直中',
   cancel: '不可取消', phase: '等待开战', missing: '未配置',
@@ -62,24 +71,41 @@ interface ControlBinding {
   bits: number;
 }
 
+/** Physical pointer lifetime is independent from whether it is over a button. */
+export class PointerDragSession {
+  private readonly pressed = new Set<number>();
+
+  begin(pointerId: number): void { this.pressed.add(pointerId); }
+  has(pointerId: number): boolean { return this.pressed.has(pointerId); }
+  end(pointerId: number): boolean { return this.pressed.delete(pointerId); }
+  clear(): void { this.pressed.clear(); }
+}
+
 /** DOM-only overlay. It emits P1 bits and never touches FightSim or scenes. */
 export class TouchControls {
   readonly element: HTMLElement;
   private readonly skillButtons: HTMLButtonElement[] = [];
   private readonly bindings = new Map<HTMLElement, ControlBinding>();
   private readonly activePointers = new Map<number, ControlBinding>();
+  private readonly pointerSession = new PointerDragSession();
   private readonly characterLabel: HTMLElement;
+  private readonly meter: HTMLElement;
+  private readonly meterFill: HTMLElement;
+  private readonly meterText: HTMLElement;
+  private characterId = 'luffy';
+  private player: 0 | 1 = 0;
 
   private readonly onPointerDown = (event: PointerEvent): void => {
     const binding = this.bindingAt(event.target);
     if (!binding || binding.element.disabled) return;
     event.preventDefault();
+    this.pointerSession.begin(event.pointerId);
     try { binding.element.setPointerCapture(event.pointerId); } catch { /* capture is optional */ }
     this.applyPointer(event.pointerId, binding);
   };
 
   private readonly onPointerMove = (event: PointerEvent): void => {
-    if (!this.activePointers.has(event.pointerId)) return;
+    if (!this.pointerSession.has(event.pointerId)) return;
     event.preventDefault();
     const target = document.elementFromPoint(event.clientX, event.clientY);
     const binding = this.bindingAt(target);
@@ -87,7 +113,7 @@ export class TouchControls {
   };
 
   private readonly onPointerEnd = (event: PointerEvent): void => {
-    if (!this.activePointers.has(event.pointerId)) return;
+    if (!this.pointerSession.end(event.pointerId)) return;
     event.preventDefault();
     this.applyPointer(event.pointerId, null);
   };
@@ -106,7 +132,16 @@ export class TouchControls {
     this.characterLabel = document.createElement('div');
     this.characterLabel.className = 'opf-touch-character';
     this.characterLabel.textContent = 'P1';
-    top.append(this.characterLabel, this.actionButton('暂停', 'opf-touch-menu', options.onPause), this.actionButton('退出', 'opf-touch-menu opf-touch-exit', options.onExit));
+    this.meter = document.createElement('div');
+    this.meter.className = 'opf-touch-meter';
+    this.meter.setAttribute('role', 'meter');
+    this.meter.setAttribute('aria-label', '本机气槽');
+    this.meterFill = document.createElement('span');
+    this.meterFill.className = 'opf-touch-meter-fill';
+    this.meterText = document.createElement('span');
+    this.meterText.className = 'opf-touch-meter-text';
+    this.meter.append(this.meterFill, this.meterText);
+    top.append(this.characterLabel, this.meter, this.actionButton('暂停', 'opf-touch-menu', options.onPause), this.actionButton('退出', 'opf-touch-menu opf-touch-exit', options.onExit));
 
     const directions = this.region('方向', 'opf-touch-dpad', TOUCH_DIRECTION_BUTTONS);
     const attacks = this.region('普通攻击', 'opf-touch-attacks', TOUCH_ATTACK_BUTTONS);
@@ -125,13 +160,15 @@ export class TouchControls {
     window.addEventListener('pagehide', this.onWindowBlur);
     document.addEventListener('visibilitychange', this.onVisibility);
     this.setCharacter('luffy');
+    this.setMeter(0);
     this.updateAvailability([]);
   }
 
   setCharacter(id: string): void {
     const def = characters[id];
+    this.characterId = id;
     this.element.dataset.character = id;
-    this.characterLabel.textContent = def ? `P1 · ${def.name}` : 'P1';
+    this.characterLabel.textContent = playerCharacterLabel(this.player, id);
     if (def) this.element.style.setProperty('--opf-character-accent', `#${def.color.toString(16).padStart(6, '0')}`);
     const labels = characterSkillLabels(id);
     this.skillButtons.forEach((button, index) => {
@@ -139,6 +176,23 @@ export class TouchControls {
       button.replaceChildren(this.keyCap(`S${index + 1}`), this.buttonLabel(name));
       button.setAttribute('aria-label', `技能${index + 1} ${name}`);
     });
+  }
+
+  setPlayer(player: 0 | 1): void {
+    this.player = player;
+    this.element.dataset.player = String(player);
+    this.characterLabel.textContent = playerCharacterLabel(player, this.characterId);
+  }
+
+  setMeter(meter: number, max = 300): void {
+    const percent = meterPercent(meter, max);
+    const safeMax = Number.isFinite(max) && max > 0 ? max : 0;
+    const value = Number.isFinite(meter) ? Math.max(0, Math.min(safeMax, meter)) : 0;
+    this.meterFill.style.width = `${percent}%`;
+    this.meterText.textContent = `气 ${Math.round(value)} / ${Math.round(safeMax)}`;
+    this.meter.setAttribute('aria-valuemin', '0');
+    this.meter.setAttribute('aria-valuemax', String(safeMax));
+    this.meter.setAttribute('aria-valuenow', String(value));
   }
 
   setVisible(visible: boolean): void {
@@ -246,6 +300,7 @@ export class TouchControls {
   private clearActive(): void {
     for (const binding of this.activePointers.values()) binding.element.classList.remove('is-pressed');
     this.activePointers.clear();
+    this.pointerSession.clear();
     this.options.input.clear();
   }
 }

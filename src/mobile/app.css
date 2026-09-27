@@ -1,0 +1,12 @@
+.opf-app-status {
+  position: absolute; z-index: 70; left: 50%; bottom: max(10px, env(safe-area-inset-bottom));
+  transform: translateX(-50%); max-width: 65%; padding: 9px 16px;
+  border: 1px solid #be9949; border-radius: 8px; background: #07131fee; color: #ffdc80;
+  font: 14px "Microsoft YaHei", sans-serif; text-align: center; pointer-events: none;
+}
+.opf-app-cancel {
+  position: absolute; z-index: 71; left: 12px; top: max(10px, env(safe-area-inset-top));
+  min-height: 44px; padding: 8px 16px; color: #ffe2bd; border: 1px solid #b78449;
+  border-radius: 8px; background: #102638; font: 14px "Microsoft YaHei", sans-serif; cursor: pointer;
+}
+.opf-app-status[hidden], .opf-app-cancel[hidden] { display: none; }

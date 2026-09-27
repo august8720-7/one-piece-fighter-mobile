@@ -51,6 +51,7 @@ export class PreloadScene extends Phaser.Scene {
       const bytes = progress.totalBytes === undefined ? `已完成 ${progress.completed} 份文件`
         : `${((progress.receivedBytes ?? 0) / 1_000_000).toFixed(1)} / ${(progress.totalBytes / 1_000_000).toFixed(1)} MB`;
       label.setText(`${menu ? '正在准备菜单…' : '正在准备完整比赛…'}\n${bytes}${progress.retry ? '\n连接较慢，正在自动重试…' : ''}`);
+      if (data.mobile) this.game.events.emit('mobile-load-progress', `${bytes}${progress.retry ? ' · 正在重试' : ''}`);
     });
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, unsubscribe);
     const finish = (): void => { unsubscribe(); label.destroy(); hint.destroy(); };
@@ -98,6 +99,7 @@ export class PreloadScene extends Phaser.Scene {
 
   private showFailure(issues: string[]): void {
     this.registry.set(PRESENTATION_LOAD, { ok: false, issues, ...readPresentation(this.registry) });
+    if (this.data_.mobile) { this.game.events.emit('mobile-load-failed', issues); return; }
     const profile = readPresentation(this.registry);
     this.add.text(SCREEN_W / 2, ui(94), profile.art === 'anime' ? '新版暂时无法开始' : '游戏暂时无法开始', { fontFamily: UI.font, fontSize: font(30), color: UI.title }).setOrigin(0.5);
     const incomplete = issues.some(issue => /缺少动作|缺少招式|完整动作覆盖/.test(issue));

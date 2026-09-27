@@ -16,20 +16,28 @@
 - `tests/` 保存手机版适用的原逻辑回归和新网络/触控/运行资源校验。桌面制作原件测试保留原项目的既有门槛，不能删断言或把缺原件的检查标通过。
 - `scripts/` 保存可复现导入、构建、白名单打包与本地启动工具；新辅助脚本不改系统配置。
 - 根目录 `connection-check.html`、`connection-pair-check.html` 是本地开发验收页，只用于真实WebRTC通道与脚本输入回放，不计真实手机、不进入正式运行白名单；控制逻辑归 `src/mobile/ConnectionProbe.ts`。
+- `mobile-preview.html` 是完整游戏的本地响应式/双端开发预览：iframe使用显式宽高、外层按可见空间等比缩放，仅辅助验证真实界面与WebRTC，不改游戏状态、不当实体手机、不进入运行白名单。
 - `public/assets/` 仅导入桌面已公开运行包白名单资源，继续本地忽略；源码仓库只含允许的占位图。原件不复制进本项目。运行包仍与源码分支分开。
 - `docs/` 保存目标、设计决定、桌面来源清单和进度；文档采用主题加 MMDD 命名。
 - 构建、运行包及实机证据放 `D:/one-piece-fighter-crossover-0922/mobile/`，其 README 先定义 baseline/candidate/acceptance/publish；每次独立时间目录，不删除/覆盖旧验收包。
 
 ## 联机与验收
 
+- 0927用户新增“快速交付与最小验证”原则，覆盖历史阶段自动增加的首次交付门槛。当前先交付可用预览：确认当前构建、关键触控和完整游戏的真实WebRTC双端基本交互，无已知阻断即在既有授权内发布预览，不再以全组合/多尺寸/长时间遍历拖延。
+- 复用已有通过结果；局部修复仅重测受影响路径，不默认全量重跑。预览必须明确双手机/热点与长时间结果尚未验证，不把同机两页面当手机验收；总Goal最终完成仍需实际支持所要求的手机联机能力。
+
 - 只承诺同 Wi-Fi/手机热点的网页对战，不称蓝牙。GitHub Pages 仅托管静态网页，不冒充房间服务器。
 - 连接方案优先 WebRTC 数据通道；配对/信令的实际外部依赖、免费条件、失败路径必须显式记录。未知同网可达性必须用真实设备检验。
 - 握手校验协议、规则版本、角色和种子；输入校验序号、帧号、合法位和容量。缺输入停步等待，不猜远端输入、不改血量或坐标掩盖失步；周期状态校验不一致时明确停止。
 - 断线、后台、转屏、音频未解锁、重连及重新开局分别有清晰状态；不能把重新开局写成原局无损恢复。
 - 触控覆盖方向/斜向、四普通攻击、九技能、多点同时按、极短按锁存、取消与离开清键；横屏安全区和音频解锁需真实验证。
-- 工程检查：`npm run typecheck`、`npm run lint`、`npm test`、`npm run build`。按风险增加真实浏览器与两手机验证；工程或同机双标签通过不得写成双手机通过。
-- 最终门槛：两台真实手机记录机型/系统/浏览器，在同 Wi-Fi 及可用热点中完成双方触控、同步回合/胜负、再战/换角、错误恢复和连续15分钟。未得到真实设备证据时明确未实测，不发布为手机正式完成版。
+- 可用检查命令：`npm run typecheck`、`npm run lint`、`npm test`、`npm run build`，按改动选择最小必要范围并复用既有结果。工程或同机双标签通过不得写成双手机通过。
+- 真实设备专项：两台手机记录机型/系统/浏览器，验证同Wi-Fi/热点双方触控、同步、胜负与恢复。此前目标中的连续15分钟等专项留作后续明确记录，不自动阻塞首次可用预览。没有实测就写未实测，不将预览标为手机正式全面完成版。
 
 ## 分工
 
 可以沿已授权并行协作。主代理负责来源导入、规范、连接协调与 FightScene 集成、打包与发布；网络代理只写 `src/net/` 及 `tests/net/`；触控界面代理只写 `src/mobile/TouchControls.ts`、`src/mobile/mobile.css`、纯触控输入模块及对应测试。接口先约定，同一文件只允许一位写入者。其他目录需先与主代理对齐。
+
+0927完整流程接入阶段补充分工：网络代理可独占新增 `src/mobile/NetworkRound.ts`、`tests/mobile/networkRound.test.ts`，按主代理给定的matchProtocol契约完成资源就绪、暂停及最终状态确认；UI代理独占新增 `src/mobile/MobileLobby.ts`、`src/mobile/lobby.css`及原触控文件。主代理独占matchProtocol、MobileApp/MobileGame、main/InputHub/FightScene/Preload与构建发布；不并发写同一文件。
+
+同阶段发布工具代理可独占新增 `scripts/buildMobile.mjs`、`scripts/packageMobile.mjs`、`scripts/serveMobile.mjs`、`scripts/verifyDesktopBaseline.mjs`及`tests/mobile/releaseTools.test.ts`；只本地构建/打包/验证，不自行推送、发布、改package.json或启动局域网监听。主代理统一接入npm命令和放行。
