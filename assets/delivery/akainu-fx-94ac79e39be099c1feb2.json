@@ -1,0 +1,192 @@
+{
+  "frames": {
+    "dog": {
+      "frame": {
+        "x": 10,
+        "y": 39,
+        "w": 320,
+        "h": 262
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 262
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 262
+      }
+    },
+    "meteor": {
+      "frame": {
+        "x": 430,
+        "y": 10,
+        "w": 160,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 320
+      }
+    },
+    "magma_fist": {
+      "frame": {
+        "x": 690,
+        "y": 50,
+        "w": 320,
+        "h": 240
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 240
+      }
+    },
+    "eruption": {
+      "frame": {
+        "x": 10,
+        "y": 366,
+        "w": 320,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 287
+      }
+    },
+    "fissure": {
+      "frame": {
+        "x": 350,
+        "y": 420,
+        "w": 320,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 180
+      }
+    },
+    "pierce": {
+      "frame": {
+        "x": 690,
+        "y": 368,
+        "w": 320,
+        "h": 283
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 283
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 283
+      }
+    },
+    "flame": {
+      "frame": {
+        "x": 10,
+        "y": 780,
+        "w": 320,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 139
+      }
+    },
+    "smoke": {
+      "frame": {
+        "x": 350,
+        "y": 723,
+        "w": 320,
+        "h": 254
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 254
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 254
+      }
+    },
+    "melt": {
+      "frame": {
+        "x": 705,
+        "y": 690,
+        "w": 290,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 290,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 290,
+        "h": 320
+      }
+    }
+  },
+  "meta": {
+    "image": "akainu.png",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "scale": "1"
+  }
+}

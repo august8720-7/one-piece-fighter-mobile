@@ -1,0 +1,72 @@
+{
+  "frames": {
+    "impact": {
+      "frame": {
+        "x": 4,
+        "y": 4,
+        "w": 320,
+        "h": 306
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 306
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 306
+      }
+    },
+    "rebound": {
+      "frame": {
+        "x": 328,
+        "y": 4,
+        "w": 320,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 136
+      }
+    },
+    "smoke": {
+      "frame": {
+        "x": 652,
+        "y": 4,
+        "w": 320,
+        "h": 254
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 254
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 254
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 976,
+      "h": 314
+    },
+    "scale": "1"
+  }
+}

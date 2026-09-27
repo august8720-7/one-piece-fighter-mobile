@@ -1,0 +1,32 @@
+One Piece Fighter — music and daily Foley credits (2026-09-14)
+
+MENU / DEFEAT: The Looming Battle by Zefz
+https://opengameart.org/content/orchestral-battle-music
+License selected: Creative Commons Attribution-ShareAlike 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: loudness normalization and brief fades; defeat is an excerpt from 150–162 seconds.
+These derivative music files are offered under the same CC BY-SA 3.0 license.
+
+BATTLE / VICTORY: Batalha #1 by Lisboa
+https://opengameart.org/content/orchestral-battle-music-0
+Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+Changes: loudness normalization and brief fades; victory is an excerpt from 77–89.6 seconds.
+
+FOOTSTEPS: Footsteps on different surfaces, assembled by congusbongus
+https://opengameart.org/content/footsteps-on-different-surfaces
+boots and tile derived from footstep-concrete.wav by swuing:
+https://www.freesound.org/people/swuing/sounds/38873/
+tile also derived from Squeaky footstep.wav by ceberation:
+https://freesound.org/people/ceberation/sounds/235524/
+Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+Changes: selected clips, high-pass filtering, limiting, short fades and WAV conversion.
+
+No affiliation or endorsement by these authors is implied.
+2026-09-15 network delivery: the same edited music and short recordings are encoded
+as Ogg Opus (menu 80 kbps; other music and short cues 96 kbps). Durations and event
+mappings are retained. The music licenses above continue to apply to these encodes.
+Character voices are separate One Piece Pirate Warriors 4 excerpts, from previously
+documented recordings by Dude! Rude!: youtube.com/watch?v=QwK-FAA-VRU and
+youtube.com/watch?v=LelknEdihUw. They are NOT licensed by the CC music licenses above.

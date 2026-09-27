@@ -1,0 +1,192 @@
+{
+  "frames": {
+    "rubber_fist": {
+      "frame": {
+        "x": 10,
+        "y": 91,
+        "w": 320,
+        "h": 158
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 158
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 158
+      }
+    },
+    "gatling": {
+      "frame": {
+        "x": 350,
+        "y": 46,
+        "w": 320,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 247
+      }
+    },
+    "giant_fist": {
+      "frame": {
+        "x": 690,
+        "y": 38,
+        "w": 320,
+        "h": 264
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 264
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 264
+      }
+    },
+    "red_hawk": {
+      "frame": {
+        "x": 10,
+        "y": 386,
+        "w": 320,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 247
+      }
+    },
+    "shockwave": {
+      "frame": {
+        "x": 350,
+        "y": 350,
+        "w": 320,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 320
+      }
+    },
+    "steam": {
+      "frame": {
+        "x": 727,
+        "y": 350,
+        "w": 245,
+        "h": 320
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 245,
+        "h": 320
+      },
+      "sourceSize": {
+        "w": 245,
+        "h": 320
+      }
+    },
+    "rebound": {
+      "frame": {
+        "x": 10,
+        "y": 782,
+        "w": 320,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 136
+      }
+    },
+    "wind": {
+      "frame": {
+        "x": 350,
+        "y": 762,
+        "w": 320,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 176
+      }
+    },
+    "impact": {
+      "frame": {
+        "x": 690,
+        "y": 697,
+        "w": 320,
+        "h": 306
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 306
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 306
+      }
+    }
+  },
+  "meta": {
+    "image": "luffy.png",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "scale": "1"
+  }
+}

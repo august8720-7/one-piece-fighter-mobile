@@ -1,0 +1,74 @@
+{
+  "frames": {
+    "wind": {
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "w": 377,
+        "h": 196
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 377,
+        "h": 196
+      },
+      "sourceSize": {
+        "w": 377,
+        "h": 196
+      }
+    },
+    "impact": {
+      "frame": {
+        "x": 393,
+        "y": 8,
+        "w": 259,
+        "h": 265
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 259,
+        "h": 265
+      },
+      "sourceSize": {
+        "w": 259,
+        "h": 265
+      }
+    },
+    "charge": {
+      "frame": {
+        "x": 660,
+        "y": 8,
+        "w": 269,
+        "h": 329
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 269,
+        "h": 329
+      },
+      "sourceSize": {
+        "w": 269,
+        "h": 329
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 937,
+      "h": 345
+    },
+    "scale": "1",
+    "manifestSha256": "6eb43cc45eb1dfe275003683f3fba095c6f454206f5de08f78b5b118ae745459",
+    "sourceSha256": "60d16122efe125f2e0c3a391a3f1a8fc922958dc769f6bb04b5bc2f7df7ba682"
+  }
+}
