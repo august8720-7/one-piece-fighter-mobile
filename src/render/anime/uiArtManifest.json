@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "characters": {
+    "luffy": {
+      "image": "assets/characters/luffy/anime/ui-0913.png",
+      "sha256": "08a8f726e5c3876d72429e2e27112ed1a112cf5d7d14f72ba5fec2517017d65f",
+      "width": 656,
+      "height": 813,
+      "frames": {
+        "body": {
+          "x": 0,
+          "y": 0,
+          "w": 656,
+          "h": 813
+        },
+        "portrait": {
+          "x": 248,
+          "y": 0,
+          "w": 272,
+          "h": 272
+        }
+      },
+      "source": {
+        "file": "public/assets/generated/source/characters-master-0912.png",
+        "sha256": "1e0e47229db7bee69789282efdec93ca737a3d1dfb4582f06eed2881a5ddad51",
+        "crop": [
+          24,
+          140,
+          656,
+          813
+        ]
+      },
+      "processing": {
+        "scale": 1,
+        "method": "crop + recorded connected-background key only",
+        "removedBorderPixels": 356891,
+        "despilledEdgePixels": 3898,
+        "despilledRegionPixels": 0,
+        "despillRegions": [],
+        "despillRadius": 1,
+        "despillMethod": "geometric-source-edge"
+      }
+    },
+    "akainu": {
+      "image": "assets/characters/akainu/anime/ui-0913.png",
+      "sha256": "28433844309a22e4dc7f96f74e22965af0792b1e98fbc0b30acd3fd02a938cb9",
+      "width": 775,
+      "height": 940,
+      "frames": {
+        "body": {
+          "x": 0,
+          "y": 0,
+          "w": 775,
+          "h": 940
+        },
+        "portrait": {
+          "x": 350,
+          "y": 0,
+          "w": 260,
+          "h": 260
+        }
+      },
+      "source": {
+        "file": "public/assets/generated/source/characters-master-0912.png",
+        "sha256": "1e0e47229db7bee69789282efdec93ca737a3d1dfb4582f06eed2881a5ddad51",
+        "crop": [
+          738,
+          14,
+          775,
+          940
+        ]
+      },
+      "processing": {
+        "scale": 1,
+        "method": "crop + recorded connected-background key only",
+        "removedBorderPixels": 300813,
+        "despilledEdgePixels": 3637,
+        "despilledRegionPixels": 0,
+        "despillRegions": [],
+        "despillRadius": 1,
+        "despillMethod": "geometric-source-edge"
+      }
+    },
+    "labubu": {
+      "image": "assets/characters/labubu/anime/ui-corrected-0922.png",
+      "sha256": "0792c1652a6bed093bbe3da9a04edeba3a302da14cc5c79a19322b2148333620",
+      "width": 435,
+      "height": 724,
+      "frames": {
+        "body": {
+          "x": 0,
+          "y": 0,
+          "w": 435,
+          "h": 724
+        },
+        "portrait": {
+          "x": 20,
+          "y": 0,
+          "w": 400,
+          "h": 450
+        }
+      },
+      "source": {
+        "file": "public/assets/generated/source/labubu-mother-corrected-0922.png",
+        "sha256": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044",
+        "crop": [
+          881,
+          0,
+          435,
+          724
+        ]
+      },
+      "enabled": true,
+      "reviewStatus": "corrected-static-shape-reviewed-candidate",
+      "processing": {
+        "scale": 1,
+        "method": "explicit crop; original RGBA preserved",
+        "pixelsEqual": true
+      }
+    },
+    "twinkle": {
+      "image": "assets/characters/twinkle/anime/ui-corrected-0922.png",
+      "sha256": "ef02df5b31b8a1b7ab3558fc1762cf6e8e2a7085468a399885432d4739af432d",
+      "width": 585,
+      "height": 650,
+      "frames": {
+        "body": {
+          "x": 0,
+          "y": 0,
+          "w": 585,
+          "h": 650
+        },
+        "portrait": {
+          "x": 15,
+          "y": 10,
+          "w": 545,
+          "h": 410
+        }
+      },
+      "source": {
+        "file": "public/assets/generated/source/twinkle-mother-corrected-0922.png",
+        "sha256": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5",
+        "crop": [
+          802,
+          40,
+          585,
+          650
+        ]
+      },
+      "enabled": true,
+      "reviewStatus": "corrected-static-shape-reviewed-candidate",
+      "processing": {
+        "scale": 1,
+        "method": "explicit crop; original RGBA preserved",
+        "pixelsEqual": true
+      }
+    }
+  }
+}

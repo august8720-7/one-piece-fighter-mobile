@@ -1,0 +1,4024 @@
+{
+  "schema": 1,
+  "characters": {
+    "luffy": {
+      "source": {
+        "path": "public/assets/characters/luffy/source-sheet.png",
+        "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/OPGB2_LuffyTS.png",
+        "sha256": "acd21e7429ecd178656f3ee3255684a7fa5681b17c3e6773382f66e596467f60",
+        "size": [
+          882,
+          5823
+        ],
+        "credit": "Ripped by Grim / spritedatabase.net; One Piece Gigant Battle! 2 New World DS",
+        "rights": "Local personal-use source; no redistribution license verified."
+      },
+      "scale": 3,
+      "notes": [
+        "已验收掌机像素风、两年后造型。全角色统一3倍最近邻放大，不对单帧外接框重新缩放。",
+        "未取得精确对应动作的招式在move.note单列；帧数据、伤害、判定不随美术改变。",
+        "前后移动使用已验收的原作跑步循环；原表顶部另一组六帧姿势不足以确认慢走，未启用。"
+      ],
+      "clips": {
+        "idle": {
+          "rects": [
+            [
+              3,
+              11,
+              44,
+              74
+            ],
+            [
+              46,
+              10,
+              87,
+              74
+            ],
+            [
+              89,
+              9,
+              130,
+              74
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              63
+            ],
+            [
+              20,
+              64
+            ],
+            [
+              20,
+              65
+            ]
+          ]
+        },
+        "walk_candidate": {
+          "rects": [
+            [
+              144,
+              8,
+              181,
+              74
+            ],
+            [
+              183,
+              6,
+              220,
+              74
+            ],
+            [
+              222,
+              8,
+              260,
+              74
+            ],
+            [
+              262,
+              8,
+              294,
+              74
+            ],
+            [
+              296,
+              9,
+              328,
+              74
+            ],
+            [
+              330,
+              6,
+              367,
+              74
+            ]
+          ],
+          "anchors": [
+            [
+              18,
+              66
+            ],
+            [
+              18,
+              68
+            ],
+            [
+              19,
+              66
+            ],
+            [
+              16,
+              66
+            ],
+            [
+              16,
+              65
+            ],
+            [
+              18,
+              68
+            ]
+          ]
+        },
+        "jump_land": {
+          "rects": [
+            [
+              4,
+              1714,
+              37,
+              1785
+            ],
+            [
+              39,
+              1714,
+              72,
+              1785
+            ],
+            [
+              74,
+              1714,
+              114,
+              1774
+            ],
+            [
+              116,
+              1718,
+              157,
+              1785
+            ],
+            [
+              159,
+              1717,
+              199,
+              1785
+            ],
+            [
+              201,
+              1729,
+              236,
+              1785
+            ],
+            [
+              238,
+              1725,
+              277,
+              1785
+            ]
+          ],
+          "anchors": [
+            [
+              16,
+              71
+            ],
+            [
+              16,
+              71
+            ],
+            [
+              20,
+              60
+            ],
+            [
+              20,
+              67
+            ],
+            [
+              20,
+              68
+            ],
+            [
+              18,
+              56
+            ],
+            [
+              20,
+              60
+            ]
+          ]
+        },
+        "block": {
+          "rects": [
+            [
+              8,
+              5610,
+              40,
+              5674
+            ],
+            [
+              42,
+              5610,
+              75,
+              5674
+            ]
+          ],
+          "anchors": [
+            [
+              16,
+              64
+            ],
+            [
+              16,
+              64
+            ]
+          ]
+        },
+        "knockdown_getup": {
+          "rects": [
+            [
+              209,
+              5626,
+              260,
+              5674
+            ],
+            [
+              261,
+              5621,
+              301,
+              5674
+            ],
+            [
+              303,
+              5629,
+              338,
+              5674
+            ],
+            [
+              340,
+              5647,
+              409,
+              5674
+            ],
+            [
+              411,
+              5657,
+              480,
+              5674
+            ],
+            [
+              482,
+              5638,
+              532,
+              5674
+            ],
+            [
+              534,
+              5637,
+              574,
+              5674
+            ],
+            [
+              576,
+              5616,
+              610,
+              5674
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              48
+            ],
+            [
+              20,
+              53
+            ],
+            [
+              18,
+              45
+            ],
+            [
+              34,
+              27
+            ],
+            [
+              34,
+              17
+            ],
+            [
+              25,
+              36
+            ],
+            [
+              20,
+              37
+            ],
+            [
+              17,
+              58
+            ]
+          ]
+        },
+        "crouch_candidate": {
+          "rects": [
+            [
+              4,
+              5340,
+              34,
+              5403
+            ],
+            [
+              36,
+              5348,
+              78,
+              5403
+            ]
+          ],
+          "anchors": [
+            [
+              15,
+              63
+            ],
+            [
+              21,
+              55
+            ]
+          ]
+        },
+        "kick": {
+          "rects": [
+            [
+              4,
+              1792,
+              49,
+              1856
+            ],
+            [
+              51,
+              1788,
+              93,
+              1856
+            ],
+            [
+              95,
+              1791,
+              139,
+              1856
+            ],
+            [
+              141,
+              1792,
+              178,
+              1856
+            ],
+            [
+              180,
+              1801,
+              323,
+              1856
+            ],
+            [
+              327,
+              1794,
+              470,
+              1856
+            ],
+            [
+              472,
+              1794,
+              552,
+              1856
+            ],
+            [
+              554,
+              1794,
+              605,
+              1856
+            ],
+            [
+              607,
+              1794,
+              655,
+              1856
+            ],
+            [
+              657,
+              1797,
+              696,
+              1856
+            ]
+          ],
+          "anchors": [
+            [
+              25,
+              64
+            ],
+            [
+              24,
+              68
+            ],
+            [
+              25,
+              65
+            ],
+            [
+              20,
+              64
+            ],
+            [
+              31,
+              55
+            ],
+            [
+              52,
+              62
+            ],
+            [
+              47,
+              62
+            ],
+            [
+              36,
+              62
+            ],
+            [
+              34,
+              62
+            ],
+            [
+              20,
+              59
+            ]
+          ],
+          "flipX": true
+        },
+        "punch": {
+          "rects": [
+            [
+              6,
+              82,
+              46,
+              147
+            ],
+            [
+              48,
+              82,
+              88,
+              147
+            ],
+            [
+              90,
+              82,
+              152,
+              147
+            ],
+            [
+              154,
+              82,
+              220,
+              147
+            ],
+            [
+              222,
+              82,
+              262,
+              147
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              65
+            ]
+          ]
+        },
+        "run": {
+          "rects": [
+            [
+              393,
+              0,
+              440,
+              74
+            ],
+            [
+              442,
+              0,
+              489,
+              74
+            ],
+            [
+              491,
+              0,
+              546,
+              74
+            ],
+            [
+              548,
+              0,
+              596,
+              74
+            ],
+            [
+              598,
+              0,
+              646,
+              74
+            ],
+            [
+              648,
+              0,
+              697,
+              74
+            ],
+            [
+              699,
+              0,
+              755,
+              74
+            ],
+            [
+              757,
+              0,
+              803,
+              74
+            ]
+          ],
+          "anchors": [
+            [
+              24,
+              74
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              28,
+              74
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              28,
+              74
+            ],
+            [
+              23,
+              74
+            ]
+          ]
+        },
+        "uppercut": {
+          "rects": [
+            [
+              405,
+              858,
+              445,
+              918
+            ],
+            [
+              451,
+              865,
+              494,
+              918
+            ],
+            [
+              503,
+              865,
+              545,
+              918
+            ],
+            [
+              785,
+              856,
+              831,
+              918
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              60
+            ],
+            [
+              23,
+              53
+            ],
+            [
+              23,
+              53
+            ],
+            [
+              23,
+              62
+            ]
+          ]
+        },
+        "gatling": {
+          "rects": [
+            [
+              145,
+              292,
+              201,
+              342
+            ],
+            [
+              207,
+              292,
+              260,
+              342
+            ],
+            [
+              270,
+              290,
+              323,
+              342
+            ],
+            [
+              327,
+              288,
+              390,
+              342
+            ],
+            [
+              403,
+              290,
+              458,
+              342
+            ],
+            [
+              465,
+              292,
+              518,
+              342
+            ]
+          ],
+          "anchors": [
+            [
+              29,
+              50
+            ],
+            [
+              28,
+              50
+            ],
+            [
+              28,
+              52
+            ],
+            [
+              33,
+              54
+            ],
+            [
+              29,
+              52
+            ],
+            [
+              28,
+              50
+            ]
+          ]
+        },
+        "low_slide": {
+          "rects": [
+            [
+              47,
+              2263,
+              86,
+              2316
+            ],
+            [
+              593,
+              2271,
+              659,
+              2333
+            ],
+            [
+              201,
+              2271,
+              305,
+              2363
+            ],
+            [
+              308,
+              2271,
+              412,
+              2363
+            ],
+            [
+              661,
+              2271,
+              700,
+              2324
+            ]
+          ],
+          "rotateDegrees": [
+            0,
+            30,
+            30,
+            30,
+            0
+          ],
+          "anchors": [
+            [
+              20,
+              53
+            ],
+            [
+              49,
+              60
+            ],
+            [
+              49,
+              84
+            ],
+            [
+              49,
+              84
+            ],
+            [
+              20,
+              53
+            ]
+          ],
+          "note": "完整原帧逆时针30度，最近邻expand保留所有身体像素；起收腿帧不旋转，脚点使用变换后的画布坐标。"
+        },
+        "giant_punch": {
+          "rects": [
+            [
+              6,
+              82,
+              46,
+              147
+            ],
+            [
+              48,
+              82,
+              88,
+              147
+            ],
+            [
+              215,
+              1006,
+              351,
+              1100
+            ],
+            [
+              358,
+              1006,
+              494,
+              1100
+            ],
+            [
+              502,
+              1006,
+              638,
+              1100
+            ],
+            [
+              222,
+              82,
+              262,
+              147
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              65
+            ],
+            [
+              20,
+              94
+            ],
+            [
+              20,
+              94
+            ],
+            [
+              20,
+              94
+            ],
+            [
+              20,
+              65
+            ]
+          ],
+          "note": "已辨认红袖与巨人拳连续相连的完整原帧；单帧像素保持统一3倍，不把巨脚误作拳。"
+        },
+        "long_punch": {
+          "rects": [
+            [
+              3,
+              150,
+              51,
+              222
+            ],
+            [
+              145,
+              150,
+              222,
+              222
+            ],
+            [
+              225,
+              150,
+              299,
+              222
+            ],
+            [
+              0,
+              0,
+              130,
+              72
+            ],
+            [
+              130,
+              0,
+              260,
+              72
+            ],
+            [
+              657,
+              150,
+              731,
+              222
+            ]
+          ],
+          "anchors": [
+            [
+              28,
+              70
+            ],
+            [
+              56,
+              70
+            ],
+            [
+              56,
+              70
+            ],
+            [
+              27,
+              70
+            ],
+            [
+              27,
+              70
+            ],
+            [
+              27,
+              70
+            ]
+          ],
+          "sources": [
+            "original",
+            "original",
+            "original",
+            "wind",
+            "wind",
+            "original"
+          ],
+          "note": "完整后拉臂→右向拳风→收回，人物不伸缩，白色拳风延展到本项目的长拳距离。"
+        },
+        "crouch_jab": {
+          "rects": [
+            [
+              36,
+              5348,
+              78,
+              5403
+            ],
+            [
+              0,
+              0,
+              56,
+              55
+            ]
+          ],
+          "anchors": [
+            [
+              21,
+              55
+            ],
+            [
+              21,
+              55
+            ]
+          ],
+          "sources": [
+            "original",
+            "jab"
+          ]
+        }
+      },
+      "states": {
+        "idle": {
+          "clip": "idle",
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk_fwd": {
+          "clip": "run",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk_back": {
+          "clip": "run",
+          "frames": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "crouch": {
+          "clip": "crouch_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 24,
+          "loop": false
+        },
+        "prejump": {
+          "clip": "jump_land",
+          "frames": [
+            5,
+            0
+          ],
+          "fps": 40,
+          "loop": false
+        },
+        "jump_neutral": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "jump_fwd": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "jump_back": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "landing": {
+          "clip": "jump_land",
+          "frames": [
+            5,
+            6
+          ],
+          "fps": 30,
+          "loop": false
+        },
+        "dash": {
+          "clip": "run",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 16,
+          "loop": true
+        },
+        "backdash": {
+          "clip": "jump_land",
+          "frames": [
+            2,
+            0
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "roll_fwd": {
+          "clip": "knockdown_getup",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "roll_back": {
+          "clip": "knockdown_getup",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "block_stand": {
+          "clip": "block",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 20,
+          "loop": false
+        },
+        "block_crouch": {
+          "clip": "crouch_candidate",
+          "frames": [
+            1
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "hit_stand": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "hit_crouch": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "hit_air": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            2,
+            3
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "knockdown": {
+          "clip": "knockdown_getup",
+          "frames": [
+            3,
+            4
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "getup": {
+          "clip": "knockdown_getup",
+          "frames": [
+            5,
+            6,
+            7
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "throw": {
+          "clip": "punch",
+          "frames": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "thrown": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            2,
+            3
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "throw_tech": {
+          "clip": "block",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "ko": {
+          "clip": "knockdown_getup",
+          "frames": [
+            3,
+            4
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "win": {
+          "clip": "idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "portrait": {
+          "clip": "idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        }
+      },
+      "moves": {
+        "st_a": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "st_c": {
+          "clip": "long_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4
+          ],
+          "recovery": [
+            5,
+            0
+          ],
+          "note": "使用完整向右发力与原拳风局部延展；该表现负责方向/高度/长距离可读，不宣称原作同名招式逐帧还原。"
+        },
+        "f_c": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "cr_a": {
+          "clip": "crouch_jab",
+          "frames": [
+            0,
+            1
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            0
+          ],
+          "note": "原蹲姿起收，首个命中帧即使用已目检的低位前拳；原身体与新手臂均为同源像素。"
+        },
+        "cr_c": {
+          "clip": "uppercut",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3
+          ],
+          "recovery": [
+            2,
+            1,
+            0
+          ],
+          "note": "低姿态上勾拳作为蹲拳/蹲重拳的相近动作；非原作同名招式完全还原。"
+        },
+        "j_a": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "j_c": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "sp_gatling": {
+          "clip": "gatling",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "原表完整身体连打循环；命中次数和时长由现有逻辑控制。"
+        },
+        "sp_bazooka": {
+          "clip": "long_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4
+          ],
+          "recovery": [
+            5,
+            0
+          ],
+          "note": "使用完整向右发力与原拳风局部延展；该表现负责方向/高度/长距离可读，不宣称原作同名招式逐帧还原。"
+        },
+        "sp_rifle": {
+          "clip": "long_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4
+          ],
+          "recovery": [
+            5,
+            0
+          ],
+          "note": "使用完整向右发力与原拳风局部延展；该表现负责方向/高度/长距离可读，不宣称原作同名招式逐帧还原。"
+        },
+        "sp_storm": {
+          "clip": "gatling",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "原表完整身体连打循环；命中次数和时长由现有逻辑控制。"
+        },
+        "sp_gigant_pistol": {
+          "clip": "giant_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3,
+            4
+          ],
+          "recovery": [
+            5,
+            1,
+            0
+          ],
+          "note": "采用真实巨人拳序列；原帧为斜上拳，水平最大射程仍短于本项目260px判定，需游戏内额外表现校准。"
+        },
+        "ult_red_hawk": {
+          "clip": "long_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4
+          ],
+          "recovery": [
+            5,
+            0
+          ],
+          "note": "使用完整向右发力与原拳风局部延展；该表现负责方向/高度/长距离可读，不宣称原作同名招式逐帧还原。"
+        },
+        "throw_fwd": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "throw_back": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ]
+        },
+        "st_b": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "st_d": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "cd": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "j_b": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "j_d": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "j_2d": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "j_cd": {
+          "clip": "kick",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "完整旋身横踢，按本项目招式阶段压缩播放。"
+        },
+        "cr_b": {
+          "clip": "low_slide",
+          "frames": [
+            0,
+            1,
+            4
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            2,
+            0
+          ],
+          "note": "完整双腿短滑踢；活跃姿势整身逆时针30度，保持统一3倍，拳脚判定与逻辑时长不变。"
+        },
+        "cr_d": {
+          "clip": "low_slide",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            1,
+            4,
+            0
+          ],
+          "note": "完整橡胶双腿长滑踢，与轻脚区分；仅使用两张身体连续源帧，不采用断腿残影。"
+        },
+        "sp_rocket": {
+          "clip": "run",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "完整跑步冲刺，非原作同名动作的完全复刻。"
+        },
+        "sp_balloon": {
+          "clip": "crouch_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "尚未找到完整气球源动作；保留蹲姿和原有弹反提示。"
+        },
+        "sp_gear2": {
+          "clip": "crouch_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "使用低姿态蓄力表达二档启动。"
+        }
+      },
+      "extraSources": {
+        "wind": {
+          "path": "public/assets/characters/luffy/source-derived-wind.png",
+          "sha256": "4ce02a85c1133babae4d24aeec44af6edbf25c52c2dbf78ff0cdcbf3c8d133bf",
+          "size": [
+            260,
+            72
+          ],
+          "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/OPGB2_LuffyTS.png",
+          "credit": "Ripped by Grim / spritedatabase.net; One Piece Gigant Battle! 2 New World DS",
+          "rights": "Local personal-use source; no redistribution license verified.",
+          "derivation": "scripts/derive_sprite_sources.py:luffy_wind",
+          "note": "仅将源白色拳风x55以右/y58以上拉到130px画布；身体和鞋保持源像素，拳風前端约309屏幕px。"
+        },
+        "jab": {
+          "path": "public/assets/characters/luffy/source-derived-jab.png",
+          "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/OPGB2_LuffyTS.png",
+          "sha256": "0f44ccf829120aca00aa9271ae174f6316f09bcfc0ecb068689c0c7b2fe6f139",
+          "size": [
+            56,
+            55
+          ],
+          "credit": "Ripped by Grim / spritedatabase.net; One Piece Gigant Battle! 2 New World DS",
+          "rights": "Local personal-use source; no redistribution license verified.",
+          "derivation": "scripts/derive_crouch_punches.py",
+          "note": "保留原蹲姿完整身形，以同表原纹理手臂组成低位前拳；只改视觉，不改判定或招式时长。"
+        }
+      }
+    },
+    "akainu": {
+      "source": {
+        "path": "public/assets/characters/akainu/source-sheet.png",
+        "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/Akainu.png",
+        "sha256": "3e24fc1cd2f738a01e7b2b20a533f5d10f9a105abc91c09bd5c091bb7dacc4c6",
+        "size": [
+          1000,
+          8218
+        ],
+        "credit": "One Piece Gigant Battle! DS sprite sheet; source repository preserves original sheet credit.",
+        "rights": "Local personal-use source; no redistribution license verified."
+      },
+      "scale": 3,
+      "notes": [
+        "同系列掌机完整身体连续精灵；原始版权图片只在本地。",
+        "站防复用完整防护姿势候选，原表该两帧后接熔岩化，未宣称原作站防动作。",
+        "待还原的脚法与特殊技在各招式note中明确，逻辑判定和时长均保留。"
+      ],
+      "clips": {
+        "idle": {
+          "rects": [
+            [
+              13,
+              13,
+              53,
+              91
+            ],
+            [
+              60,
+              13,
+              98,
+              91
+            ],
+            [
+              106,
+              13,
+              146,
+              91
+            ],
+            [
+              150,
+              12,
+              189,
+              91
+            ],
+            [
+              195,
+              12,
+              236,
+              91
+            ],
+            [
+              242,
+              13,
+              284,
+              91
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              78
+            ],
+            [
+              20,
+              78
+            ],
+            [
+              23,
+              78
+            ],
+            [
+              22,
+              79
+            ],
+            [
+              23,
+              79
+            ],
+            [
+              22,
+              78
+            ]
+          ]
+        },
+        "walk": {
+          "rects": [
+            [
+              323,
+              15,
+              357,
+              91
+            ],
+            [
+              371,
+              16,
+              410,
+              91
+            ],
+            [
+              425,
+              18,
+              479,
+              93
+            ],
+            [
+              490,
+              17,
+              537,
+              93
+            ],
+            [
+              548,
+              16,
+              589,
+              93
+            ],
+            [
+              602,
+              17,
+              645,
+              93
+            ],
+            [
+              658,
+              18,
+              703,
+              93
+            ],
+            [
+              713,
+              19,
+              749,
+              94
+            ]
+          ],
+          "anchors": [
+            [
+              19,
+              76
+            ],
+            [
+              28,
+              75
+            ],
+            [
+              34,
+              75
+            ],
+            [
+              32,
+              76
+            ],
+            [
+              28,
+              77
+            ],
+            [
+              24,
+              76
+            ],
+            [
+              21,
+              75
+            ],
+            [
+              20,
+              75
+            ]
+          ]
+        },
+        "crouch": {
+          "rects": [
+            [
+              778,
+              43,
+              830,
+              94
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              51
+            ]
+          ]
+        },
+        "punch": {
+          "rects": [
+            [
+              13,
+              107,
+              63,
+              181
+            ],
+            [
+              74,
+              108,
+              135,
+              181
+            ],
+            [
+              149,
+              109,
+              210,
+              181
+            ],
+            [
+              222,
+              116,
+              299,
+              181
+            ],
+            [
+              312,
+              116,
+              379,
+              181
+            ],
+            [
+              398,
+              117,
+              460,
+              181
+            ],
+            [
+              478,
+              117,
+              545,
+              181
+            ],
+            [
+              559,
+              121,
+              623,
+              181
+            ],
+            [
+              639,
+              111,
+              690,
+              181
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              74
+            ],
+            [
+              30,
+              73
+            ],
+            [
+              30,
+              72
+            ],
+            [
+              38,
+              65
+            ],
+            [
+              36,
+              65
+            ],
+            [
+              30,
+              64
+            ],
+            [
+              30,
+              64
+            ],
+            [
+              32,
+              60
+            ],
+            [
+              26,
+              70
+            ]
+          ]
+        },
+        "jump_land": {
+          "rects": [
+            [
+              17,
+              7387,
+              70,
+              7471
+            ],
+            [
+              81,
+              7387,
+              139,
+              7471
+            ],
+            [
+              148,
+              7378,
+              210,
+              7452
+            ],
+            [
+              219,
+              7397,
+              301,
+              7472
+            ],
+            [
+              312,
+              7393,
+              396,
+              7472
+            ],
+            [
+              400,
+              7396,
+              483,
+              7472
+            ],
+            [
+              486,
+              7410,
+              563,
+              7480
+            ],
+            [
+              573,
+              7419,
+              641,
+              7480
+            ],
+            [
+              651,
+              7420,
+              696,
+              7480
+            ],
+            [
+              704,
+              7411,
+              749,
+              7479
+            ]
+          ],
+          "anchors": [
+            [
+              24,
+              84
+            ],
+            [
+              29,
+              84
+            ],
+            [
+              26,
+              74
+            ],
+            [
+              52,
+              75
+            ],
+            [
+              52,
+              79
+            ],
+            [
+              53,
+              76
+            ],
+            [
+              51,
+              70
+            ],
+            [
+              38,
+              61
+            ],
+            [
+              22,
+              60
+            ],
+            [
+              26,
+              68
+            ]
+          ]
+        },
+        "block_candidate": {
+          "rects": [
+            [
+              18,
+              7596,
+              75,
+              7673
+            ],
+            [
+              79,
+              7596,
+              130,
+              7673
+            ]
+          ],
+          "anchors": [
+            [
+              27,
+              77
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        "knockdown_getup": {
+          "rects": [
+            [
+              14,
+              7777,
+              75,
+              7848
+            ],
+            [
+              87,
+              7778,
+              138,
+              7848
+            ],
+            [
+              152,
+              7792,
+              216,
+              7839
+            ],
+            [
+              233,
+              7800,
+              309,
+              7837
+            ],
+            [
+              317,
+              7827,
+              394,
+              7848
+            ],
+            [
+              402,
+              7806,
+              470,
+              7848
+            ],
+            [
+              479,
+              7800,
+              531,
+              7848
+            ],
+            [
+              540,
+              7793,
+              586,
+              7848
+            ],
+            [
+              591,
+              7779,
+              637,
+              7848
+            ]
+          ],
+          "anchors": [
+            [
+              34,
+              71
+            ],
+            [
+              28,
+              70
+            ],
+            [
+              28,
+              47
+            ],
+            [
+              48,
+              37
+            ],
+            [
+              38,
+              21
+            ],
+            [
+              35,
+              42
+            ],
+            [
+              26,
+              48
+            ],
+            [
+              22,
+              55
+            ],
+            [
+              26,
+              69
+            ]
+          ]
+        },
+        "magma_charge": {
+          "rects": [
+            [
+              13,
+              551,
+              67,
+              636
+            ],
+            [
+              80,
+              551,
+              134,
+              636
+            ],
+            [
+              290,
+              545,
+              350,
+              636
+            ],
+            [
+              367,
+              545,
+              428,
+              636
+            ],
+            [
+              440,
+              539,
+              499,
+              636
+            ]
+          ],
+          "anchors": [
+            [
+              31,
+              85
+            ],
+            [
+              31,
+              85
+            ],
+            [
+              33,
+              91
+            ],
+            [
+              34,
+              91
+            ],
+            [
+              34,
+              97
+            ]
+          ],
+          "note": "Original full body magma-arm charge. Some upper smoke is optional FX; body/legs complete."
+        },
+        "daifunka_fire": {
+          "rects": [
+            [
+              237,
+              660,
+              370,
+              764
+            ],
+            [
+              386,
+              660,
+              550,
+              764
+            ],
+            [
+              566,
+              690,
+              748,
+              764
+            ],
+            [
+              828,
+              693,
+              951,
+              764
+            ]
+          ],
+          "anchors": [
+            [
+              65,
+              104
+            ],
+            [
+              92,
+              104
+            ],
+            [
+              119,
+              74
+            ],
+            [
+              61,
+              71
+            ]
+          ],
+          "note": "Original complete lunging punch with magma fist. Full source effect width is not guaranteed to cover existing long core hitboxes: overlay needs verifying and may need original projectile compositing."
+        },
+        "ground_strike": {
+          "rects": [
+            [
+              21,
+              882,
+              73,
+              952
+            ],
+            [
+              82,
+              884,
+              143,
+              952
+            ],
+            [
+              154,
+              880,
+              213,
+              952
+            ],
+            [
+              221,
+              893,
+              298,
+              952
+            ],
+            [
+              305,
+              904,
+              381,
+              952
+            ],
+            [
+              384,
+              904,
+              450,
+              952
+            ],
+            [
+              457,
+              897,
+              522,
+              952
+            ]
+          ],
+          "anchors": [
+            [
+              29,
+              70
+            ],
+            [
+              36,
+              68
+            ],
+            [
+              35,
+              72
+            ],
+            [
+              42,
+              59
+            ],
+            [
+              45,
+              48
+            ],
+            [
+              36,
+              48
+            ],
+            [
+              36,
+              55
+            ]
+          ],
+          "note": "Actual downward punch to floor, full body. Last two punch poses can be used as ground impact. Not a forward crouch jab."
+        },
+        "uppercut": {
+          "rects": [
+            [
+              19,
+              1091,
+              74,
+              1162
+            ],
+            [
+              83,
+              1090,
+              147,
+              1162
+            ],
+            [
+              219,
+              1061,
+              281,
+              1162
+            ],
+            [
+              292,
+              1061,
+              346,
+              1162
+            ],
+            [
+              438,
+              1085,
+              497,
+              1162
+            ]
+          ],
+          "anchors": [
+            [
+              29,
+              71
+            ],
+            [
+              33,
+              72
+            ],
+            [
+              31,
+              101
+            ],
+            [
+              28,
+              101
+            ],
+            [
+              32,
+              77
+            ]
+          ],
+          "note": "Actual low stance to raised fist. Natural up-reaching fist rather than stretched standard punch."
+        },
+        "meteor_cast": {
+          "rects": [
+            [
+              282,
+              5914,
+              343,
+              5984
+            ],
+            [
+              356,
+              5914,
+              413,
+              5984
+            ],
+            [
+              423,
+              5888,
+              479,
+              5984
+            ],
+            [
+              490,
+              5885,
+              547,
+              5984
+            ],
+            [
+              554,
+              5885,
+              624,
+              5984
+            ],
+            [
+              629,
+              5885,
+              698,
+              5984
+            ],
+            [
+              704,
+              5885,
+              781,
+              5984
+            ]
+          ],
+          "anchors": [
+            [
+              32,
+              70
+            ],
+            [
+              28,
+              70
+            ],
+            [
+              28,
+              96
+            ],
+            [
+              28,
+              99
+            ],
+            [
+              35,
+              99
+            ],
+            [
+              34,
+              99
+            ],
+            [
+              38,
+              99
+            ]
+          ],
+          "note": "Confirmed two arms raised skyward, full body and coat; source particles below y6001 excluded."
+        },
+        "magma_punch": {
+          "rects": [
+            [
+              13,
+              551,
+              67,
+              636
+            ],
+            [
+              80,
+              551,
+              134,
+              636
+            ],
+            [
+              290,
+              545,
+              350,
+              636
+            ],
+            [
+              367,
+              545,
+              428,
+              636
+            ],
+            [
+              440,
+              539,
+              499,
+              636
+            ],
+            [
+              237,
+              660,
+              370,
+              764
+            ],
+            [
+              386,
+              660,
+              550,
+              764
+            ],
+            [
+              566,
+              690,
+              748,
+              764
+            ],
+            [
+              828,
+              693,
+              951,
+              764
+            ],
+            [
+              639,
+              111,
+              690,
+              181
+            ]
+          ],
+          "anchors": [
+            [
+              31,
+              85
+            ],
+            [
+              31,
+              85
+            ],
+            [
+              33,
+              91
+            ],
+            [
+              34,
+              91
+            ],
+            [
+              34,
+              97
+            ],
+            [
+              65,
+              104
+            ],
+            [
+              92,
+              104
+            ],
+            [
+              119,
+              74
+            ],
+            [
+              61,
+              71
+            ],
+            [
+              26,
+              70
+            ]
+          ],
+          "note": "完整原作熔岩臂蓄力→向右岩浆拳→收回。"
+        },
+        "st_b_kick": {
+          "rects": [
+            [
+              13,
+              13,
+              53,
+              91
+            ],
+            [
+              4,
+              4,
+              66,
+              78
+            ],
+            [
+              13,
+              13,
+              53,
+              91
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              78
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              20,
+              78
+            ]
+          ],
+          "sources": [
+            "original",
+            "kicks",
+            "original"
+          ],
+          "note": "起手/收回使用原本姿态，接触段使用已检查的完整踢腿；四脚高低与轻重分开。"
+        },
+        "st_d_kick": {
+          "rects": [
+            [
+              13,
+              13,
+              53,
+              91
+            ],
+            [
+              114,
+              4,
+              199,
+              78
+            ],
+            [
+              13,
+              13,
+              53,
+              91
+            ]
+          ],
+          "anchors": [
+            [
+              20,
+              78
+            ],
+            [
+              24,
+              74
+            ],
+            [
+              20,
+              78
+            ]
+          ],
+          "sources": [
+            "original",
+            "kicks",
+            "original"
+          ],
+          "note": "起手/收回使用原本姿态，接触段使用已检查的完整踢腿；四脚高低与轻重分开。"
+        },
+        "cr_b_kick": {
+          "rects": [
+            [
+              778,
+              43,
+              830,
+              94
+            ],
+            [
+              224,
+              4,
+              288,
+              55
+            ],
+            [
+              778,
+              43,
+              830,
+              94
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              51
+            ],
+            [
+              23,
+              51
+            ],
+            [
+              26,
+              51
+            ]
+          ],
+          "sources": [
+            "original",
+            "kicks",
+            "original"
+          ],
+          "note": "起手/收回使用原本姿态，接触段使用已检查的完整踢腿；四脚高低与轻重分开。"
+        },
+        "cr_d_kick": {
+          "rects": [
+            [
+              778,
+              43,
+              830,
+              94
+            ],
+            [
+              334,
+              4,
+              419,
+              55
+            ],
+            [
+              778,
+              43,
+              830,
+              94
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              51
+            ],
+            [
+              23,
+              51
+            ],
+            [
+              26,
+              51
+            ]
+          ],
+          "sources": [
+            "original",
+            "kicks",
+            "original"
+          ],
+          "note": "起手/收回使用原本姿态，接触段使用已检查的完整踢腿；四脚高低与轻重分开。"
+        },
+        "crouch_jab": {
+          "rects": [
+            [
+              778,
+              43,
+              830,
+              94
+            ],
+            [
+              0,
+              0,
+              52,
+              51
+            ]
+          ],
+          "anchors": [
+            [
+              26,
+              51
+            ],
+            [
+              26,
+              51
+            ]
+          ],
+          "sources": [
+            "original",
+            "jab"
+          ]
+        }
+      },
+      "states": {
+        "idle": {
+          "clip": "idle",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk_fwd": {
+          "clip": "walk",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk_back": {
+          "clip": "walk",
+          "frames": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        "crouch": {
+          "clip": "crouch",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "prejump": {
+          "clip": "jump_land",
+          "frames": [
+            8,
+            0
+          ],
+          "fps": 40,
+          "loop": false
+        },
+        "jump_neutral": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "jump_fwd": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "jump_back": {
+          "clip": "jump_land",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "landing": {
+          "clip": "jump_land",
+          "frames": [
+            8,
+            9
+          ],
+          "fps": 30,
+          "loop": false
+        },
+        "dash": {
+          "clip": "walk",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 20,
+          "loop": true
+        },
+        "backdash": {
+          "clip": "jump_land",
+          "frames": [
+            2,
+            0
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "roll_fwd": {
+          "clip": "knockdown_getup",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "roll_back": {
+          "clip": "knockdown_getup",
+          "frames": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "block_stand": {
+          "clip": "block_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 20,
+          "loop": false
+        },
+        "block_crouch": {
+          "clip": "crouch",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "hit_stand": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "hit_crouch": {
+          "clip": "knockdown_getup",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "hit_air": {
+          "clip": "knockdown_getup",
+          "frames": [
+            1,
+            2,
+            3
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "knockdown": {
+          "clip": "knockdown_getup",
+          "frames": [
+            3,
+            4
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "getup": {
+          "clip": "knockdown_getup",
+          "frames": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "throw": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            3,
+            7,
+            8
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "thrown": {
+          "clip": "knockdown_getup",
+          "frames": [
+            1,
+            2,
+            3
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "throw_tech": {
+          "clip": "block_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "ko": {
+          "clip": "knockdown_getup",
+          "frames": [
+            3,
+            4
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "win": {
+          "clip": "idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        },
+        "portrait": {
+          "clip": "idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": false
+        }
+      },
+      "moves": {
+        "ult_meigou_end": {
+          "clip": "uppercut",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ],
+          "note": "低起上勾原序列；指令投发力与释放时序由逻辑releaseFrame/duration控制。"
+        },
+        "sp_daifunka_ren": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "原作完整岩浆拳与发力方向；最远特效边缘仍需对照当前逻辑判定，而不是改变人物尺度。"
+        },
+        "sp_meteor_rain": {
+          "clip": "meteor_cast",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "recovery": [
+            2,
+            1,
+            0
+          ],
+          "note": "完整双臂向天施法；视觉发射时点按真实projectile.frame同步。"
+        },
+        "sp_daifunka": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "原作完整岩浆拳与发力方向；最远特效边缘仍需对照当前逻辑判定，而不是改变人物尺度。"
+        },
+        "sp_inugami": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "原作完整岩浆拳与发力方向；最远特效边缘仍需对照当前逻辑判定，而不是改变人物尺度。"
+        },
+        "sp_meteor": {
+          "clip": "meteor_cast",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "recovery": [
+            2,
+            1,
+            0
+          ],
+          "note": "完整双臂向天施法；视觉发射时点按真实projectile.frame同步。"
+        },
+        "sp_meigou": {
+          "clip": "uppercut",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ],
+          "note": "低起上勾原序列；指令投发力与释放时序由逻辑releaseFrame/duration控制。"
+        },
+        "sp_ground_split": {
+          "clip": "ground_strike",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "active": [
+            4,
+            5
+          ],
+          "recovery": [
+            6,
+            1,
+            0
+          ],
+          "note": "原作完整砸地姿势，不用站拳代替地面动作。"
+        },
+        "sp_magma_body": {
+          "clip": "block_candidate",
+          "frames": [
+            0,
+            1
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            0
+          ],
+          "note": "采用熔岩化原作起手，熔岩身体后续帧待独立映射。"
+        },
+        "cd": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "原作完整岩浆拳与发力方向；最远特效边缘仍需对照当前逻辑判定，而不是改变人物尺度。"
+        },
+        "j_cd": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整前拳接触姿势从第一有效帧开始；转身和拉臂仅属于起手，现采用相近腰部拳，不改原逻辑时长。"
+        },
+        "throw_fwd": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整原作攻击组相近映射，未宣称同名招式逐招还原。"
+        },
+        "throw_back": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2
+          ],
+          "active": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整原作攻击组相近映射，未宣称同名招式逐招还原。"
+        },
+        "f_c": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "相近高位岩浆前拳承担指令重击；第一有效帧已向前击出，不再使用转身拉臂姿势。"
+        },
+        "st_a": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整前拳接触姿势从第一有效帧开始；转身和拉臂仅属于起手，现采用相近腰部拳，不改原逻辑时长。"
+        },
+        "st_b": {
+          "clip": "st_b_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "接触段完整踢腿，固定统一3倍，不再复用出拳。"
+        },
+        "st_c": {
+          "clip": "magma_punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "recovery": [
+            9,
+            1,
+            0
+          ],
+          "note": "原作完整岩浆拳与发力方向；最远特效边缘仍需对照当前逻辑判定，而不是改变人物尺度。"
+        },
+        "st_d": {
+          "clip": "st_d_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "接触段完整踢腿，固定统一3倍，不再复用出拳。"
+        },
+        "cr_a": {
+          "clip": "crouch_jab",
+          "frames": [
+            0,
+            1
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            0
+          ],
+          "note": "原蹲姿起收，首个命中帧即使用已目检的低位前拳；原身体与新手臂均为同源像素。"
+        },
+        "cr_b": {
+          "clip": "cr_b_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "接触段完整踢腿，固定统一3倍，不再复用出拳。"
+        },
+        "cr_c": {
+          "clip": "uppercut",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "startup": [
+            0,
+            1
+          ],
+          "active": [
+            2,
+            3
+          ],
+          "recovery": [
+            4,
+            1,
+            0
+          ],
+          "note": "低起上勾原序列；指令投发力与释放时序由逻辑releaseFrame/duration控制。"
+        },
+        "cr_d": {
+          "clip": "cr_d_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "接触段完整踢腿，固定统一3倍，不再复用出拳。"
+        },
+        "j_a": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整前拳接触姿势从第一有效帧开始；转身和拉臂仅属于起手，现采用相近腰部拳，不改原逻辑时长。"
+        },
+        "j_b": {
+          "clip": "st_b_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "空中脚复用同源抬膝/侧踢接触姿势，不用拳代脚。"
+        },
+        "j_c": {
+          "clip": "punch",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "startup": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "active": [
+            6
+          ],
+          "recovery": [
+            7,
+            8,
+            0
+          ],
+          "note": "完整前拳接触姿势从第一有效帧开始；转身和拉臂仅属于起手，现采用相近腰部拳，不改原逻辑时长。"
+        },
+        "j_d": {
+          "clip": "st_d_kick",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "startup": [
+            0
+          ],
+          "active": [
+            1
+          ],
+          "recovery": [
+            1,
+            2
+          ],
+          "note": "空中脚复用同源抬膝/侧踢接触姿势，不用拳代脚。"
+        }
+      },
+      "extraSources": {
+        "kicks": {
+          "path": "public/assets/characters/akainu/derived-kicks.png",
+          "sha256": "331bd33d1e394e602c1a916f2bb535956e3faebbff2da9d1b11d74fc7de86aff",
+          "size": [
+            440,
+            82
+          ],
+          "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/Akainu.png",
+          "credit": "One Piece Gigant Battle! DS sprite sheet; source repository preserves original sheet credit.",
+          "rights": "Local personal-use source; no redistribution license verified.",
+          "derivation": "scripts/derive_akainu_kicks.py",
+          "note": "保留原头身披风和裤腿纹理的局部拼装；四姿势已目检，长低脚仅延长腿中段原纹理6px。"
+        },
+        "jab": {
+          "path": "public/assets/characters/akainu/source-derived-jab.png",
+          "url": "https://raw.githubusercontent.com/nikkolaka/One-Piece-Survivors/cc2426b81a47be127a16221c18d79ad360b001ee/img/extras/Akainu.png",
+          "sha256": "3b7230492e44126443d5dcba3bad622c93a6794f16d9cb7872cced2af463fccd",
+          "size": [
+            52,
+            51
+          ],
+          "credit": "One Piece Gigant Battle! DS sprite sheet; source repository preserves original sheet credit.",
+          "rights": "Local personal-use source; no redistribution license verified.",
+          "derivation": "scripts/derive_crouch_punches.py",
+          "note": "保留原蹲姿完整身形，以同表原纹理手臂组成低位前拳；只改视觉，不改判定或招式时长。"
+        }
+      }
+    }
+  }
+}

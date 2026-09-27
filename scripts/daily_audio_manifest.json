@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/luffy-step-0-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/tile/0.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/luffy-step-1-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/tile/1.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/luffy-step-2-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/tile/2.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/akainu-step-0-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/boots/0.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/akainu-step-1-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/boots/1.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/footsteps-0914.zip",
+      "sourceSha256": "542564e7f6b3a0b89a0d08542438e030e77a46303855fe5bf1644a48185861e9",
+      "output": "public/assets/audio/sfx/akainu-step-2-0914.wav",
+      "filter": "highpass=f=90,alimiter=limit=0.65:level=false,afade=t=in:d=0.003,areverse,afade=t=in:d=0.025,areverse",
+      "archiveMember": "footsteps/boots/2.ogg"
+    },
+    {
+      "source": "public/assets/audio/sources/music-0914/batalha-1.ogg",
+      "sourceSha256": "a106f60511f2306cdecca055a6b5380eadfce0cb3742386c26bc4e3b2d9f6f09",
+      "output": "public/assets/audio/music/battle-0914.ogg",
+      "filter": "loudnorm=I=-20:TP=-2:LRA=10,aresample=44100,afade=t=in:d=0.02,afade=t=out:st=89.44999999999999:d=0.15",
+      "start": 0,
+      "duration": 89.6
+    },
+    {
+      "source": "public/assets/audio/sources/music-0914/the-looming-battle.ogg",
+      "sourceSha256": "843cba2585449ee4af639dc765d0a5e987058be312f97dceada8c1900c4ec8ce",
+      "output": "public/assets/audio/music/menu-0914.ogg",
+      "filter": "loudnorm=I=-20:TP=-2:LRA=10,aresample=44100,afade=t=in:d=0.02,afade=t=out:st=161.85:d=0.15",
+      "start": 0,
+      "duration": 162
+    },
+    {
+      "source": "public/assets/audio/sources/music-0914/batalha-1.ogg",
+      "sourceSha256": "a106f60511f2306cdecca055a6b5380eadfce0cb3742386c26bc4e3b2d9f6f09",
+      "output": "public/assets/audio/music/victory-0914.ogg",
+      "filter": "loudnorm=I=-20:TP=-2:LRA=10,aresample=44100,afade=t=in:d=0.02,afade=t=out:st=12.45:d=0.15",
+      "start": 77,
+      "duration": 12.6
+    },
+    {
+      "source": "public/assets/audio/sources/music-0914/the-looming-battle.ogg",
+      "sourceSha256": "843cba2585449ee4af639dc765d0a5e987058be312f97dceada8c1900c4ec8ce",
+      "output": "public/assets/audio/music/defeat-0914.ogg",
+      "filter": "loudnorm=I=-20:TP=-2:LRA=10,aresample=44100,afade=t=in:d=0.02,afade=t=out:st=11.85:d=0.15",
+      "start": 150,
+      "duration": 12
+    },
+    {
+      "source": "public/assets/audio/sources/luffy_pw4_QwK-FAA-VRU.webm",
+      "sourceSha256": "e6e3cdd819b09ba2ee37de83368e9b0e31bb803727f6a4d571a52724c41fb55c",
+      "output": "public/assets/audio/voice/luffy/daily-idle-1-0914.wav",
+      "filter": "highpass=f=80,loudnorm=I=-20:TP=-2:LRA=7,afade=t=in:d=0.01,areverse,afade=t=in:d=0.035,areverse",
+      "start": 70.5,
+      "duration": 1.55,
+      "status": "USER_LISTENED_ACCEPTED",
+      "note": "User accepted these four waiting lines in the 0914 audition; exact transcript not certified."
+    },
+    {
+      "source": "public/assets/audio/sources/luffy_pw4_QwK-FAA-VRU.webm",
+      "sourceSha256": "e6e3cdd819b09ba2ee37de83368e9b0e31bb803727f6a4d571a52724c41fb55c",
+      "output": "public/assets/audio/voice/luffy/daily-idle-2-0914.wav",
+      "filter": "highpass=f=80,loudnorm=I=-20:TP=-2:LRA=7,afade=t=in:d=0.01,areverse,afade=t=in:d=0.035,areverse",
+      "start": 75.3,
+      "duration": 1.9,
+      "status": "USER_LISTENED_ACCEPTED",
+      "note": "User accepted these four waiting lines in the 0914 audition; exact transcript not certified."
+    },
+    {
+      "source": "public/assets/audio/sources/akainu_pw4_LelknEdihUw.webm",
+      "sourceSha256": "c9685ae5042f8760e11b64f89933a5fb74deb760f0863693600b885f850a6905",
+      "output": "public/assets/audio/voice/akainu/daily-idle-1-0914.wav",
+      "filter": "highpass=f=80,loudnorm=I=-20:TP=-2:LRA=7,afade=t=in:d=0.01,areverse,afade=t=in:d=0.035,areverse",
+      "start": 24.15,
+      "duration": 1.6,
+      "status": "USER_LISTENED_ACCEPTED",
+      "note": "User accepted these four waiting lines in the 0914 audition; exact transcript not certified."
+    },
+    {
+      "source": "public/assets/audio/sources/akainu_pw4_LelknEdihUw.webm",
+      "sourceSha256": "c9685ae5042f8760e11b64f89933a5fb74deb760f0863693600b885f850a6905",
+      "output": "public/assets/audio/voice/akainu/daily-idle-2-0914.wav",
+      "filter": "highpass=f=80,loudnorm=I=-20:TP=-2:LRA=7,afade=t=in:d=0.01,areverse,afade=t=in:d=0.035,areverse",
+      "start": 25.95,
+      "duration": 1.7,
+      "status": "USER_LISTENED_ACCEPTED",
+      "note": "User accepted these four waiting lines in the 0914 audition; exact transcript not certified."
+    }
+  ],
+  "cues": {
+    "sfx.luffy.footstep": {
+      "files": [
+        "assets/audio/sfx/luffy-step-0-0914.wav",
+        "assets/audio/sfx/luffy-step-1-0914.wav",
+        "assets/audio/sfx/luffy-step-2-0914.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.55,
+      "priority": 12,
+      "cooldownMs": 110,
+      "maxInstances": 2,
+      "source": "docs/assets/日常声音与音乐来源0914.md"
+    },
+    "sfx.luffy.movement": {
+      "files": [
+        "assets/audio/sfx/whoosh-1-0912.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.25,
+      "priority": 12,
+      "cooldownMs": 180,
+      "maxInstances": 1,
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Existing recorded swish, reused for rapid movement; not claimed as a new clothing recording."
+    },
+    "sfx.akainu.footstep": {
+      "files": [
+        "assets/audio/sfx/akainu-step-0-0914.wav",
+        "assets/audio/sfx/akainu-step-1-0914.wav",
+        "assets/audio/sfx/akainu-step-2-0914.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.68,
+      "priority": 12,
+      "cooldownMs": 110,
+      "maxInstances": 2,
+      "source": "docs/assets/日常声音与音乐来源0914.md"
+    },
+    "sfx.akainu.movement": {
+      "files": [
+        "assets/audio/sfx/whoosh-1-0912.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.25,
+      "priority": 12,
+      "cooldownMs": 180,
+      "maxInstances": 1,
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Existing recorded swish, reused for rapid movement; not claimed as a new clothing recording."
+    }
+  }
+}

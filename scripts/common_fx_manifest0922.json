@@ -1,0 +1,8 @@
+{
+  "description": "Explicit original-pixel crops from previously adopted Image 2.5 FX atlases; no new generation or resampling.",
+  "frames": {
+    "impact": { "source": "public/assets/fx/luffy.png", "sha256": "7040525132e0b1e54fe295dd05f7cd63019fceae6c2a3b930426525c6bc8f5b3", "rect": [690, 697, 320, 306] },
+    "rebound": { "source": "public/assets/fx/luffy.png", "sha256": "7040525132e0b1e54fe295dd05f7cd63019fceae6c2a3b930426525c6bc8f5b3", "rect": [10, 782, 320, 136] },
+    "smoke": { "source": "public/assets/fx/akainu.png", "sha256": "2f066a29b07468c4a0831ab9b767bcba51fddeae251f0b5896e65e2ea92db329", "rect": [350, 723, 320, 254] }
+  }
+}

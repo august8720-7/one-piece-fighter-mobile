@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "source": "crossover_fx",
+  "maxCropEdgeAlpha": 4,
+  "note": "Root inspected eight separated shapes on dark alpha composite. Rectangles enclose alpha>4 plus two original pixels of margin; source RGB and alpha inside each rectangle remain unchanged. Only effectively invisible outer noise is outside these explicit rectangles. Blank ninth tile is not used.",
+  "characters": {
+    "labubu": {
+      "wind": [
+        83,
+        148,
+        377,
+        196
+      ],
+      "impact": [
+        611,
+        108,
+        259,
+        265
+      ],
+      "charge": [
+        1059,
+        58,
+        269,
+        329
+      ]
+    },
+    "twinkle": {
+      "star": [
+        132,
+        426,
+        249,
+        245
+      ],
+      "wave": [
+        529,
+        461,
+        413,
+        210
+      ],
+      "impact": [
+        1065,
+        426,
+        284,
+        255
+      ],
+      "spark": [
+        160,
+        783,
+        224,
+        216
+      ],
+      "shield": [
+        654,
+        724,
+        170,
+        325
+      ]
+    }
+  }
+}

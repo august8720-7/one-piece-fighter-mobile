@@ -1,0 +1,1080 @@
+{
+  "version": 1,
+  "cues": {
+    "hit_light": {
+      "files": [
+        "assets/audio/sfx/hit-light-1-0912.wav",
+        "assets/audio/sfx/hit-light-2-0912.wav",
+        "assets/audio/sfx/hit-light-3-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.58
+    },
+    "hit_heavy": {
+      "files": [
+        "assets/audio/sfx/hit-heavy-1-0912.wav",
+        "assets/audio/sfx/hit-heavy-2-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.7
+    },
+    "block": {
+      "files": [
+        "assets/audio/sfx/guard-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.52
+    },
+    "body_land": {
+      "files": [
+        "assets/audio/sfx/body-land-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.56
+    },
+    "throw": {
+      "files": [
+        "assets/audio/sfx/throw-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.64
+    },
+    "counter": {
+      "files": [
+        "assets/audio/sfx/counter-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.75
+    },
+    "whoosh": {
+      "files": [
+        "assets/audio/sfx/whoosh-1-0912.wav",
+        "assets/audio/sfx/whoosh-2-0912.wav",
+        "assets/audio/sfx/whoosh-3-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.32
+    },
+    "ko": {
+      "files": [
+        "assets/audio/sfx/ko-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.8,
+      "priority": 90
+    },
+    "sfx.luffy.stretch.start": {
+      "files": [
+        "assets/audio/sfx/luffy-stretch-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.stretch.release": {
+      "files": [
+        "assets/audio/sfx/luffy-stretch-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.stretch.end": {
+      "files": [
+        "assets/audio/sfx/luffy-stretch-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gatling.start": {
+      "files": [
+        "assets/audio/sfx/luffy-gatling-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gatling.release": {
+      "files": [
+        "assets/audio/sfx/luffy-gatling-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.gatling.end": {
+      "files": [
+        "assets/audio/sfx/luffy-gatling-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gigant.start": {
+      "files": [
+        "assets/audio/sfx/luffy-gigant-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gigant.release": {
+      "files": [
+        "assets/audio/sfx/luffy-gigant-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.gigant.end": {
+      "files": [
+        "assets/audio/sfx/luffy-gigant-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.red_hawk.start": {
+      "files": [
+        "assets/audio/sfx/luffy-red_hawk-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.red_hawk.release": {
+      "files": [
+        "assets/audio/sfx/luffy-red_hawk-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.red_hawk.end": {
+      "files": [
+        "assets/audio/sfx/luffy-red_hawk-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gear2.start": {
+      "files": [
+        "assets/audio/sfx/luffy-gear2-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.gear2.release": {
+      "files": [
+        "assets/audio/sfx/luffy-gear2-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.gear2.end": {
+      "files": [
+        "assets/audio/sfx/luffy-gear2-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.balloon.start": {
+      "files": [
+        "assets/audio/sfx/luffy-balloon-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.luffy.balloon.release": {
+      "files": [
+        "assets/audio/sfx/luffy-balloon-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.luffy.balloon.end": {
+      "files": [
+        "assets/audio/sfx/luffy-balloon-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "luffy",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.daifunka.start": {
+      "files": [
+        "assets/audio/sfx/akainu-daifunka-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.daifunka.release": {
+      "files": [
+        "assets/audio/sfx/akainu-daifunka-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.akainu.daifunka.end": {
+      "files": [
+        "assets/audio/sfx/akainu-daifunka-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.ground_split.start": {
+      "files": [
+        "assets/audio/sfx/akainu-ground_split-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.ground_split.release": {
+      "files": [
+        "assets/audio/sfx/akainu-ground_split-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.akainu.ground_split.end": {
+      "files": [
+        "assets/audio/sfx/akainu-ground_split-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.meigou.start": {
+      "files": [
+        "assets/audio/sfx/akainu-meigou-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.meigou.release": {
+      "files": [
+        "assets/audio/sfx/akainu-meigou-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.akainu.meigou.end": {
+      "files": [
+        "assets/audio/sfx/akainu-meigou-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.meteor.start": {
+      "files": [
+        "assets/audio/sfx/akainu-meteor-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.meteor.release": {
+      "files": [
+        "assets/audio/sfx/akainu-meteor-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 50,
+      "maxInstances": 3
+    },
+    "sfx.akainu.meteor.end": {
+      "files": [
+        "assets/audio/sfx/akainu-meteor-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.inugami.start": {
+      "files": [
+        "assets/audio/sfx/akainu-inugami-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.inugami.release": {
+      "files": [
+        "assets/audio/sfx/akainu-inugami-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.akainu.inugami.end": {
+      "files": [
+        "assets/audio/sfx/akainu-inugami-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.magma_body.start": {
+      "files": [
+        "assets/audio/sfx/akainu-magma_body-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "sfx.akainu.magma_body.release": {
+      "files": [
+        "assets/audio/sfx/akainu-magma_body-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.47,
+      "priority": 55,
+      "cooldownMs": 60,
+      "maxInstances": 3
+    },
+    "sfx.akainu.magma_body.end": {
+      "files": [
+        "assets/audio/sfx/akainu-magma_body-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "characterId": "akainu",
+      "gain": 0.29,
+      "priority": 30,
+      "cooldownMs": 60,
+      "maxInstances": 2
+    },
+    "magma": {
+      "files": [
+        "assets/audio/sfx/akainu-daifunka-start-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.35
+    },
+    "magma_hit": {
+      "files": [
+        "assets/audio/sfx/magma-hit-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.67
+    },
+    "meteor_fall": {
+      "files": [
+        "assets/audio/sfx/akainu-meteor-release-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.4,
+      "cooldownMs": 50,
+      "maxInstances": 3
+    },
+    "meteor_land": {
+      "files": [
+        "assets/audio/sfx/akainu-meteor-end-0912.wav"
+      ],
+      "group": "sfx",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.65,
+      "cooldownMs": 40,
+      "maxInstances": 3
+    },
+    "marineford_ambient": {
+      "files": [
+        "assets/audio/sfx/marineford-ambient-0912.wav"
+      ],
+      "group": "ambient",
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Recording-derived Foley candidate; not an original One Piece game SFX; listening acceptance pending.",
+      "gain": 0.24,
+      "loop": true,
+      "priority": 5,
+      "maxInstances": 1
+    },
+    "sfx.luffy.footstep": {
+      "files": [
+        "assets/audio/sfx/luffy-step-0-0914.wav",
+        "assets/audio/sfx/luffy-step-1-0914.wav",
+        "assets/audio/sfx/luffy-step-2-0914.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.55,
+      "priority": 12,
+      "cooldownMs": 110,
+      "maxInstances": 2,
+      "source": "docs/assets/日常声音与音乐来源0914.md"
+    },
+    "sfx.luffy.movement": {
+      "files": [
+        "assets/audio/sfx/whoosh-1-0912.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.25,
+      "priority": 12,
+      "cooldownMs": 180,
+      "maxInstances": 1,
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Existing recorded swish, reused for rapid movement; not claimed as a new clothing recording."
+    },
+    "sfx.akainu.footstep": {
+      "files": [
+        "assets/audio/sfx/akainu-step-0-0914.wav",
+        "assets/audio/sfx/akainu-step-1-0914.wav",
+        "assets/audio/sfx/akainu-step-2-0914.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.68,
+      "priority": 12,
+      "cooldownMs": 110,
+      "maxInstances": 2,
+      "source": "docs/assets/日常声音与音乐来源0914.md"
+    },
+    "sfx.akainu.movement": {
+      "files": [
+        "assets/audio/sfx/whoosh-1-0912.wav"
+      ],
+      "group": "sfx",
+      "gain": 0.25,
+      "priority": 12,
+      "cooldownMs": 180,
+      "maxInstances": 1,
+      "source": "docs/assets/音频来源0912.md",
+      "note": "Existing recorded swish, reused for rapid movement; not claimed as a new clothing recording."
+    },
+    "voice.luffy.attack": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+        "assets/audio/voice/luffy/candidate-review-attack-2-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.luffy.hurt": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-hurt-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.65,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.luffy.ko": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-ko-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.luffy.win": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-win-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.akainu.attack": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-attack-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.akainu.hurt": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-hurt-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.65,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.akainu.ko": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-ko-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.akainu.win": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-win-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.85,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "User confirmed character voice in audition; generic game-event placement is an implementation choice. Exact words and named moves are not certified."
+    },
+    "voice.luffy.effort": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+        "assets/audio/voice/luffy/candidate-review-attack-2-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.62,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone.",
+      "priority": 50,
+      "cooldownMs": 450,
+      "maxInstances": 1
+    },
+    "voice.luffy.move": {
+      "files": [
+        "assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+        "assets/audio/voice/luffy/candidate-review-attack-2-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.62,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone.",
+      "priority": 9,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.akainu.effort": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-attack-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.62,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone.",
+      "priority": 50,
+      "cooldownMs": 450,
+      "maxInstances": 1
+    },
+    "voice.akainu.move": {
+      "files": [
+        "assets/audio/voice/akainu/candidate-review-attack-0912.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.62,
+      "source": "docs/assets/人物声线确认0913.md",
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone.",
+      "priority": 9,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.luffy.idle": {
+      "files": [
+        "assets/audio/voice/luffy/daily-idle-1-0914.wav",
+        "assets/audio/voice/luffy/daily-idle-2-0914.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.7,
+      "source": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "User listened to these four waiting lines and accepted them on 2026-09-14. Exact transcript is not certified.",
+      "priority": 10,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.akainu.idle": {
+      "files": [
+        "assets/audio/voice/akainu/daily-idle-1-0914.wav",
+        "assets/audio/voice/akainu/daily-idle-2-0914.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.7,
+      "source": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "User listened to these four waiting lines and accepted them on 2026-09-14. Exact transcript is not certified.",
+      "priority": 10,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.luffy.select": {
+      "files": [
+        "assets/audio/voice/luffy/daily-idle-1-0914.wav"
+      ],
+      "group": "voice",
+      "characterId": "luffy",
+      "gain": 0.7,
+      "source": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "Existing accepted short response; selection placement, no certified transcript.",
+      "priority": 60,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.akainu.select": {
+      "files": [
+        "assets/audio/voice/akainu/daily-idle-1-0914.wav"
+      ],
+      "group": "voice",
+      "characterId": "akainu",
+      "gain": 0.7,
+      "source": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "Existing accepted short response; selection placement, no certified transcript.",
+      "priority": 60,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "announcer.round1": {
+      "files": [
+        "assets/audio/announcer/round1-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "announcer.round2": {
+      "files": [
+        "assets/audio/announcer/round2-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "announcer.round3": {
+      "files": [
+        "assets/audio/announcer/round3-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "announcer.fight": {
+      "files": [
+        "assets/audio/announcer/fight-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "announcer.ko": {
+      "files": [
+        "assets/audio/announcer/ko-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "announcer.nextRound": {
+      "files": [
+        "assets/audio/announcer/nextRound-0922.wav"
+      ],
+      "group": "voice",
+      "gain": 0.72,
+      "priority": 95,
+      "cooldownMs": 0,
+      "maxInstances": 1,
+      "source": "docs/assets/人物台词与播报0922.md",
+      "note": "Original system-synthesized announcer, not KOF or character voice. Human audition pending."
+    },
+    "voice.labubu.select": {
+      "files": [
+        "assets/audio/voice/labubu/select-0926.wav"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.7,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Exact clip auditioned by the user; copied without audio edits. Original Chinese subtitle is bound to the same file/hash. No other event or candidate is implied accepted.",
+      "priority": 60,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.twinkle.select": {
+      "files": [
+        "assets/audio/voice/twinkle/select-0926.mp3"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.7,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Exact clip auditioned by the user; copied without audio edits. Original Chinese subtitle is bound to the same file/hash. No other event or candidate is implied accepted.",
+      "priority": 60,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.labubu.attack": {
+      "files": [
+        "assets/audio/voice/labubu/attack-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model content review; the user approved the reference voice identity, not this individual sentence. Original bytes and exact-file subtitle are preserved.",
+      "cooldownMs": 900
+    },
+    "voice.twinkle.win": {
+      "files": [
+        "assets/audio/voice/twinkle/win-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model content review; the user approved the reference voice identity, not this individual sentence. Original bytes and exact-file subtitle are preserved.",
+      "cooldownMs": 2100
+    },
+    "voice.twinkle.hurt": {
+      "files": [
+        "assets/audio/voice/twinkle/hurt-0927.wav"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model reviewed the actual shortened clip-M. User approved the reference timbre only. Exact native PCM and the same-file subtitle are preserved.",
+      "cooldownMs": 700
+    },
+    "voice.labubu.ko": {
+      "files": [
+        "assets/audio/voice/labubu/ko-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model reviewed the actual anonymous KO clip. User approved reference timbre only; new sentence was not individually user-auditioned. Original bytes and exact-file caption are preserved.",
+      "cooldownMs": 1500
+    },
+    "voice.twinkle.ko": {
+      "files": [
+        "assets/audio/voice/twinkle/ko-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model reviewed the actual anonymous KO clip. User approved reference timbre only; new sentence was not individually user-auditioned. Original bytes and exact-file caption are preserved.",
+      "cooldownMs": 2000
+    },
+    "voice.twinkle.attack": {
+      "files": [
+        "assets/audio/voice/twinkle/attack-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio model accepted the exact anonymous clip. User approved reference timbre only. Generic special/ultimate call, not a normal-effort cue or named move claim.",
+      "cooldownMs": 2000
+    },
+    "voice.twinkle.idle": {
+      "files": [
+        "assets/audio/voice/twinkle/idle-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio review, not individual user audition. Existing low-priority idle timing and combat interruption remain unchanged; original bytes preserved.",
+      "priority": 10,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.labubu.idle": {
+      "files": [
+        "assets/audio/voice/labubu/idle-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio review, not individual user audition. Whisper 啊 disagreement retained; display punctuation is separate from the unchanged reviewed words. Existing idle scheduling remains unchanged.",
+      "priority": 10,
+      "cooldownMs": 0,
+      "maxInstances": 1
+    },
+    "voice.labubu.win": {
+      "files": [
+        "assets/audio/voice/labubu/win-0927.mp3"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Agent-internal native audio review of actual clip-O, not individual user audition. Original new MP3 bytes and exact-file caption preserved; older rejected/unresolved win candidates remain unused.",
+      "cooldownMs": 1200
+    },
+    "voice.labubu.hurt": {
+      "files": [
+        "assets/audio/voice/labubu/hurt-0927.wav"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.65,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved.",
+      "cooldownMs": 1100
+    },
+    "voice.labubu.effort": {
+      "files": [
+        "assets/audio/voice/labubu/effort-0927.wav"
+      ],
+      "group": "voice",
+      "characterId": "labubu",
+      "gain": 0.62,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved.",
+      "priority": 50,
+      "cooldownMs": 650,
+      "maxInstances": 1
+    },
+    "voice.twinkle.effort": {
+      "files": [
+        "assets/audio/voice/twinkle/effort-0927.wav"
+      ],
+      "group": "voice",
+      "characterId": "twinkle",
+      "gain": 0.62,
+      "source": "docs/assets/联动语音接入0926.md",
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved.",
+      "priority": 50,
+      "cooldownMs": 900,
+      "maxInstances": 1
+    }
+  }
+}

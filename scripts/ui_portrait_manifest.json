@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "public/assets/generated/source/characters-master-0912.png",
+    "sha256": "1e0e47229db7bee69789282efdec93ca737a3d1dfb4582f06eed2881a5ddad51",
+    "model": "GPT Image 2.5",
+    "provider": "chatgpt-web",
+    "sessionUrl": "https://chatgpt.com/c/6aa4331f-0a30-83ea-94a5-4e1e3e211060",
+    "generatedAt": "2026-09-12",
+    "generatedAtPrecision": "day; precise completion time not recorded",
+    "unitScale": 1,
+    "scaleBasis": "Both characters share the same original master sheet; preserve the common 0.22 scale and source ground baseline rather than normalizing each character bounding box.",
+    "modelEvidence": {
+      "file": "docs/assets/人物母版型号凭据0912.txt",
+      "sha256": "1dfe4ae156978f92eead822609edebf8400dd8d526403a4818de2b1d47a75b37"
+    },
+    "prompt": {
+      "file": "docs/assets/人物母版原始提示词0912.txt",
+      "sha256": "3bcb60394a1b6849c142a7b6fff07ce5241516539324d62df06c9de77a851118"
+    }
+  },
+  "characters": {
+    "luffy": {
+      "crop": [
+        24,
+        140,
+        656,
+        813
+      ],
+      "transparency": {
+        "mode": "border-key",
+        "color": [
+          0,
+          255,
+          0
+        ],
+        "tolerance": 32,
+        "despill": true,
+        "seeds": [
+          [
+            229,
+            263
+          ]
+        ]
+      },
+      "portrait": [
+        248,
+        0,
+        272,
+        272
+      ]
+    },
+    "akainu": {
+      "crop": [
+        738,
+        14,
+        775,
+        940
+      ],
+      "transparency": {
+        "mode": "border-key",
+        "color": [
+          0,
+          255,
+          0
+        ],
+        "tolerance": 32,
+        "despill": true,
+        "seeds": []
+      },
+      "portrait": [
+        350,
+        0,
+        260,
+        260
+      ]
+    }
+  }
+}

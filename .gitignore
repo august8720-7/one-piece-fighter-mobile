@@ -1,0 +1,36 @@
+# build
+dist/
+.local-releases/
+.vite/
+*.tsbuildinfo
+
+# deps
+node_modules/
+
+# editor / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+npm-debug.log*
+*.log
+
+# python
+__pycache__/
+
+# 版权素材只放本地（AGENTS.md 硬约束 7）。忽略文件而不是目录，否则 placeholder* 无法被重新包含
+public/assets/characters/*/*
+!public/assets/characters/*/placeholder*
+public/assets/stages/*/*
+!public/assets/stages/*/placeholder*
+public/assets/audio/**
+!public/assets/audio/*.wav
+!public/assets/**/.gitkeep
+public/assets/generated/
+public/assets/fx/
+public/assets/delivery/
+# 未采用的历史程序绘图试验，保留本机，不作为正式素材提交
+assets-src/characters/*/pixel/

@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "characters": {
+    "labubu": { "source": "labubu_mother_corrected", "crop": [881, 0, 435, 724], "portrait": [20, 0, 400, 450], "output": "assets/characters/labubu/anime/ui-corrected-0922.png" },
+    "twinkle": { "source": "twinkle_mother_corrected", "crop": [802, 40, 585, 650], "portrait": [15, 10, 545, 410], "output": "assets/characters/twinkle/anime/ui-corrected-0922.png" }
+  }
+}

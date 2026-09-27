@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "tracks": {
+    "menu": { "file": "assets/audio/music/menu-0914.ogg", "loop": true, "gain": 0.7, "title": "The Looming Battle — Zefz" },
+    "battle": { "file": "assets/audio/music/battle-0914.ogg", "loop": true, "gain": 0.8, "title": "Batalha #1 — Lisboa" },
+    "victory": { "file": "assets/audio/music/victory-0914.ogg", "loop": false, "gain": 0.75, "title": "Batalha #1 — Lisboa (result excerpt)" },
+    "defeat": { "file": "assets/audio/music/defeat-0914.ogg", "loop": false, "gain": 0.65, "title": "The Looming Battle — Zefz (result excerpt)" }
+  }
+}

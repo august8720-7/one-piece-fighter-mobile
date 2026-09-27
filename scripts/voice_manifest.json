@@ -1,0 +1,1216 @@
+{
+  "version": 1,
+  "cues": [
+    {
+      "character": "luffy",
+      "event": "attack",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+          "sha256": "3660479bd25473ea8079bec87972fdcc9b0260eb0b52be10d28f2ee1563e192b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.115,
+          "source_end_seconds": 3.665
+        },
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-2-0912.wav",
+          "sha256": "3954ed4d9a63b8ed145642e71e7727d692a7b9e704bc230098b96b1885a4e06b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.915,
+          "source_end_seconds": 4.675
+        }
+      ]
+    },
+    {
+      "character": "luffy",
+      "event": "hurt",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-hurt-0912.wav",
+          "sha256": "c2ea2886f89f7754a80e40112a2e7ecc6322e3673d80ee766aedcc6af35c4e69",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 40.375,
+          "source_end_seconds": 40.705
+        }
+      ]
+    },
+    {
+      "character": "luffy",
+      "event": "ko",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-ko-0912.wav",
+          "sha256": "750a50ba372ad0845aa142886cfd16201d958d556ee10fe4ddfc9508c81ac5eb",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 44.405,
+          "source_end_seconds": 45.465
+        }
+      ]
+    },
+    {
+      "character": "luffy",
+      "event": "win",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-win-0912.wav",
+          "sha256": "26ede43ff609c38d77f6fcdc16d488acf14dc81b249df66289143aead5c36f16",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 86.755,
+          "source_end_seconds": 88.245
+        }
+      ]
+    },
+    {
+      "character": "akainu",
+      "event": "attack",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-attack-0912.wav",
+          "sha256": "411b11be44481c8e53f075ea7324cab4091a5fe4526929d9575174608380d0f7",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 3.175,
+          "source_end_seconds": 3.505
+        }
+      ]
+    },
+    {
+      "character": "akainu",
+      "event": "hurt",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-hurt-0912.wav",
+          "sha256": "dfa91126958004ae02fe37bd41b63b56f2719b31f0fa7d553416088d098f135f",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 70.685,
+          "source_end_seconds": 71.065
+        }
+      ]
+    },
+    {
+      "character": "akainu",
+      "event": "ko",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-ko-0912.wav",
+          "sha256": "86d390b62286bf60a9744f2ed7120ffbeca61c2bf26024696afcc508d06bf8d0",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 78.175,
+          "source_end_seconds": 79.425
+        }
+      ]
+    },
+    {
+      "character": "akainu",
+      "event": "win",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-win-0912.wav",
+          "sha256": "4675390ab6bc3e2daf4b112f27e85b0521634c720a6efdc3b0d9bc1aba06b1cd",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 106.875,
+          "source_end_seconds": 107.975
+        }
+      ]
+    },
+    {
+      "character": "luffy",
+      "event": "effort",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+          "sha256": "3660479bd25473ea8079bec87972fdcc9b0260eb0b52be10d28f2ee1563e192b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.115,
+          "source_end_seconds": 3.665
+        },
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-2-0912.wav",
+          "sha256": "3954ed4d9a63b8ed145642e71e7727d692a7b9e704bc230098b96b1885a4e06b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.915,
+          "source_end_seconds": 4.675
+        }
+      ],
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone."
+    },
+    {
+      "character": "luffy",
+      "event": "move",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-0912.wav",
+          "sha256": "3660479bd25473ea8079bec87972fdcc9b0260eb0b52be10d28f2ee1563e192b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.115,
+          "source_end_seconds": 3.665
+        },
+        {
+          "path": "public/assets/audio/voice/luffy/candidate-review-attack-2-0912.wav",
+          "sha256": "3954ed4d9a63b8ed145642e71e7727d692a7b9e704bc230098b96b1885a4e06b",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 3.915,
+          "source_end_seconds": 4.675
+        }
+      ],
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone."
+    },
+    {
+      "character": "akainu",
+      "event": "effort",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-attack-0912.wav",
+          "sha256": "411b11be44481c8e53f075ea7324cab4091a5fe4526929d9575174608380d0f7",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 3.175,
+          "source_end_seconds": 3.505
+        }
+      ],
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone."
+    },
+    {
+      "character": "akainu",
+      "event": "move",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/candidate-review-attack-0912.wav",
+          "sha256": "411b11be44481c8e53f075ea7324cab4091a5fe4526929d9575174608380d0f7",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 3.175,
+          "source_end_seconds": 3.505
+        }
+      ],
+      "note": "Reuses the previously auditioned short exertion recording, at lower gain and with movement/normal cooldown. No new words, source audio or voice clone."
+    },
+    {
+      "character": "luffy",
+      "event": "idle",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/luffy/daily-idle-1-0914.wav",
+          "sha256": "93b01fc68d39aa16c06ca52ae3346be9173461988f5240cf3fa6549a4510f1ec",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 70.5,
+          "source_end_seconds": 72.05
+        },
+        {
+          "path": "public/assets/audio/voice/luffy/daily-idle-2-0914.wav",
+          "sha256": "381c160fccc582d07d46a24d8e51efe63b922cfbb41ffee6ee3bac5ef58730dd",
+          "source_url": "https://www.youtube.com/watch?v=QwK-FAA-VRU",
+          "source_start_seconds": 75.3,
+          "source_end_seconds": 77.2
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "User listened to these four waiting lines and accepted them on 2026-09-14. Exact transcript is not certified."
+    },
+    {
+      "character": "akainu",
+      "event": "idle",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/akainu/daily-idle-1-0914.wav",
+          "sha256": "2a00c556d8ed531b37b1f87a082724a652344d025ee683e7ea6a8b6fade031bb",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 24.15,
+          "source_end_seconds": 25.75
+        },
+        {
+          "path": "public/assets/audio/voice/akainu/daily-idle-2-0914.wav",
+          "sha256": "bd05e975e1fd474a22163ba8dfcf0891a58ca94b297a92f9af42fcda2fe22809",
+          "source_url": "https://www.youtube.com/watch?v=LelknEdihUw",
+          "source_start_seconds": 25.95,
+          "source_end_seconds": 27.65
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/日常声音与音乐来源0914.md",
+      "note": "User listened to these four waiting lines and accepted them on 2026-09-14. Exact transcript is not certified."
+    },
+    {
+      "character": "labubu",
+      "event": "select",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "source_url": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+          "source_id": "labubu_qwen_short_sample",
+          "source_sha256": "7679b3f415b51abec4aec5614f14643f1381616173b78a7a925714f388d01fb8",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.8,
+          "transcript": "嘿嘿，来追我呀！"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "approval": {
+        "date": "2026-09-26",
+        "kind": "user_audition_exact_clip",
+        "scope": "This selection clip and character timbre; all other candidates need autonomous content/technical review.",
+        "decision": "两角都保留，继续制作"
+      },
+      "note": "Exact clip auditioned by the user; copied without audio edits. Original Chinese subtitle is bound to the same file/hash. No other event or candidate is implied accepted."
+    },
+    {
+      "character": "twinkle",
+      "event": "select",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_id": "twinkle_vox_select",
+          "source_sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.632,
+          "transcript": "一起闪闪发光吧。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "approval": {
+        "date": "2026-09-26",
+        "kind": "user_audition_exact_clip",
+        "scope": "This selection clip and character timbre; all other candidates need autonomous content/technical review.",
+        "decision": "两角都保留，继续制作"
+      },
+      "note": "Exact clip auditioned by the user; copied without audio edits. Original Chinese subtitle is bound to the same file/hash. No other event or candidate is implied accepted."
+    },
+    {
+      "character": "labubu",
+      "event": "attack",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/attack-0927.mp3",
+          "sha256": "26143ea93f0cc0b6f7acb29ce51331e94b5a807113103bc835f2021da2a4e4fc",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_id": "labubu_vox_ultimate_attack_0927",
+          "source_sha256": "26143ea93f0cc0b6f7acb29ce51331e94b5a807113103bc835f2021da2a4e4fc",
+          "source_start_seconds": 0,
+          "source_end_seconds": 0.672,
+          "transcript": "看招！"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; this generated sentence was not separately user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "26143ea93f0cc0b6f7acb29ce51331e94b5a807113103bc835f2021da2a4e4fc",
+          "transcript": "看招！",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-N-response.txt",
+              "sha256": "8ea180d747dae6dbf9e9f8ef5ad0972536207865b8c8a77b42ade7899f7d50a7",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-N-response.png",
+              "sha256": "f56fff222d51cc6ac1177aa7cedd735d8243cd52633b18e999f29619847376ee",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-N-prepared.json",
+              "sha256": "b67da967f7c79cd093380dc902dc812f1c1c206514f6bb22579eecf63322e582",
+              "role": "attachment"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-N-submitted.json",
+              "sha256": "f4bc1ac1e277442430a39e34857fc5ea24b47e3ba84f900cb79364aaa9d9c1b3",
+              "role": "submission"
+            }
+          ],
+          "decision": "Native audio model received the anonymous file with a blind prompt and reported these actual words and no obvious audio defects. Agent accepts this event placement; final gameplay mix remains to be checked."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "看招",
+          "agreesAfterPunctuationNormalization": true,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0927/technical/20260926T164004Z/asr-blind-whole.json",
+            "sha256": "5271349063214883e3b617b75e13e6f26101f83aa653a1bab94cf72a00d239ba",
+            "role": "asr"
+          },
+          "disposition": "Preserved verbatim; no ASR text correction. Native-audio-model review is the adoption basis when they disagree."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 900
+      },
+      "note": "Agent-internal native audio model content review; the user approved the reference voice identity, not this individual sentence. Original bytes and exact-file subtitle are preserved."
+    },
+    {
+      "character": "twinkle",
+      "event": "win",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/win-0927.mp3",
+          "sha256": "0a6f99341b6af3e0eedb41434da2507aac6a9d8aae771a2008aa511acafa1823",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_id": "twinkle_vox_win_followup",
+          "source_sha256": "0a6f99341b6af3e0eedb41434da2507aac6a9d8aae771a2008aa511acafa1823",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.944,
+          "transcript": "星星赢啦"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; this generated sentence was not separately user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "0a6f99341b6af3e0eedb41434da2507aac6a9d8aae771a2008aa511acafa1823",
+          "transcript": "星星赢啦",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-C-response.txt",
+              "sha256": "e0071e43f4cb1f5b2b0a4e28da974bbeb4201a30009345a091f81887b54e4b57",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-C-response.png",
+              "sha256": "dcdb894430294d383fb2bba9d7e5cfe9b53f0401f9f9d64bcf3f4e0483e8d823",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T170454Z/review/clip-C-request.json",
+              "sha256": "4b109f47ff988f4574e05a7d39a77cbf07216b9bed93025cc5a42c09118cc804",
+              "role": "attachment"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/omni-review-20260925-180558/mapping.json",
+              "sha256": "43c051d51e4195cccf7d85824cfaad4c9bf560553aefa0b9336ab33eea488698",
+              "role": "input_mapping"
+            }
+          ],
+          "decision": "Native audio model received the anonymous file with a blind prompt and reported these actual words and no obvious audio defects. Agent accepts this event placement; final gameplay mix remains to be checked."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "欣欣喲",
+          "agreesAfterPunctuationNormalization": false,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/vox-followup-20260925-133612/twinkle-win/asr.json",
+            "sha256": "3a7320b394f1bb7c5003adff352d3440a6cded050f20babaeab8663c1f731901",
+            "role": "asr"
+          },
+          "disposition": "Preserved verbatim; no ASR text correction. Native-audio-model review is the adoption basis when they disagree."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 2100
+      },
+      "note": "Agent-internal native audio model content review; the user approved the reference voice identity, not this individual sentence. Original bytes and exact-file subtitle are preserved."
+    },
+    {
+      "character": "twinkle",
+      "event": "hurt",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/hurt-0927.wav",
+          "sha256": "97a3eb86ea8bfec5e50480336c430660b1e5b21aa7edc7c8c7704585d9c73b9a",
+          "source_id": "twinkle_vox_hurt_followup",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "11adb1da68d9f5f5699fc2afa14f81f13be49f019b3068b43dee123e1f876e77",
+          "source_start_seconds": 0,
+          "source_end_seconds": 0.5,
+          "transcript": "哎呀"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; not user approval of this shortened line."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "97a3eb86ea8bfec5e50480336c430660b1e5b21aa7edc7c8c7704585d9c73b9a",
+          "transcript": "哎呀",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T174954Z/review/native-M0927.txt",
+              "sha256": "7a91fcb27c72266132496c58c67359dc319a916fa9251b536dccb876b12cf434",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T174954Z/review/native-M0927.png",
+              "sha256": "76b772997b796d045731f804d7bc26c17bcc5f8630711a8d944c436c2a0c3475",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T174954Z/review/technical/short-hurt-before.json",
+              "sha256": "a941cbd2b63b6c690b1f3946ec52cd917bb1df99579889350011091e7352cd2d",
+              "role": "derivation_plan"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T174954Z/review/technical/short-hurt-after.json",
+              "sha256": "b2b65c93995f9eb133586aa5e188fe7dee24744148f1bebde474655175b3bd08",
+              "role": "derivation_result"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T174954Z/pcm-verification.json",
+              "sha256": "93bdef0ba106b36146d80e6718e655d69e8269109ebd32f7e22a5d7ed2b71f00",
+              "role": "adopted_pcm_check"
+            }
+          ],
+          "decision": "Native audio model received the actual anonymous clip-M.wav and returned 哎呀 with no obvious cutoff/repetition/tail/background noise/distortion. Separate shortened-clip review, not inherited from the original full sentence."
+        },
+        "derivedClip": {
+          "originalPath": "public/assets/audio/sources/crossover-0925/twinkle-hurt-followup-vox-0925.mp3",
+          "originalSha256": "11adb1da68d9f5f5699fc2afa14f81f13be49f019b3068b43dee123e1f876e77",
+          "nativeSampleRate": 48000,
+          "startFrameInclusive": 0,
+          "endFrameExclusive": 24000,
+          "nativePcmSha256": "2b0e02323cbf388c1c8d858272634fac4a8e56a0f69801769b01febe7139a80c",
+          "outputFormat": "WAV IEEE float32 mono",
+          "operations": "sample-exact extraction only; no gain, fade, resampling, padding or denoise"
+        },
+        "supplementalAsr": {
+          "newAsrForThisShortClip": false,
+          "note": "Existing complete-sentence word timings helped locate the quiet gap; they do not serve as independent content approval for the shortened clip."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 700
+      },
+      "note": "Agent-internal native audio model reviewed the actual shortened clip-M. User approved the reference timbre only. Exact native PCM and the same-file subtitle are preserved."
+    },
+    {
+      "character": "labubu",
+      "event": "ko",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/ko-0927.mp3",
+          "sha256": "422b46f2f3cebead385cdb2027425946452adda413260247f8eccb807748008b",
+          "source_id": "labubu_vox_ko",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "422b46f2f3cebead385cdb2027425946452adda413260247f8eccb807748008b",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.152,
+          "transcript": "我还会回来的。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; new KO sentence was not user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "422b46f2f3cebead385cdb2027425946452adda413260247f8eccb807748008b",
+          "transcript": "我还会回来的。",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-D0927.txt",
+              "sha256": "e63448bf3add64e21dff6718915b7b436e9d26a37453c7eaaabae427b936ca76",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-D0927.png",
+              "sha256": "e81061a9753b278101e53b3a37364c5a7a02cb29b63f1aea28ee269f56ff8ffe",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-review-0926/batch-existing/copy-after.json",
+              "sha256": "2eae45bfdcb6bc6c67e2535e2a3312ecd621025d647e41e314eca18920f7aad9",
+              "role": "anonymous_copy"
+            }
+          ],
+          "decision": "Actual anonymous audio attached to the native model blind review; returned these words and no obvious audio defects. Agent-internal KO placement; final gameplay mix remains separate."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "我還會回來的",
+          "agreesAfterScriptAndPunctuationNormalization": true,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/20260925T025535Z-labubu-vox-ko/asr-blind-whole.json",
+            "sha256": "71a639bef30e3908354941d6ef6a6163967754686bc0258a1ef1ee32a87e5301",
+            "role": "asr"
+          },
+          "disposition": "Original transcription preserved. Traditional/simplified Chinese and punctuation differences do not change wording."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 1500
+      },
+      "note": "Agent-internal native audio model reviewed the actual anonymous KO clip. User approved reference timbre only; new sentence was not individually user-auditioned. Original bytes and exact-file caption are preserved."
+    },
+    {
+      "character": "twinkle",
+      "event": "ko",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/ko-0927.mp3",
+          "sha256": "d70284168e45967e41df4451d4793d5a6bac618c9822e42df5f323c572c2ca62",
+          "source_id": "twinkle_vox_ko",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "d70284168e45967e41df4451d4793d5a6bac618c9822e42df5f323c572c2ca62",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.632,
+          "transcript": "星星先休息一下。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; new KO sentence was not user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "d70284168e45967e41df4451d4793d5a6bac618c9822e42df5f323c572c2ca62",
+          "transcript": "星星先休息一下。",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-E0927.txt",
+              "sha256": "0987aeaf1b6d0beafe00aba7905cc501de140031e8bf603693434d9ca8622360",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-E0927.png",
+              "sha256": "891c922cef523af786507443ce0b53257fc9b39b131c24df01add79c1336090b",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-review-0926/batch-existing/copy-after.json",
+              "sha256": "2eae45bfdcb6bc6c67e2535e2a3312ecd621025d647e41e314eca18920f7aad9",
+              "role": "anonymous_copy"
+            }
+          ],
+          "decision": "Actual anonymous audio attached to the native model blind review; returned these words and no obvious audio defects. Agent-internal KO placement; final gameplay mix remains separate."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "星星先休息一下",
+          "agreesAfterScriptAndPunctuationNormalization": true,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/20260925T032105Z-twinkle-vox-ko/asr-blind-whole.json",
+            "sha256": "957155f4feedf37290e5d7b7910f131cc3595cf6fb11e29221fb550fd832f72b",
+            "role": "asr"
+          },
+          "disposition": "Original transcription preserved. Traditional/simplified Chinese and punctuation differences do not change wording."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 2000
+      },
+      "note": "Agent-internal native audio model reviewed the actual anonymous KO clip. User approved reference timbre only; new sentence was not individually user-auditioned. Original bytes and exact-file caption are preserved."
+    },
+    {
+      "character": "twinkle",
+      "event": "attack",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/attack-0927.mp3",
+          "sha256": "925f8dbd5a1fc8edde12df132511612e081ac8afe742b4bd141e91405be52fd6",
+          "source_id": "twinkle_vox_attack",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "925f8dbd5a1fc8edde12df132511612e081ac8afe742b4bd141e91405be52fd6",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.632,
+          "transcript": "星星，出击。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference identity only; no user audition of this new line."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "925f8dbd5a1fc8edde12df132511612e081ac8afe742b4bd141e91405be52fd6",
+          "transcript": "星星，出击。",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-F0927.txt",
+              "sha256": "1e7789c017620cdc39a8b2bdd9c8097d7fbf5aec28a0fa0b1802348c597a96d0",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-F0927.png",
+              "sha256": "493d9bd028705962833d4085d4d779e9d0fd62230f46a0b6d48d8ad2c44047dd",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/copy-F-after.json",
+              "sha256": "1f09597387fc90366c918a073a75d2175d3a69b86562a5e1879e20e4e2b17158",
+              "role": "copy_receipt"
+            }
+          ],
+          "decision": "Actual anonymous clip-F attached and reviewed with a blind prompt; returned these words with no obvious audio defects. Generic special/ultimate startup only; never normal punch effort."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "星星!出擊!",
+          "agreesAfterScriptAndPunctuationNormalization": true,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/20260925T032055Z-twinkle-vox-attack/asr-blind-whole.json",
+            "sha256": "7f8d66867902421ca078641e2cefb5fb1540ee889a1cd4c1ca93b575fa98cdf9",
+            "role": "asr"
+          }
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 2000
+      },
+      "note": "Agent-internal native audio model accepted the exact anonymous clip. User approved reference timbre only. Generic special/ultimate call, not a normal-effort cue or named move claim."
+    },
+    {
+      "character": "twinkle",
+      "event": "idle",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/idle-0927.mp3",
+          "sha256": "132e7dbe542ffad1e64f3b05ac22b7d00af750b2e9014d78f1db96b12728cf02",
+          "source_id": "twinkle_vox_idle",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "132e7dbe542ffad1e64f3b05ac22b7d00af750b2e9014d78f1db96b12728cf02",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.464,
+          "transcript": "让星光陪你玩。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference identity only; no user audition of this new idle sentence."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "132e7dbe542ffad1e64f3b05ac22b7d00af750b2e9014d78f1db96b12728cf02",
+          "transcript": "让星光陪你玩。",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-G0927.txt",
+              "sha256": "bf17deaf435b6600a2458d8d1f3ecd3920f2af8d78ee976d10c105b777f6d049",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-G0927.png",
+              "sha256": "d8213ca6c742519ecbd968a4f653c55dd2eef3a62edcf322b4a85f8300afd571",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/copy-G-after.json",
+              "sha256": "aeab9d16800dfee7dc3bda08c5b2dde146e03a6740ccc7e003a0014632aae42c",
+              "role": "copy_receipt"
+            }
+          ],
+          "decision": "Actual anonymous clip-G attached to native audio blind review; returned these words with no obvious audio defects. Retain low-priority quiet idle scheduling and immediate combat interruption."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "让星光陪你玩",
+          "agreesAfterPunctuationNormalization": true,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/20260925T032116Z-twinkle-vox-idle/asr-blind-whole.json",
+            "sha256": "994a657baeb0aa3a08d3a4a71b6945c6f8c83d1e720bf39318317f4b29de55ec",
+            "role": "asr"
+          }
+        }
+      },
+      "playback": {
+        "gain": 0.65
+      },
+      "note": "Agent-internal native audio review, not individual user audition. Existing low-priority idle timing and combat interruption remain unchanged; original bytes preserved."
+    },
+    {
+      "character": "labubu",
+      "event": "idle",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/idle-0927.mp3",
+          "sha256": "47b45f15ba9ad3308de8eb4676f4eea077f6907be2ec15b09a2767e75e4a0fa8",
+          "source_id": "labubu_vox_idle",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "47b45f15ba9ad3308de8eb4676f4eea077f6907be2ec15b09a2767e75e4a0fa8",
+          "source_start_seconds": 0,
+          "source_end_seconds": 1.464,
+          "transcript": "快来陪我玩呀",
+          "translation": "快来陪我玩呀！"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference identity only; no user audition of this new idle sentence."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "47b45f15ba9ad3308de8eb4676f4eea077f6907be2ec15b09a2767e75e4a0fa8",
+          "transcript": "快来陪我玩呀",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-H0927.txt",
+              "sha256": "57a26569630c240faace56e3bbc2ec418ff9aa81193b37bd3c8eb86d74c05624",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-H0927.png",
+              "sha256": "b535be0a714f3266ab93a2cdb73f27ed33b464f9d7e979226d1c7f24db4436b4",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/copy-H-after.json",
+              "sha256": "1663e72d68137105795e7abc24c2d33344e3474232f6eee5a2e55c99f631e7ea",
+              "role": "copy_receipt"
+            }
+          ],
+          "decision": "Actual clip-H native audio blind review returned final particle 呀. Caption uses the same actual words and adds expressive punctuation only. Preserve ASR 啊 disagreement; retain low-priority idle timing."
+        },
+        "supplementalAsr": {
+          "engine": "faster-whisper small",
+          "text": "快来陪我玩啊",
+          "agreesAfterPunctuationNormalization": false,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0925/content-review/20260925T025535Z-labubu-vox-idle/asr-blind-whole.json",
+            "sha256": "6625f4a499b6830454f98f9301f9fb2f9afc6348dc40e0c35b343010b80a1c30",
+            "role": "asr"
+          },
+          "disposition": "Whisper final particle 啊 conflicts with native audio review 呀; original transcript retained. Adoption follows actual native audio review, not a claim of two-model agreement."
+        }
+      },
+      "playback": {
+        "gain": 0.65
+      },
+      "note": "Agent-internal native audio review, not individual user audition. Whisper 啊 disagreement retained; display punctuation is separate from the unchanged reviewed words. Existing idle scheduling remains unchanged."
+    },
+    {
+      "character": "labubu",
+      "event": "win",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/win-0927.mp3",
+          "sha256": "d6a8cd773155fc8b4fd589e3b43b7114f77b84567dd9de31de91202d7391db8c",
+          "source_id": "labubu_vox_ultimate_win_0927",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "d6a8cd773155fc8b4fd589e3b43b7114f77b84567dd9de31de91202d7391db8c",
+          "source_start_seconds": 0,
+          "source_end_seconds": 0.84,
+          "transcript": "我赢啦。"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference identity only; no user audition of this new win sentence."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "d6a8cd773155fc8b4fd589e3b43b7114f77b84567dd9de31de91202d7391db8c",
+          "transcript": "我赢啦。",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-O0927.txt",
+              "sha256": "c565089778395df4ce1656b91ed4a3f5b74521c4848e6443ed766b435afee8c1",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/review/native-O0927.png",
+              "sha256": "7ea2237002a67acb952f0d4899a8abbf1f61545f5432e43e8bad41b0e4ddabd5",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T175837Z/copy-O-after.json",
+              "sha256": "640d26be07be5e5a526851a24d9955d6fa145114a9595213481d225da3801ac9",
+              "role": "copy_receipt"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0927/technical/20260926T174954Z/review.json",
+              "sha256": "5e95f161befce4da900c6847d78c630ab3f2b201fda41732d1e67cbc5251d835",
+              "role": "technical"
+            }
+          ],
+          "decision": "Actual anonymous clip-O attached to native audio blind review; returned these words, excited/proud tone and no obvious audio defects. New original wins over unadopted older candidates; no inference from invalid clip-B review."
+        },
+        "supplementalAsr": {
+          "newAsrPerformed": false,
+          "note": "No offline ASR claim for O. Adoption uses actual native audio model blind review and independent technical checks."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 1200
+      },
+      "note": "Agent-internal native audio review of actual clip-O, not individual user audition. Original new MP3 bytes and exact-file caption preserved; older rejected/unresolved win candidates remain unused."
+    },
+    {
+      "character": "labubu",
+      "event": "hurt",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/hurt-0927.wav",
+          "sha256": "e86c441364e20425c19106389f6427f9d37240bb856ae858c771325224144cce",
+          "source_id": "labubu_vox_hurt_followup",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "6e5ad373821e02e2708a56855d5aca07b2a0618966cd679f52ae9aab1ead271c",
+          "source_start_seconds": 0.0,
+          "source_end_seconds": 0.8750208333333334,
+          "transcript": "哎呀"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; this short line was not user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "e86c441364e20425c19106389f6427f9d37240bb856ae858c771325224144cce",
+          "transcript": "哎呀",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-P0927.txt",
+              "sha256": "3976fcc733ec4a1d0913fe27ac3e724d5a9c79c921c2e4fbeea25e1cef260e7c",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-P0927.png",
+              "sha256": "5a01209653a36e8de73fb923bb93d6018fccce112d52d0c680a1e18bbdec6bdd",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0927/technical/20260926T181641Z/candidate-after.json",
+              "sha256": "0c3fd59d4395c9777ad93f770cf4061f39d9e8bce4b14642f3d2b4a38469ead3",
+              "role": "derivation"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/pcm-verification.json",
+              "sha256": "5462318fdb37d6533dcc3aca2558bb85ce421a213b1caa7da4027e56a8608488",
+              "role": "adopted_pcm_check"
+            }
+          ],
+          "decision": "Native model independently received this exact final shortened anonymous clip and reported these actual words with no obvious cutoff/repetition/tail/noise/distortion. Agent-internal game-event placement, not a new user audition."
+        },
+        "generationRequest": {
+          "sourceId": "labubu_vox_hurt_followup",
+          "requestedText": "哎呀，好疼！",
+          "observedClipText": "哎呀",
+          "displayText": "哎呀",
+          "sourceCatalogInputUnchanged": true
+        },
+        "derivedClip": {
+          "originalPath": "public/assets/audio/sources/crossover-0925/labubu-hurt-followup-vox-0925.mp3",
+          "originalSha256": "6e5ad373821e02e2708a56855d5aca07b2a0618966cd679f52ae9aab1ead271c",
+          "nativeSampleRate": 48000,
+          "startFrameInclusive": 0,
+          "endFrameExclusive": 42001,
+          "nativePcmSha256": "ad79a7354a83c2452f51b343042f74ee15af6b987bdb1d1c2f4677855b51727a",
+          "outputFormat": "WAV IEEE float32 mono",
+          "operations": "Exact original native PCM samples only; no fade, gain, speed change, resampling, stitching or synthesis."
+        },
+        "supplementalAsr": {
+          "newAsrForThisShortClip": false,
+          "note": "Only actual final-clip native audio review accepts the short wording. Earlier complete-source ASR conflicts and timing remain historical, not overwritten.",
+          "preservedFullSourceDisagreement": "Whisper 嘿呀 好疼 versus full I native review 哎呀，好疼。; P has its own actual 哎呀 review."
+        }
+      },
+      "playback": {
+        "gain": 0.65,
+        "cooldownMs": 1100
+      },
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved."
+    },
+    {
+      "character": "labubu",
+      "event": "effort",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/labubu/effort-0927.wav",
+          "sha256": "1f6dd075ed03281cb48b3b1a3b3745c7512420a801a716d9b569ab7fa87de658",
+          "source_id": "labubu_vox_ultimate_effort_0927",
+          "source_url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo",
+          "source_sha256": "478b056eb239302f611c54d3940e7c039358bf56f88dc15fbc47e8159032ac43",
+          "source_start_seconds": 0.3699791666666667,
+          "source_end_seconds": 0.8,
+          "transcript": "哼",
+          "translation": "哼！"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/labubu/select-0926.wav",
+          "sha256": "9fdf81cb72a77ccf2ee718a16955693a62fe43015aca2ba8e5d82036cab7d746",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; this short line was not user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "1f6dd075ed03281cb48b3b1a3b3745c7512420a801a716d9b569ab7fa87de658",
+          "transcript": "哼",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-T0927.txt",
+              "sha256": "e71b616a40a64529310a83bca481130142fad626ad5c2ae2ad8422b0d7cbe255",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-T0927.png",
+              "sha256": "a46a4b37623ca4026518c0da118318a4cfcc18c3a68533a8ceff6cc5e1ca15ce",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0927/technical/20260926T183107Z/derivation-after.json",
+              "sha256": "c313a33a5ea0954c88f47db49d206bff7504345fc4c5e4e2fd0b21566378d29d",
+              "role": "derivation"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/pcm-verification.json",
+              "sha256": "5462318fdb37d6533dcc3aca2558bb85ce421a213b1caa7da4027e56a8608488",
+              "role": "adopted_pcm_check"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/T-generation-request.json",
+              "sha256": "32900ed551bb281f7d89cea46a6fec94f403cd60355fa026e2b4dd35eda164cf",
+              "role": "generation_request"
+            }
+          ],
+          "decision": "Native model independently received this exact final shortened anonymous clip and reported these actual words with no obvious cutoff/repetition/tail/noise/distortion. Agent-internal game-event placement, not a new user audition."
+        },
+        "generationRequest": {
+          "sourceId": "labubu_vox_ultimate_effort_0927",
+          "requestedText": "哈！",
+          "observedClipText": "哼",
+          "displayText": "哼！",
+          "sourceCatalogInputUnchanged": true,
+          "matchesRequestedWording": false,
+          "evidence": {
+            "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/T-generation-request.json",
+            "sha256": "32900ed551bb281f7d89cea46a6fec94f403cd60355fa026e2b4dd35eda164cf",
+            "role": "generation_request"
+          },
+          "decision": "Do not correct observed audio into the request. Short forceful 哼 is adopted as playful normal exertion, with accurate caption 哼！, never as a named skill."
+        },
+        "derivedClip": {
+          "originalPath": "public/assets/audio/sources/crossover-0925/labubu-effort-vox-0927.mp3",
+          "originalSha256": "478b056eb239302f611c54d3940e7c039358bf56f88dc15fbc47e8159032ac43",
+          "nativeSampleRate": 48000,
+          "startFrameInclusive": 17759,
+          "endFrameExclusive": 38400,
+          "nativePcmSha256": "6a18a779db7b44df3714617e98a64083769c4f112dc1b1f7c85ba1d753e3e28f",
+          "outputFormat": "WAV IEEE float32 mono",
+          "operations": "Exact original native PCM samples only; no fade, gain, speed change, resampling, stitching or synthesis."
+        },
+        "supplementalAsr": {
+          "newAsrForThisShortClip": false,
+          "note": "Only actual final-clip native audio review accepts the short wording. Earlier complete-source ASR conflicts and timing remain historical, not overwritten."
+        }
+      },
+      "playback": {
+        "gain": 0.62,
+        "cooldownMs": 650
+      },
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved."
+    },
+    {
+      "character": "twinkle",
+      "event": "effort",
+      "clips": [
+        {
+          "path": "public/assets/audio/voice/twinkle/effort-0927.wav",
+          "sha256": "09d418d12c105f72e01118f7485c55e958d1d48e77c757c4a21517ec1ac3f0a0",
+          "source_id": "twinkle_qwen_short_sample",
+          "source_url": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+          "source_sha256": "63610775005461892066b483f025a5d7a0221fc69a29f1621a7979a4066cb811",
+          "source_start_seconds": 2.0905416666666667,
+          "source_end_seconds": 2.78,
+          "transcript": "呀"
+        }
+      ],
+      "reviewStatus": "accepted",
+      "evidence": "docs/assets/联动语音接入0926.md",
+      "contentReview": {
+        "voiceIdentityUserApproved": true,
+        "identityReference": {
+          "path": "public/assets/audio/voice/twinkle/select-0926.mp3",
+          "sha256": "0fbd93c3df6ce1cab2d95ce3b6ecaacd0b6060bfdef6ecbc1c152c3d3ca1a4d7",
+          "approvedDate": "2026-09-26",
+          "scope": "Reference voice identity only; this short line was not user-auditioned."
+        },
+        "actualContentReview": {
+          "kind": "agent_audio_model",
+          "model": "Qwen3-Omni Demo",
+          "url": "https://qwen-qwen3-omni-demo.hf.space/?__theme=system",
+          "status": "accepted",
+          "inputAudioAttached": true,
+          "userAuditioned": false,
+          "audioSha256": "09d418d12c105f72e01118f7485c55e958d1d48e77c757c4a21517ec1ac3f0a0",
+          "transcript": "呀",
+          "evidence": [
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-U0927.txt",
+              "sha256": "829a079827c7c011fd5e6bca640e9d7a5e615cdf0689c93670637d87b9b948e7",
+              "role": "response"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/review/native-U0927.png",
+              "sha256": "aa1478d13e01ca9a076b90f72f6cdc7510258c10229ac488bb5969e919d082d8",
+              "role": "screenshot"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-0927/technical/20260926T183107Z/derivation-after.json",
+              "sha256": "c313a33a5ea0954c88f47db49d206bff7504345fc4c5e4e2fd0b21566378d29d",
+              "role": "derivation"
+            },
+            {
+              "path": "D:/one-piece-fighter-crossover-0922/acceptance/voice-integration-0927/20260926T184750Z/pcm-verification.json",
+              "sha256": "5462318fdb37d6533dcc3aca2558bb85ce421a213b1caa7da4027e56a8608488",
+              "role": "adopted_pcm_check"
+            }
+          ],
+          "decision": "Native model independently received this exact final shortened anonymous clip and reported these actual words with no obvious cutoff/repetition/tail/noise/distortion. Agent-internal game-event placement, not a new user audition."
+        },
+        "generationRequest": {
+          "sourceId": "twinkle_qwen_short_sample",
+          "requestedText": "一起闪闪发光吧。\n\n嘿！呀！\n\n呜哇！\n\n小星弹！",
+          "observedClipText": "呀",
+          "displayText": "呀",
+          "sourceCatalogInputUnchanged": true
+        },
+        "derivedClip": {
+          "originalPath": "public/assets/audio/sources/crossover-0925/twinkle-short-sample-qwen-0925.wav",
+          "originalSha256": "63610775005461892066b483f025a5d7a0221fc69a29f1621a7979a4066cb811",
+          "nativeSampleRate": 24000,
+          "startFrameInclusive": 50173,
+          "endFrameExclusive": 66720,
+          "nativePcmSha256": "a0ed2b5ce6f5be18b1ab0e0956c3b45ee2237778eff53e7dbc18e6895e665431",
+          "outputFormat": "WAV PCM16 mono",
+          "operations": "Exact original native PCM samples only; no fade, gain, speed change, resampling, stitching or synthesis.",
+          "intermediatePath": "D:/one-piece-fighter-crossover-0922/acceptance/voice-review-0926/batch-existing/uploads/clip-L.wav",
+          "intermediateSha256": "4ed33f68b18083b9945d61369838b0a4664ccf6edcf5f1dfc24de69c3f1db0da",
+          "intermediateStartFrameInclusive": 10573,
+          "intermediateEndFrameExclusive": 27120
+        },
+        "supplementalAsr": {
+          "newAsrForThisShortClip": false,
+          "note": "Only actual final-clip native audio review accepts the short wording. Earlier complete-source ASR conflicts and timing remain historical, not overwritten."
+        }
+      },
+      "playback": {
+        "gain": 0.62,
+        "cooldownMs": 900
+      },
+      "note": "Exact shortened clip independently reviewed by native audio model. User approved reference identity only. Observed words and requested generation text are distinct; native PCM and exact-file caption preserved."
+    }
+  ],
+  "evidence": "docs/assets/人物声线确认0913.md"
+}

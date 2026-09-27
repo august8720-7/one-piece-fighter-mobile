@@ -1,0 +1,74 @@
+[
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/round1-0922.wav",
+    "label": "第一回合",
+    "sourceSha256": "ba9cbe24e7bbee449818b09acffefb6255cfa8c02c70e3557dd9184149d4a07a",
+    "original": "Round One",
+    "sha256": "afce9f41f01dda2546e62b194eb498e3b71acc2644d5af84c95c95b936f8b2f2",
+    "id": "round1",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "第一回合",
+    "transcriptVerified": true
+  },
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/round2-0922.wav",
+    "label": "第二回合",
+    "sourceSha256": "0e230b45e59ba67a6fe45f862ee971f0722606ac6107e2beb1ce428594a6d14a",
+    "original": "Round Two",
+    "sha256": "8723330edd830ff128c38d2e2f1bd40eeaaf798f7622a2fe274980a4a7e37ccb",
+    "id": "round2",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "第二回合",
+    "transcriptVerified": true
+  },
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/round3-0922.wav",
+    "label": "决胜回合",
+    "sourceSha256": "8803eb6081ebb982841fd4b4f1b68b065dc09784f50773fc8545b6d28571ba6e",
+    "original": "Final Round",
+    "sha256": "f93ce191a278ed10ac4fc2a1a8a52cef74e199689d4afa904690c49641d52610",
+    "id": "round3",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "决胜回合",
+    "transcriptVerified": true
+  },
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/fight-0922.wav",
+    "label": "开战！",
+    "sourceSha256": "22a1dae91914b22b1e94eab05dc3d6f45a51d93187197c0173f71aab03f6ccd5",
+    "original": "Fight!",
+    "sha256": "86af38fd1684735c55a7c6ca8dea87dd340de17bd7152a9b1df42660e1a50d8d",
+    "id": "fight",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "开战！",
+    "transcriptVerified": true
+  },
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/ko-0922.wav",
+    "label": "击倒！",
+    "sourceSha256": "724e3f1424bfcfc29d616403d8811fe6f53a2f2bd912d3e78f6d1b59c1170696",
+    "original": "K. O.",
+    "sha256": "8875b565ea1808c1896cc933ac972bce858b8d130729503495e2f803a9283ec7",
+    "id": "ko",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "击倒！",
+    "transcriptVerified": true
+  },
+  {
+    "listeningStatus": "Not human auditioned; synthesized script is known, final listening acceptance pending",
+    "file": "assets/audio/announcer/nextRound-0922.wav",
+    "label": "下一回合",
+    "sourceSha256": "99e77f85a7982aaf3e3c820ec8b099c9c56271799017cfe0aa75c0f329c7932b",
+    "original": "Next Round",
+    "sha256": "b1e1a4c0f68df6f4bdc07f586068aca5141cdf01ee0bb996c2930619d614810c",
+    "id": "nextRound",
+    "source": "Windows System.Speech Microsoft Zira Desktop; rate=1; exact synthesis text, not a human/character recording",
+    "translation": "下一回合",
+    "transcriptVerified": true
+  }
+]

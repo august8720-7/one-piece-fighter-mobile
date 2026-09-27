@@ -1,0 +1,1241 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "mother": {
+      "file": "public/assets/generated/source/crossover-mother-0922.png",
+      "sha256": "f14b61324dbee290e7d9af3db51dcf5531ec7dcc51265054721b33f2550dd41f",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab24946-bf88-83ea-a6f3-19cb2e15476e",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T10:06:30.104283+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/mother型号凭据0922.txt",
+        "sha256": "0b060d65e8bfddb60d047da66a4f4eb2d3f395efef8a22cae1b8b2155f820c0d"
+      },
+      "prompt": {
+        "file": "docs/assets/联动人物母版提示词0922.txt",
+        "sha256": "62e9d30b33101ae2653b54be8723175a11654fe6fe4c5bf299b2ebe7e56ac0b2"
+      },
+      "referenceSources": {},
+      "characterReview": {
+        "labubu": "rejected_identity_fidelity",
+        "twinkle": "rejected_wrong_design"
+      },
+      "adoptionStatus": "rejected_identity_fidelity"
+    },
+    "labubu_locomotion": {
+      "file": "public/assets/generated/source/labubu-locomotion-0922.png",
+      "sha256": "e559a79ddbf6b54eb4989e726e6eb6ae11b1800aed6f0805eef253f378d5cbfc",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab24946-bf88-83ea-a6f3-19cb2e15476e",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T10:06:30.372699+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_locomotion型号凭据0922.txt",
+        "sha256": "151fece05ed103c84b124fe0d71f37cc66a22158f5d395d4ba01489f631eaa31"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU步态提示词0922.txt",
+        "sha256": "a47900d5dede6885094e0cb612920f655086c21a7208d25b03536dd01515ef91"
+      },
+      "referenceSources": {
+        "mother": "f14b61324dbee290e7d9af3db51dcf5531ec7dcc51265054721b33f2550dd41f"
+      },
+      "adoptionStatus": "rejected_identity_fidelity"
+    },
+    "twinkle_locomotion": {
+      "file": "public/assets/generated/source/twinkle-locomotion-0922.png",
+      "sha256": "3fdf1dccdcf17aca0b78bc94f228534a811f356f2b0fc07990a123f32559cc46",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab24946-bf88-83ea-a6f3-19cb2e15476e",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T10:06:30.636180+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_locomotion型号凭据0922.txt",
+        "sha256": "ca8590f4e367636fc4fa71361766b4d6ff7183d9d9c75bd7519b38e4c589f50b"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人步态提示词0922.txt",
+        "sha256": "8c8e02c61d2b1afa5411493632bfe1932735beef70b9be56d532fba7ad1ac7db"
+      },
+      "referenceSources": {
+        "mother": "f14b61324dbee290e7d9af3db51dcf5531ec7dcc51265054721b33f2550dd41f"
+      },
+      "adoptionStatus": "rejected_wrong_design"
+    },
+    "labubu_reaction": {
+      "file": "public/assets/generated/source/labubu-reaction-0922.png",
+      "sha256": "6c253297950a69632afea36f4829a9086239568dd651d64446be61ee0dd91ead",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab24946-bf88-83ea-a6f3-19cb2e15476e",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T10:06:30.909917+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_reaction型号凭据0922.txt",
+        "sha256": "7f9ba711093b7d264f462cea146a3c5af97388a5c34b47db2f3159b39a74ec51"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU反应提示词0922.txt",
+        "sha256": "28e55973e33c12e515ff16b394bac84611cd97a91f6bdb21bdf636004d31ffd9"
+      },
+      "referenceSources": {
+        "mother": "f14b61324dbee290e7d9af3db51dcf5531ec7dcc51265054721b33f2550dd41f",
+        "labubu_locomotion": "e559a79ddbf6b54eb4989e726e6eb6ae11b1800aed6f0805eef253f378d5cbfc"
+      },
+      "adoptionStatus": "rejected_identity_fidelity"
+    },
+    "twinkle_reaction": {
+      "file": "public/assets/generated/source/twinkle-reaction-0922.png",
+      "sha256": "4a4b088a0ff452eb8c3df61aa627d29b9305c4e36c97a5cd4884604ff2844aa1",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab24946-bf88-83ea-a6f3-19cb2e15476e",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T12:01:59.217761+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_reaction型号凭据0922.txt",
+        "sha256": "9b736c00e750a5112bc98b6515bae7ea4892c0161952a60e0dadfb6dcaf95f7f"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人反应提示词0922.txt",
+        "sha256": "a5d89b648deee41c53a2311d45aebfa41733bd6724c606e1d166b35c3d11539d"
+      },
+      "referenceSources": {
+        "mother": "f14b61324dbee290e7d9af3db51dcf5531ec7dcc51265054721b33f2550dd41f",
+        "twinkle_locomotion": "3fdf1dccdcf17aca0b78bc94f228534a811f356f2b0fc07990a123f32559cc46",
+        "labubu_reaction": "6c253297950a69632afea36f4829a9086239568dd651d64446be61ee0dd91ead"
+      },
+      "adoptionStatus": "rejected_wrong_design"
+    },
+    "twinkle_mother_corrected": {
+      "file": "public/assets/generated/source/twinkle-mother-corrected-0922.png",
+      "sha256": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T12:31:46.216270+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_mother_corrected型号凭据0922.txt",
+        "sha256": "756b2bce48f8e87e6aa4a4048c7574e2bd48a0701bf65f04f3a78e8d7c151c1a"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正母版提示词0922.txt",
+        "sha256": "9a1e34c13ecb0876cf816f9dfcaf951312bd03ebf1757b9344231aae16e9c7a1"
+      },
+      "referenceSources": {},
+      "adoptionStatus": "shape_reviewed_candidate",
+      "userReference": {
+        "kind": "user-reviewed local photo",
+        "verification": "Shape reviewed against the user-supplied photo; complete provenance retained privately and excluded from public releases."
+      },
+      "reviewNotes": "Long sleeping cap with star ornament, plump cheeks, oval star-highlight eyes, star-shaped outfit and white wings checked against supplied photo; static candidate only."
+    },
+    "labubu_mother_corrected": {
+      "file": "public/assets/generated/source/labubu-mother-corrected-0922.png",
+      "sha256": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T12:46:52.345398+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_mother_corrected型号凭据0922.txt",
+        "sha256": "7e731768d680fa6ed077f573c185c7567a50e4737633e48f9018b36e106ec3ad"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU官方参考纠正母版提示词0922.txt",
+        "sha256": "9205144bd8642dd8d83cb972e90a8b6a654b97fae6515382fd9170d9de56c37f"
+      },
+      "referenceSources": {},
+      "adoptionStatus": "shape_reviewed_candidate",
+      "referenceImages": [
+        {
+          "file": "D:/one-piece-fighter-crossover-0922/reference/labubu-exciting-macaron-soymilk-official-0922.png",
+          "sha256": "1cdf0952abd9b6ebcd3ceedaebef3a4d06cddeccc365f287695865a6d730f237",
+          "sourceUrl": "https://prod-global-static.oss-us-east-1.aliyuncs.com/globalAdmin/1719386586865____soymilk____.png"
+        },
+        {
+          "file": "D:/one-piece-fighter-crossover-0922/reference/labubu-exciting-macaron-series-official-0922.jpg",
+          "sha256": "23e256571a180e05aa65a0f3987fbf1cb1128e0145e8b23597e8aae7e358fff1",
+          "sourceUrl": "https://prod-global-biz.popmart.com/globalAdmin/1781250934026_6e154e512bb92ddd1ae6009b32c4cd96.jpg"
+        }
+      ],
+      "referenceVariant": "THE MONSTERS Exciting Macaron / Soymilk",
+      "reviewNotes": "Official reference attached in fresh conversation; cream curled plush, oval white-rimmed eyes, mischievous brow, serrated smile and compact limbs visually checked. AI interpretation, not official art; animation and final visual acceptance pending."
+    },
+    "twinkle_corrected_locomotion": {
+      "file": "public/assets/generated/source/twinkle-corrected-locomotion-0922.png",
+      "sha256": "f1a1cd16d488f0d635ac6df6e9bf4bc1625f0b79cbabf937d255e19e68475e8a",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:00:55.181141+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_locomotion型号凭据0922.txt",
+        "sha256": "f6d9dd870e3b75360e3cd49259620a2086f999290ab81138fbc90a8bb01018ee"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正步态提示词0922.txt",
+        "sha256": "2ec7592a889e6c749f8886db47ca9911e3e24d48fc3c67954215f9331306c07a"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine complete cells inspected; corrected identity maintained; alpha separation supports explicit crops. Alternating support and flight poses observed, normal-speed in-game gait acceptance remains pending."
+    },
+    "labubu_corrected_locomotion": {
+      "file": "public/assets/generated/source/labubu-corrected-locomotion-0922.png",
+      "sha256": "34b8ce57a0f6cf6b5070fe308d937244c4292731d5cb4f98292e7301921d705d",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:00:55.475397+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_locomotion型号凭据0922.txt",
+        "sha256": "5402ee157f720325416692588dc6f84246d0dedb58e876a77f3c72b24e128de5"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正步态提示词0922.txt",
+        "sha256": "394556d82dd6534e88ef79e2ef37092c9090956ad1b65e71718302c60aa4e347"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine complete cells inspected; corrected identity maintained; alpha separation supports explicit crops. Alternating support and flight poses observed, normal-speed in-game gait acceptance remains pending."
+    },
+    "twinkle_corrected_reactions": {
+      "file": "public/assets/generated/source/twinkle-corrected-reactions-0922.png",
+      "sha256": "5b011edeed9095608576b630b6eccdbb24bdbf188e569551c2ab1385995870cb",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:15:34.721233+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_reactions型号凭据0922.txt",
+        "sha256": "31af3a0f4bf6aa46824899e0217c3db183cea566ac7c315b9b678e8d4926911c"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正反应提示词0922.txt",
+        "sha256": "34046a332587c78924a221b21b11ec80bc5a25c5ed5779f7fc3f9413eabf74dc"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine complete poses inspected; corrected face, actual limbs and accessories preserved; block/hit/crouch/prejump visually distinct. Normal-speed timing and root acceptance pending."
+    },
+    "labubu_corrected_reactions": {
+      "file": "public/assets/generated/source/labubu-corrected-reactions-0922.png",
+      "sha256": "1b0e4b12855e3499f5f4460206e1da1014d49ae840b0e217ee80ff34845e243f",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:15:34.997418+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_reactions型号凭据0922.txt",
+        "sha256": "d25ac1eaaf1163086b9b07673672d5301240991f944654c74bdd99e2df19451b"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正反应提示词0922.txt",
+        "sha256": "b111bec96ac145562cafc99f4a16be9cc8739aa28fda0d585f2baa230a5edbca"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine complete poses inspected; corrected face, actual limbs and accessories preserved; block/hit/crouch/prejump visually distinct. Normal-speed timing and root acceptance pending."
+    },
+    "labubu_corrected_normal_a": {
+      "file": "public/assets/generated/source/labubu-corrected-normal-a-0922.png",
+      "sha256": "c4704ce6cd0802431e2f9cae04de8c400ae4b995c4fd1983272191f29f32c417",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:39:43.938274+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_normal_a型号凭据0922.txt",
+        "sha256": "a83815f3030bf3b1d28c49be8feeeeffd9288131000981df12ad5053f022a228"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正站立攻击提示词0922.txt",
+        "sha256": "d3bb5a573fecd6aa8b13c46f8c632c7ff44e166d98935153aae9c6560f369697"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine full-body poses inspected on a real dark alpha composite. Corrected identity preserved, short limbs and standing punch/kick poses are distinct. Index0 is only a scale reference; contact geometry and normal-speed acceptance pending."
+    },
+    "twinkle_corrected_normal_a": {
+      "file": "public/assets/generated/source/twinkle-corrected-normal-a-0922.png",
+      "sha256": "48e73a240bb2ad5283e62cba8e110229a55c7e40035fe0eda641a94032fa03ee",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:39:44.401562+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_normal_a型号凭据0922.txt",
+        "sha256": "baf70cd846f2b8ade04507a4e17b5c6895b22d22b3473ff11f0ab8c0d56c8ff5"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正站立攻击提示词0922.txt",
+        "sha256": "51efbd967f2a91f4e0c8f6c05886715df410f84ad4ef110c1ac17b6f2a7fcd5b"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Nine full-body poses inspected on a real dark alpha composite. Corrected identity preserved, short limbs and standing punch/kick poses are distinct. Index0 is only a scale reference; contact geometry and normal-speed acceptance pending."
+    },
+    "labubu_corrected_recoveries": {
+      "file": "public/assets/generated/source/labubu-corrected-recoveries-0922.png",
+      "sha256": "5a0c82b4c1d086b802c5183aaef32669717e647933a8698b6f5e5821d2766c84",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:44:48.518026+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_recoveries型号凭据0922.txt",
+        "sha256": "089facd20c6e951478196497888bc07e4a7c8fdc2775157a65a49c577d661211"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正恢复提示词0922.txt",
+        "sha256": "f33ce83660ad3294a24d7efbca25d50cd278da85a97aaeab8419d0888080c07d"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Inspected as alpha composite. Corrected identity, distinct full-body fall/land/backdash/roll/knockdown/getup. Per-pose scale must still be audited. LABUBU index8 thrown appears smaller and MUST NOT be used pending replacement; no individual rescale."
+    },
+    "twinkle_corrected_recoveries": {
+      "file": "public/assets/generated/source/twinkle-corrected-recoveries-0922.png",
+      "sha256": "97300e296c9ebd4197e413c2e66d71a79d1577b61d689b88d308a69f0472e95a",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:44:48.939371+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_recoveries型号凭据0922.txt",
+        "sha256": "a8659a2a91fdc6aaad2a079f12cb5db1af05f1c6d71bc208f76f2f8c6010c566"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正恢复提示词0922.txt",
+        "sha256": "215f124e4a80e59070b17b0bc99d862dd0b03b793aff99ae0602c9502f092217"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Inspected as alpha composite. Corrected identity, distinct full-body fall/land/backdash/roll/knockdown/getup. Per-pose scale must still be audited. LABUBU index8 thrown appears smaller and MUST NOT be used pending replacement; no individual rescale."
+    },
+    "crossover_fx": {
+      "file": "public/assets/generated/source/crossover-fx-0922.png",
+      "sha256": "60d16122efe125f2e0c3a391a3f1a8fc922958dc769f6bb04b5bc2f7df7ba682",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab28469-12e8-83ea-b290-a9c3ed3ad710",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:44:49.350781+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/crossover_fx型号凭据0922.txt",
+        "sha256": "4297d73ff00cfdf335a87fb4d0c79303713c0fbaa0af5366b8f12da7ded3c29a"
+      },
+      "prompt": {
+        "file": "docs/assets/联动技能特效提示词0922.txt",
+        "sha256": "4fdee71e10a3a544ca8c7d7a8c431ddd2401fb739809d15177f4bbfa23c12ba2"
+      },
+      "referenceSources": {},
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Eight independent glow effects visibly separate on alpha composite; three purple/cream LABUBU effects and five golden/star TWINKLE effects. Explicit crops and gameplay readability pending."
+    },
+    "labubu_corrected_sample_skills": {
+      "file": "public/assets/generated/source/labubu-corrected-sample-skills-0922.png",
+      "sha256": "e8aeddc7efd75791f7bd6da72861b4e1d6b0bf56f15af5a910b2ce42557e0d95",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:50:02.103440+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_sample_skills型号凭据0922.txt",
+        "sha256": "5f915b1c95b43ed3cc166519899f4a8567ef7fa9de30ceed6f16eef886a0a252"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正代表技能提示词0922.txt",
+        "sha256": "4af9d87cdec3b3303d58f90808ac7d104bc9c5ad00bb57580ef45dea447443c0"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Root inspected all nine poses against corrected identity on dark alpha composite. Distinct startup, active and recovery poses; full-body short limbs preserved. Per-sheet scale, roots, hand contact and normal-speed check still required. LABUBU pounce is a grounded core rush with visual tucked feet only, not an airborne ability."
+    },
+    "twinkle_corrected_sample_skills": {
+      "file": "public/assets/generated/source/twinkle-corrected-sample-skills-0922.png",
+      "sha256": "f27abce9290e7e830a0cea1e4eaf180f6940038bc0f423ff073382f410388056",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:50:02.425313+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_sample_skills型号凭据0922.txt",
+        "sha256": "0756a6c19b5713906eac3deee645e37ddc1dc780092b7ea5bae894f72b876e36"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正代表技能提示词0922.txt",
+        "sha256": "2ddae562b9f6e5fd66a533aa3d3692fde075642bcfeea4250aa93286f0ead044"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Root inspected all nine poses against corrected identity on dark alpha composite. Distinct startup, active and recovery poses; full-body short limbs preserved. Per-sheet scale, roots, hand contact and normal-speed check still required. LABUBU pounce is a grounded core rush with visual tucked feet only, not an airborne ability."
+    },
+    "labubu_corrected_thrown_fix": {
+      "file": "public/assets/generated/source/labubu-corrected-thrown-fix-0922.png",
+      "sha256": "121101461b67172c354ce1d0f40635349db16f0d1935dd5747c5319b598f8ddc",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-22",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "recordedAt": "2026-09-22T13:56:17.379753+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_thrown_fix型号凭据0922.txt",
+        "sha256": "3f4abfff8cba6f0d10c6aa3106877018c867d7af454f7363fa99c25caa2d379e"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正受投补图提示词0922.txt",
+        "sha256": "aa2b009b91e7940f41c6bf6be667b5f8dc159de53fdf06306c8e48a674f15755"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044",
+        "labubu_corrected_recoveries": "5a0c82b4c1d086b802c5183aaef32669717e647933a8698b6f5e5821d2766c84"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Two full-body poses inspected on dark alpha composite: neutral standing reference and distinct surprised thrown pose. Comparable head/face sizes; replaces rejected undersized recoveries index8. Uniform source scale from left reference only; root and hand contact pending."
+    },
+    "labubu_corrected_leg_grip_0926": {
+      "file": "public/assets/generated/source/labubu-corrected-leg-grip-0926.png",
+      "sha256": "2bc54cf1b9f9a509d39758eddf620dc0d18de85f0334e22af7d6005e2908a212",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T13:52:21.886071+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_leg_grip_0926型号凭据0926.txt",
+        "sha256": "88e5316671a490e52313b09fbccbb44af86fa76364c864ddcaaf95531d3d85c4"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU抱腿抓持补图提示词0925.txt",
+        "sha256": "e503a5c99eeb531734b4f33195f1f58e5dcfc26812e66d5283592a1c99f75ccd"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044",
+        "labubu_corrected_sample_skills": "e8aeddc7efd75791f7bd6da72861b4e1d6b0bf56f15af5a910b2ce42557e0d95"
+      },
+      "retrievalMethod": "Unchanged image/png bytes from already-rendered same-origin webpage image blob via Cua CDP; official download UI failed, no canvas re-encoding.",
+      "adoptionStatus": "paired_sample_candidate",
+      "reviewNotes": "Extend existing center paired-sample victim scope from Star only to all four inspected victims, still excluding unaccepted release/corners. Static review only; runtime center/release/corner checks remain pending. Evidence: D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\legacy-held-proposal-final.json",
+      "reviewHistory": [
+        {
+          "adoptionStatus": "rejected_candidate",
+          "reviewNotes": "Hands separated but fixed existing victim poses do not share a lower-leg anchor; exact body/foreground composites occlude face. Not adopted. Evidence: D:/one-piece-fighter-crossover-0922/acceptance/grip-integration-0926/20260926-215541/results/审查结论0926.md. Alpha preview speckles are not the principal rejection reason."
+        },
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "paired_sample_candidate",
+            "reviewNotes": "Old generic-thrown pairing remains rejected; see reviewHistory. New dedicated twinkle_held_leg_flip_0927 with this actor passed limited static pair review, eyes visible and minor cheek-edge overlap. Only eligible for this paired browser sample, not other victims or final acceptance. Fields and proof: D:/one-piece-fighter-crossover-0922/acceptance/grip-pair-star-0927/20260927-012242/results/.",
+            "permittedSampleVictims": [
+              "twinkle"
+            ]
+          }
+        }
+      ],
+      "permittedSampleVictims": [
+        "luffy",
+        "akainu",
+        "labubu",
+        "twinkle"
+      ],
+      "moves": [
+        "sp_leg_flip"
+      ],
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "twinkle_corrected_normal_b_0926": {
+      "file": "public/assets/generated/source/twinkle-corrected-normal-b-0926.png",
+      "sha256": "7d45d088402f148dfed70a4eafcce764105449b1aa417b813431c48b75aa609e",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T14:10:27.302405+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_normal_b_0926型号凭据0926.txt",
+        "sha256": "0af4472a1891ba5116ade412d5bf7d5fbc2cbd2ea9d22bd4da3c49a2e5732dbb"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正蹲空攻击提示词0922.txt",
+        "sha256": "bccb8bcf3005b7dc2d718557295a9add1c8f0c267ba597c924f230a0cf5d2a2f"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "retrievalMethod": "Unchanged image/png bytes from already-rendered same-origin webpage image blob via Cua CDP; official download UI failed, no canvas re-encoding.",
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent visually inspected all nine generated full-body poses. Correct long cap/star, cheeks/oval star-highlight eyes, star suit, white wings; reference plus eight distinct crouch/air attacks, no humanoid elongation. Per-sheet calibration, crops, contact and normal-speed gameplay acceptance remain pending."
+    },
+    "labubu_corrected_normal_b_0926": {
+      "file": "public/assets/generated/source/labubu-corrected-normal-b-0926.png",
+      "sha256": "c5daf43ee1a83d35e404d0860b75d44a6e11a94b59b9090bb162ea4ec7a2dc26",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T14:29:24.495569+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_normal_b_0926型号凭据0926.txt",
+        "sha256": "7e9dc667e2b5ef96533a0ce2caa31998c4da08c765750c83cffe7450dcf622be"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正蹲空攻击提示词0922.txt",
+        "sha256": "46340e2a0a44892bb1be3c34d576ec47ffd126a26f0643b77cef07288b8518ee"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from the already-rendered same-origin image blob via Cua CDP",
+      "reviewNotes": "Parent inspected all nine poses including true dark alpha composite: reference plus eight distinct crouch/air normals, correct cream toy identity and complete body. Crops, scale, roots, contact and normal-speed validation pending."
+    },
+    "labubu_corrected_flurry_upper_0926": {
+      "file": "public/assets/generated/source/labubu-corrected-flurry-upper-0926.png",
+      "sha256": "4a5269cb832def01cb8d0500444c8ffdbe63683d18c81f25cc52dab97d2824df",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T14:59:07.510240+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_flurry_upper_0926型号凭据0926.txt",
+        "sha256": "98dbe0f7a7ee4a35baf94fca4f88b58417a1b07465f9bb7b6b85a3e4df17e256"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正连拍上挑提示词0922.txt",
+        "sha256": "2d537bf9aea6afc3e513a72f114984bb81acbc9b196e5533090b65511bc40c38"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from already-rendered same-origin image blob via Cua CDP",
+      "reviewNotes": "Parent inspected dark alpha composite: marker plus eight complete same-identity poses. Row2 col2 back-drawn hand is a windup/transition, NOT an accepted forward contact pose; reuse a real forward contact pose honestly or redraw before claiming separate third strike. Uniform scale, roots/timing/contact pending."
+    },
+    "twinkle_corrected_push_up_0926": {
+      "file": "public/assets/generated/source/twinkle-corrected-push-up-0926.png",
+      "sha256": "dc5e91d132501c3b043ad741ac65f9e15936e7ff1b112f5d81823daccaedfe10",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T14:59:07.737236+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_push_up_0926型号凭据0926.txt",
+        "sha256": "8e3b3583f70ecdda931387a6501255a21615c0206b78f1522e10906a9e52d3b9"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正推推上闪提示词0922.txt",
+        "sha256": "7c1e318ab1a8093635a2a5e251dc578d0d1ec8f0e4cbebff3cac26b87e63af6f"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from already-rendered same-origin image blob via Cua CDP",
+      "reviewNotes": "Parent inspected dark alpha composite: correct character, marker and eight distinct push/upward/falling-star casting poses, cap/star/wings and short limbs complete. Per-sheet roots/sockets/timing and gameplay acceptance pending. Earlier falsely named push-up file in D raw is duplicate of normal_b and is not this registered source."
+    },
+    "labubu_corrected_slide_drive_0926": {
+      "file": "public/assets/generated/source/labubu-corrected-slide-drive-0926.png",
+      "sha256": "b663987d09cdde5f63246a55c2298a7e648b46fb8f1e2c41cfce585a558b41e0",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T15:38:17.063231+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_slide_drive_0926型号凭据0926.txt",
+        "sha256": "d77b8a909f64918a81b3a9775a7c73c92f6425454eaa4d741682bc6aee715488"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正滑冲强化提示词0922.txt",
+        "sha256": "a223676b5bd57a023a78499960fd2f236c38bab3624961de1025a35068a4f090"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from currently-rendered same-origin blob via Cua CDP",
+      "reviewNotes": "Parent reviewed all nine poses on true dark alpha composite: correct identity, full short limbs and distinctive requested poses. Only static source candidate; scale, roots, timing, contact and gameplay acceptance pending."
+    },
+    "twinkle_corrected_dodge_rain_0926": {
+      "file": "public/assets/generated/source/twinkle-corrected-dodge-rain-0926.png",
+      "sha256": "80be0ad30b89cfcf153a012d305e50316cb5897c1516b136b3f6503ee7153ac8",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-26",
+      "generatedAtPrecision": "day; exact completion time not captured",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T15:38:17.279993+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_dodge_rain_0926型号凭据0926.txt",
+        "sha256": "12c8fbb5c55d604d721d1ef57196838047547ffee95f1749b8d7432dc4d59e8b"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正闪避星雨提示词0922.txt",
+        "sha256": "d4a9279690a0ce6de7e5c4c8671528441836b5c71eca88190ef8c01b9507d356"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from currently-rendered same-origin blob via Cua CDP",
+      "reviewNotes": "Parent reviewed all nine poses on true dark alpha composite: correct identity, full short limbs and distinctive requested poses. Only static source candidate; scale, roots, timing, contact and gameplay acceptance pending."
+    },
+    "labubu_corrected_tumble_0927": {
+      "file": "public/assets/generated/source/labubu-corrected-tumble-riot-0927.png",
+      "sha256": "050e7563ba8d577bbeb78c78164b8c450fb6b50af114da68eafba59b8859473e",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T16:53:42.072318+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_tumble_0927型号凭据0927.txt",
+        "sha256": "f7d352d2ce8788be7e3669d462b9f4f978f5d4608d6cc25427c2bcd7b59a6f5c"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正翻滚大闹提示词0922.txt",
+        "sha256": "a09e40c6985743966a9fe36084eab23cf28906e92916bb24833f8b96a31cc176"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from currently-rendered same-origin blob via Cua CDP",
+      "reviewNotes": "Parent inspected original and dark alpha composite: reference plus distinct complete multi-hit poses, correct identity/short limbs. Phase assembly, contact and real normal-speed review pending; do not claim final acceptance."
+    },
+    "twinkle_corrected_ultimate_0927": {
+      "file": "public/assets/generated/source/twinkle-corrected-ultimate-0927.png",
+      "sha256": "6edc1f31424e2e85ba7f47a11206557c404d7f4dba86f25014aba885a30dd3f1",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T16:53:42.306028+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_ultimate_0927型号凭据0927.txt",
+        "sha256": "1457abe3b6c55eb184f2636caf372d81af541e86cc74172e13ca8f62a86297a0"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正终极合奏提示词0922.txt",
+        "sha256": "13c119cff7983a62fa5163a2e9ec092d2ade1c4bb65f51b18c2a05cebf3ce5ff"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "retrievalMethod": "Unchanged PNG bytes from currently-rendered same-origin blob via Cua CDP",
+      "reviewNotes": "Parent inspected original and dark alpha composite: reference plus distinct complete multi-hit poses, correct identity/short limbs. Phase assembly, contact and real normal-speed review pending; do not claim final acceptance."
+    },
+    "labubu_corrected_ultimate_0927": {
+      "file": "public/assets/generated/source/labubu-corrected-ultimate-0927.png",
+      "sha256": "7fc333d76cba0bba73d81f1229a9e118f0d880b4e8a9964999b024e0bb6a7a29",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:12:31.822036+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_ultimate_0927型号凭据0927.txt",
+        "sha256": "d804599b47b11b86ef23e6be8e0b33a14af47ffe1c6f3326372551af3db631a9"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正终极连击提示词0922.txt",
+        "sha256": "b8e4c170e811539b94bdd0442f6134dd622e60e603620f238e7abc2c3cb8f709"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed dark alpha composite: complete reference and eight distinct ultimate poses, consistent cream toy identity. Phase/contact/gameplay checks pending.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP"
+    },
+    "twinkle_held_leg_flip_0927": {
+      "file": "public/assets/generated/source/twinkle-held-leg-flip-0927.png",
+      "sha256": "d69f78b4a1a51c53ef49cb5d7e585672fea39606a4b0b3b616461750f2bcef35",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:12:32.052236+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_held_leg_flip_0927型号凭据0927.txt",
+        "sha256": "9df6bac688d0bbffefbc2540d8e2e5d73eaa535d6156d15318ebc8f69a5ab5ba"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人抱腿受投补图提示词0926.txt",
+        "sha256": "a9d3c0c88efb7840672f1c053b0914382f6f87008fd61f7aed19babfc5d25ca6"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed both full-body poses on dark alpha composite. Identity/scale visually plausible; held ankle is at far lower right with head/body set left. Actual paired grip/root/occlusion and release validation still mandatory; not yet adopted into runtime.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP"
+    },
+    "labubu_corrected_throw_win_0927": {
+      "file": "public/assets/generated/source/labubu-throw-win-0927.png",
+      "sha256": "a99daefe6b14124c79411f101955dba9d373b71aeb791ad17e033dcabc95a007",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:54:12.596990+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_corrected_throw_win_0927型号凭据0927.txt",
+        "sha256": "8ef4157582e286f58ba79a11277c07a1424263bedb8c9b17649b9fab132e187e"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU纠正投技胜利提示词0922.txt",
+        "sha256": "0c32a6a2a5a164795cae339205e7ad713de244307186e0f3ac9200f9fdb686dd"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed dark alpha composite: full reference, throw-tech, side-lying KO, two distinct win poses, ordinary-throw prepare/hold/release, and forward head/body strike. Identity preserved. Pair/contact/timing/normal-speed checks pending.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP",
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "shape_reviewed_candidate",
+            "reviewNotes": "Parent viewed dark alpha composite: full reference, throw-tech, side-lying KO, two distinct win poses, ordinary-throw prepare/hold/release, and forward head/body strike. Identity preserved. Pair/contact/timing/normal-speed checks pending."
+          }
+        }
+      ],
+      "ordinaryThrowSampleReview": {
+        "scope": "Record ordinary hold subset only as paired static samples for all four inspected victims; other utility drawings retain current status.",
+        "permittedSampleVictims": [
+          "luffy",
+          "akainu",
+          "labubu",
+          "twinkle"
+        ],
+        "moves": [
+          "throw_fwd",
+          "throw_back"
+        ]
+      },
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "twinkle_corrected_throw_win_0927": {
+      "file": "public/assets/generated/source/twinkle-throw-win-0927.png",
+      "sha256": "3d13d9fa807b0aa1038247c34b90046d3f819f05e851d5f66c5f1df61b77f0eb",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:54:12.846922+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_corrected_throw_win_0927型号凭据0927.txt",
+        "sha256": "e6062b456f3b040f5f1d93cc0379e3324416b94d0c3edd61d30d4781caf166aa"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人纠正投技胜利提示词0922.txt",
+        "sha256": "be17b3c732cbd2ef252ad207874830014e5114ef4f28b7468bb4c20784732a51"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed dark alpha composite: full reference, throw-tech, side-lying KO, two distinct win poses, ordinary-throw prepare/hold/release, and forward head/body strike. Identity preserved. Pair/contact/timing/normal-speed checks pending.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP",
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "shape_reviewed_candidate",
+            "reviewNotes": "Parent viewed dark alpha composite: full reference, throw-tech, side-lying KO, two distinct win poses, ordinary-throw prepare/hold/release, and forward head/body strike. Identity preserved. Pair/contact/timing/normal-speed checks pending."
+          }
+        }
+      ],
+      "ordinaryThrowSampleReview": {
+        "scope": "Record ordinary forefoot-support subset only as paired static samples for all four inspected victims; other utility drawings retain current status.",
+        "permittedSampleVictims": [
+          "luffy",
+          "akainu",
+          "labubu",
+          "twinkle"
+        ],
+        "moves": [
+          "throw_fwd",
+          "throw_back"
+        ]
+      },
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "labubu_backdash_getup_0927": {
+      "file": "public/assets/generated/source/labubu-backdash-getup-0927.png",
+      "sha256": "201ba89808813ed4a0b021715b8ecf4e8d22316f660d2dd31acefec21f9c0518",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:58:12.591065+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_backdash_getup_0927型号凭据0927.txt",
+        "sha256": "daebbe8b2e5b59338ac01d42c6d04f535f6e62c3e680bf86f76769ede0de5db4"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU后撤起身续帧提示词0927.txt",
+        "sha256": "e8b2c195bbd647c71e070bdbd4ce07d141e842afb4d11c4590571f20601e339a"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed full dark-alpha composite. Six distinct full-body poses: standing scale reference, backward push, backward landing, grounded rise, low crouch, near-standing recovery. Identity preserved; scale/root/timing and normal-speed checks pending.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP"
+    },
+    "twinkle_backdash_getup_0927": {
+      "file": "public/assets/generated/source/twinkle-backdash-getup-0927.png",
+      "sha256": "1620adbe7c7e017324bdc3f5a669bb8a2abc611956a77c5ad45e386344251563",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab273db-77a0-83ea-a838-2f690d5680cc",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Microsoft Edge",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T17:58:12.815286+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/twinkle_backdash_getup_0927型号凭据0927.txt",
+        "sha256": "5db8d36bdedc02b5fa793bca924fbb3ecb0f914290c6ee6c48cdba19275b310f"
+      },
+      "prompt": {
+        "file": "docs/assets/星星人后撤起身续帧提示词0927.txt",
+        "sha256": "bed9d23d9ca15c67518304df04f8bf3a1877cae240976c679ac64ac84278fea3"
+      },
+      "referenceSources": {
+        "twinkle_mother_corrected": "1bc9aeed3dcb54ef3b5dfe2c7c7b1a2286b033e05d528fff40d7a5bc51952ae5"
+      },
+      "adoptionStatus": "shape_reviewed_candidate",
+      "reviewNotes": "Parent viewed full dark-alpha composite. Six distinct full-body poses: standing scale reference, backward push, backward landing, grounded rise, low crouch, near-standing recovery. Identity preserved; scale/root/timing and normal-speed checks pending.",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP"
+    },
+    "labubu_held_leg_flip_0927": {
+      "file": "public/assets/generated/source/labubu-held-leg-flip-0927.png",
+      "sha256": "4169834365baa16e697a0e2de43c08f4aa45071bb058eb768e1bc1c64c3631fc",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6ab2769a-0afc-83ea-81d1-8d0795f50b14",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Codex内置浏览器",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T22:29:36.923110+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/labubu_held_leg_flip_0927型号凭据0927.txt",
+        "sha256": "fdc89b99bd263635970a6e9a02c53e338ccb427a1d1110d70ddd8b73658029b9"
+      },
+      "prompt": {
+        "file": "docs/assets/LABUBU抱腿受投补图提示词0927.txt",
+        "sha256": "da5bf0ce8f353c1b1e19a47152e0e1f062519d03743a2f82cce3322ff67751e1"
+      },
+      "referenceSources": {
+        "labubu_mother_corrected": "2ceb759998d911beacf10dffd2b996e5cd218012612bf08df9421937569f1044"
+      },
+      "adoptionStatus": "paired_sample_candidate",
+      "reviewNotes": "Allow one original victim pose under the three explicit fixed registrations from LAB final proposal. No new independent pose per registration. Static review only; runtime center/release/corner checks remain pending. Evidence: D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\legacy-held-proposal-final.json",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP in Codex in-app browser",
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "shape_reviewed_candidate",
+            "reviewNotes": "Parent viewed full dark-alpha composite: complete standing scale reference and distinct full-body held pose, one ankle/foot at lower right with head and free limb away. Cream toy identity and short proportions retained. Actual three caster/move pair registrations and release checks pending; no runtime adoption yet."
+          }
+        }
+      ],
+      "permittedSampleAttackers": {
+        "labubu": [
+          "sp_leg_flip",
+          "throw_fwd",
+          "throw_back"
+        ],
+        "twinkle": [
+          "throw_fwd",
+          "throw_back"
+        ]
+      },
+      "reactions": [
+        "held_leg_flip",
+        "held_labubu_throw",
+        "held_twinkle_throw"
+      ],
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "luffy_held_leg_flip_0927": {
+      "file": "public/assets/generated/source/luffy-held-leg-flip-0927.png",
+      "sha256": "8abdbafe151925ea1964dd804900d59d75d7eded17f86d3dae24cdc76b9b1f10",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6aa4331f-0a30-83ea-94a5-4e1e3e211060",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Codex内置浏览器",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T22:55:39.303405+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/luffy_held_leg_flip_0927型号凭据0927.txt",
+        "sha256": "109f90aa9a4af58b55d2891312b1e706ecd8a5d6e1d223b85cfa49647386dadb"
+      },
+      "prompt": {
+        "file": "docs/assets/路飞抱腿受投补图提示词0927.txt",
+        "sha256": "126d7824be9a5b0cd8f3aa8dd611b31fb2ef8c66b959e41928bd314ee9150e68"
+      },
+      "referenceSources": {},
+      "adoptionStatus": "paired_sample_candidate",
+      "reviewNotes": "Allow one original victim pose under this review three explicit fixed registrations; preserve old fighter scale/pages/roots. Static review only; runtime center/release/corner checks remain pending. Evidence: D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\legacy-held-proposal-final.json",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP in Codex in-app browser",
+      "referenceFiles": [
+        {
+          "file": "public/assets/generated/source/characters-master-0912.png",
+          "sha256": "1e0e47229db7bee69789282efdec93ca737a3d1dfb4582f06eed2881a5ddad51",
+          "role": "existing accepted shared character master in this same official conversation"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "shape_reviewed_candidate",
+            "reviewNotes": "Parent viewed full dark-alpha composite: existing anime design, straw hat/red jacket/X scar/yellow sash/blue shorts/sandals retained; complete standing scale reference and distinct loss-of-balance pose with one ankle at lower right and head/body away. No runtime pairing or release acceptance yet."
+          }
+        }
+      ],
+      "permittedSampleAttackers": {
+        "labubu": [
+          "sp_leg_flip",
+          "throw_fwd",
+          "throw_back"
+        ],
+        "twinkle": [
+          "throw_fwd",
+          "throw_back"
+        ]
+      },
+      "reactions": [
+        "held_leg_flip",
+        "held_labubu_throw",
+        "held_twinkle_throw"
+      ],
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "akainu_held_leg_flip_0927": {
+      "file": "public/assets/generated/source/akainu-held-leg-flip-0927.png",
+      "sha256": "a89984996e178346f427dc07331209369dd914326800f9dbe1903c8e44705431",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6aa4331f-0a30-83ea-94a5-4e1e3e211060",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Codex内置浏览器",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T23:10:18.051268+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/akainu_held_leg_flip_0927型号凭据0927.txt",
+        "sha256": "8049927db5933205af00a8c37d52289efa183082024c25f36f3ead88696b93f0"
+      },
+      "prompt": {
+        "file": "docs/assets/赤犬抱腿受投补图提示词0927.txt",
+        "sha256": "4a986c310ad825012e36bfc80dfe8a2841a4ab0c663ce3beeccdca569647ce8b"
+      },
+      "referenceSources": {},
+      "adoptionStatus": "paired_sample_candidate",
+      "reviewNotes": "Allow only when composed with the required same-coordinate hat patches; unpatched original remains prohibited for runtime adoption. One independent original pose and three registrations. Static review only; runtime center/release/corner checks remain pending. Evidence: D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\legacy-held-proposal-final.json",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP in Codex in-app browser",
+      "referenceFiles": [
+        {
+          "file": "public/assets/generated/source/characters-master-0912.png",
+          "sha256": "1e0e47229db7bee69789282efdec93ca737a3d1dfb4582f06eed2881a5ddad51",
+          "role": "accepted shared master with blank white cap and blue stripes"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {
+            "adoptionStatus": "candidate_needs_hat_patch",
+            "reviewNotes": "Full anime identity and distinct full-body held pose inspected, ankle clear at lower right. New MARINE lettering on both hats differs from the accepted blank-cap master/basics; do not adopt unpatched. Same-canvas local hat correction requested; body/limbs/coat must retain original pixels. Pairing not yet reviewed."
+          }
+        }
+      ],
+      "permittedSampleAttackers": {
+        "labubu": [
+          "sp_leg_flip",
+          "throw_fwd",
+          "throw_back"
+        ],
+        "twinkle": [
+          "throw_fwd",
+          "throw_back"
+        ]
+      },
+      "reactions": [
+        "held_leg_flip",
+        "held_labubu_throw",
+        "held_twinkle_throw"
+      ],
+      "requiredPatchDonorKey": "akainu_held_hat_fix_0927",
+      "requiredPatchRects": [
+        [
+          475,
+          50,
+          42,
+          18
+        ],
+        [
+          1445,
+          100,
+          50,
+          22
+        ]
+      ],
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00"
+    },
+    "akainu_held_hat_fix_0927": {
+      "file": "public/assets/generated/source/akainu-held-hat-fix-0927.png",
+      "sha256": "7cf1396bacba39b7aa3d82f3ca42fcecd9b58c23a712888d454d7449c4d2ba53",
+      "model": "GPT Image 2.5",
+      "provider": "chatgpt-web",
+      "sessionUrl": "https://chatgpt.com/c/6aa4331f-0a30-83ea-94a5-4e1e3e211060",
+      "generatedAt": "2026-09-27",
+      "generatedAtPrecision": "first observed complete local day; actual generation timestamp not exposed",
+      "firstObservedCompletedDate": "2026-09-27",
+      "requestedTextModel": "最新 (0926 user-approved official UI label)",
+      "observedTextModelLabel": "最新",
+      "browserLabel": "Codex内置浏览器",
+      "observedReasoningEffort": "极高",
+      "recordedAt": "2026-09-26T23:24:16.881980+00:00",
+      "unitScale": 1,
+      "modelEvidence": {
+        "file": "docs/assets/akainu_held_hat_fix_0927型号凭据0927.txt",
+        "sha256": "a3e34c33a21d91199d53282f4c12e5088075738f797edc5a6c0c588faf3a3935"
+      },
+      "prompt": {
+        "file": "docs/assets/赤犬受投帽饰纠正提示词0927.txt",
+        "sha256": "5d989a1fbd090e6710f009b004b55c47469f42668028acedcd15bf494d25e0db"
+      },
+      "referenceSources": {
+        "akainu_held_leg_flip_0927": "a89984996e178346f427dc07331209369dd914326800f9dbe1903c8e44705431"
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-09-26T23:49:52.197793+00:00",
+          "beforeScopeUpdate": {}
+        }
+      ],
+      "adoptionStatus": "paired_sample_candidate",
+      "reviewNotes": "Same-canvas hat-patch donor only. Do not use donor whole body or standalone pose. Static review only; runtime center/release/corner checks remain pending. Evidence: D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\legacy-held-proposal-final.json",
+      "permittedBaseKey": "akainu_held_leg_flip_0927",
+      "permittedRects": [
+        [
+          475,
+          50,
+          42,
+          18
+        ],
+        [
+          1445,
+          100,
+          50,
+          22
+        ]
+      ],
+      "pairedReviewEvidence": "D:\\one-piece-fighter-crossover-0922\\acceptance\\legacy-held-pair-0927\\20260927-072345\\results\\catalog-sample-scope-request.json",
+      "pairedReviewedAt": "2026-09-26T23:49:52.197793+00:00",
+      "retrievalMethod": "Unchanged PNG bytes from rendered same-origin image blob via Cua CDP in Codex in-app browser; bounded hat patches only."
+    }
+  }
+}
