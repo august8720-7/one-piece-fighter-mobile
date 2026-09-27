@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>手机版连接开发验收</title>
+<style>body{margin:0;padding:16px;background:#0b1b29;color:#f4eddd;font:15px "Microsoft YaHei",sans-serif}h1{font-size:20px;color:#f5ce67}button,input{padding:12px;margin:4px 0;border:1px solid #ad8f49;border-radius:6px;font:inherit}button{background:#ecd07f;color:#172636;cursor:pointer}input{width:90%;background:#172d40;color:#fff}output,pre{display:block;padding:12px;background:#06101a;white-space:pre-wrap;overflow-wrap:anywhere}small{color:#b1c4cf}</style></head>
+<body><h1>真实连接 · 开发验收</h1><small>WebRTC 原生通道＋脚本输入。不是手机实测。</small>
+<p><button id="create">创建房间</button> <button id="close">关闭连接</button></p><output id="code">尚无房间</output>
+<input id="join-code" aria-label="房间码" placeholder="对方的10位房间码"><button id="join">加入房间</button>
+<p><button id="ping">发送往返探测</button> <button id="run">开始20秒同步回放</button></p>
+<output id="status" role="status">尚未连接</output><pre id="result">尚未运行</pre><script type="module" src="/src/mobile/ConnectionProbe.ts"></script></body></html>

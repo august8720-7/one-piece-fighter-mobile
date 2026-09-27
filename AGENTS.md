@@ -15,6 +15,7 @@
 - `src/` 继承桌面源码；`src/mobile/` 保存手机版入口、触控界面和协调；`src/net/` 保存消息校验、连接和输入同步，不依赖 Phaser。
 - `tests/` 保存手机版适用的原逻辑回归和新网络/触控/运行资源校验。桌面制作原件测试保留原项目的既有门槛，不能删断言或把缺原件的检查标通过。
 - `scripts/` 保存可复现导入、构建、白名单打包与本地启动工具；新辅助脚本不改系统配置。
+- 根目录 `connection-check.html`、`connection-pair-check.html` 是本地开发验收页，只用于真实WebRTC通道与脚本输入回放，不计真实手机、不进入正式运行白名单；控制逻辑归 `src/mobile/ConnectionProbe.ts`。
 - `public/assets/` 仅导入桌面已公开运行包白名单资源，继续本地忽略；源码仓库只含允许的占位图。原件不复制进本项目。运行包仍与源码分支分开。
 - `docs/` 保存目标、设计决定、桌面来源清单和进度；文档采用主题加 MMDD 命名。
 - 构建、运行包及实机证据放 `D:/one-piece-fighter-crossover-0922/mobile/`，其 README 先定义 baseline/candidate/acceptance/publish；每次独立时间目录，不删除/覆盖旧验收包。

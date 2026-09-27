@@ -331,14 +331,28 @@ describe('candidate asset reloads', () => {
     expect(retried.assets.luffy!.frameTextures!['luffy/idle/0']).toBe(retried.assets.luffy!.key);
   });
 
-  it('blocks textures when SHA-256 is unavailable rather than dropping integrity checks', async () => {
+  it('blocks textures if SHA-256 calculation fails rather than dropping integrity checks', async () => {
     const state = fakeScene();
-    vi.stubGlobal('crypto', {});
+    vi.stubGlobal('crypto', { subtle: { digest: () => Promise.reject(new Error('hash unavailable')) } });
     const result = await loadAnimeCharacters(state.scene, ['luffy']);
     expect(result.ok).toBe(false);
     expect(result.failures[0]).toMatchObject({ code: 'integrity' });
     expect(result.failures[0]?.message).toContain('SHA-256');
     expect(state.addAtlas).not.toHaveBeenCalled();
+  });
+
+  it('checks the same SHA-256 without SubtleCrypto and rejects same-length corrupted UI bytes', async () => {
+    vi.stubGlobal('crypto', {});
+    const valid = fakeScene();
+    expect((await loadAnimeCharacters(valid.scene, ['luffy'])).ok).toBe(true);
+    const originalFetch = fetch;
+    vi.stubGlobal('fetch', vi.fn(async (url: string, options?: RequestInit) => url.endsWith('ui-0913.png')
+      ? new Response('UI PNG bytex', { headers: { 'Content-Type': 'image/png' } }) : originalFetch(url, options)));
+    const corrupted = fakeScene();
+    const result = await loadAnimeCharacters(corrupted.scene, ['luffy']);
+    expect(result.ok).toBe(false);
+    expect(result.failures[0]).toMatchObject({ code: 'integrity' });
+    expect(corrupted.addAtlas).not.toHaveBeenCalled();
   });
 
   it('classifies a timed-out request and allows the same character to retry', async () => {

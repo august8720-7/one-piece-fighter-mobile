@@ -1,9 +1,9 @@
 {
-  "name": "one-piece-fighter",
+  "name": "one-piece-fighter-mobile",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Web-based One Piece 1v1 fighting game (KOF-style). Luffy vs Akainu.",
+  "description": "Four-character mobile browser fighter with touch controls and same-network WebRTC multiplayer (in development).",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
@@ -17,6 +17,8 @@
     "gen:sfx": "vite-node scripts/gen-sfx-wav.ts"
   },
   "dependencies": {
+    "@noble/hashes": "2.4.0",
+    "peerjs": "1.5.5",
     "phaser": "^3.90.0"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@ import deliveryManifest from './deliveryManifest.json';
 import { fightDownloadUrls } from './resourcePlan';
 import { DeliveryFormatSelection, type DeliveryDefinition, type DeliveryRecord } from './deliveryFormats';
 import { probeAvifAlpha } from './avifProbe';
+import { sha256Hex } from '../mobile/sha256';
 
 export type { DeliveryRecord } from './deliveryFormats';
 export const DELIVERY_VERSION = deliveryManifest.version;
@@ -133,10 +134,9 @@ export class AssetDownloads {
   }
 
   private async verify(bytes: ArrayBuffer, record: DeliveryRecord): Promise<boolean> {
-    if (!globalThis.crypto?.subtle) throw new AssetDownloadError('integrity', record.file, '浏览器不支持完整性校验，请使用 HTTPS 或本机地址');
     if (bytes.byteLength !== record.bytes) return false;
-    const hash = await crypto.subtle.digest('SHA-256', bytes);
-    return Array.from(new Uint8Array(hash), byte => byte.toString(16).padStart(2, '0')).join('') === record.sha256;
+    try { return await sha256Hex(bytes) === record.sha256; }
+    catch { throw new AssetDownloadError('integrity', record.file, 'SHA-256 内容校验计算失败'); }
   }
 
   private readVerified(url: string, record: DeliveryRecord, priority: DownloadPriority): Promise<ArrayBuffer> {

@@ -5,6 +5,7 @@ import { readPresentation } from './presentation';
 import uiArtManifest from './anime/uiArtManifest.json';
 import { AssetDownloadError, AssetDownloads, DELIVERY_VERSION, deliveryRecord, sharedDownloads } from './assetDownloads';
 import { CHARACTER_RESOURCE_PLANS, presentationResources, type PresentationResource } from './resourcePlan';
+import { sha256Hex } from '../mobile/sha256';
 
 export { REQUIRED_FX_FRAMES } from './resourcePlan';
 
@@ -279,10 +280,8 @@ async function fetchAtlas(url: string, id: string, requireIdle = true, downloads
 }
 
 async function sha256(value: string | ArrayBuffer): Promise<string> {
-  if (!globalThis.crypto?.subtle?.digest) throw new AssetLoadError('integrity', '此浏览器无法执行 SHA-256 完整性校验，请使用新版 Chrome / Edge 并通过 HTTPS（本机可用 localhost / 127.0.0.1）打开');
-  const bytes = typeof value === 'string' ? new TextEncoder().encode(value) : value;
-  const digest = await crypto.subtle.digest('SHA-256', bytes);
-  return Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
+  try { return await sha256Hex(value); }
+  catch { throw new AssetLoadError('integrity', 'SHA-256 内容校验计算失败，请重新载入'); }
 }
 
 async function fetchAnimeInterface(id: string, downloads: AssetDownloads): Promise<{ image: HTMLImageElement; atlas: AtlasData; identity: string }> {

@@ -1,0 +1,255 @@
+:root {
+  --opf-navy-950: #05101b;
+  --opf-navy-900: #091827;
+  --opf-navy-800: #10283b;
+  --opf-gold: #f2c14e;
+  --opf-gold-soft: #ffe59a;
+  --opf-red: #b92d35;
+  --opf-red-bright: #ef5661;
+  --opf-ice: #dcecf2;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--opf-navy-950);
+}
+
+.opf-mobile-shell {
+  position: fixed;
+  inset: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background:
+    radial-gradient(circle at 50% 42%, rgb(42 74 93 / 34%), transparent 48%),
+    linear-gradient(180deg, var(--opf-navy-800), var(--opf-navy-950));
+  color: var(--opf-ice);
+  font-family: Georgia, "Palatino Linotype", "Microsoft YaHei", "PingFang SC", serif;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.opf-game-stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.opf-game-stage canvas {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.opf-touch-controls {
+  --opf-character-accent: var(--opf-red-bright);
+  position: absolute;
+  inset: max(4px, env(safe-area-inset-top)) max(4px, env(safe-area-inset-right)) max(4px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left));
+  z-index: 30;
+  pointer-events: none;
+  touch-action: none;
+}
+
+.opf-touch-controls[hidden] {
+  display: none;
+}
+
+.opf-touch-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  border: 1px solid rgb(242 193 78 / 72%);
+  border-radius: 12px;
+  color: var(--opf-ice);
+  background: linear-gradient(145deg, rgb(22 52 72 / 92%), rgb(5 16 27 / 94%));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 14%),
+    0 3px 10px rgb(0 0 0 / 35%);
+  font: 700 clamp(11px, 1.8vh, 15px) / 1.05 Georgia, "Microsoft YaHei", serif;
+  letter-spacing: 0.01em;
+  pointer-events: auto;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.opf-touch-controls button.is-pressed,
+.opf-touch-controls button:active {
+  transform: translateY(2px) scale(0.96);
+  border-color: var(--opf-gold-soft);
+  filter: brightness(1.18);
+  box-shadow: inset 0 2px 9px rgb(0 0 0 / 40%);
+}
+
+.opf-touch-topbar {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.opf-touch-character {
+  min-width: 92px;
+  padding: 7px 12px;
+  border-block: 1px solid rgb(242 193 78 / 60%);
+  color: var(--opf-gold-soft);
+  background: rgb(5 16 27 / 72%);
+  font-size: clamp(12px, 2vh, 16px);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.opf-touch-menu {
+  padding-inline: 13px;
+  color: var(--opf-gold-soft) !important;
+}
+
+.opf-touch-exit {
+  border-color: rgb(239 86 97 / 78%) !important;
+  color: #ffd7d9 !important;
+}
+
+.opf-touch-dpad,
+.opf-touch-attacks,
+.opf-touch-skills {
+  position: absolute;
+  display: grid;
+  gap: clamp(4px, 0.8vh, 8px);
+  pointer-events: none;
+}
+
+.opf-touch-dpad {
+  bottom: 4px;
+  left: 4px;
+  width: clamp(156px, 35vh, 250px);
+  aspect-ratio: 1;
+  grid-template: "ul u ur" 1fr "l . r" 1fr "dl d dr" 1fr / repeat(3, 1fr);
+}
+
+.opf-touch-direction {
+  padding: 0;
+  border-radius: 18px !important;
+  color: #f3fbff !important;
+  background: linear-gradient(145deg, rgb(40 77 99 / 88%), rgb(8 27 42 / 94%)) !important;
+  font-size: clamp(20px, 5vh, 34px) !important;
+}
+
+.opf-touch-attacks {
+  right: 4px;
+  bottom: 4px;
+  width: clamp(112px, 27vh, 184px);
+  aspect-ratio: 1;
+  grid-template: "lp hp" 1fr "lk hk" 1fr / repeat(2, 1fr);
+}
+
+.opf-touch-attack {
+  padding: 3px;
+  border-color: rgb(239 86 97 / 82%) !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle at 35% 30%, rgb(239 86 97 / 92%), rgb(83 15 25 / 94%) 72%) !important;
+  text-shadow: 0 1px 2px #31070b;
+}
+
+.opf-touch-skills {
+  top: max(56px, 14vh);
+  right: 4px;
+  width: clamp(180px, 32vw, 330px);
+  grid-template-columns: repeat(3, minmax(44px, 1fr));
+  grid-auto-rows: clamp(44px, 9vh, 68px);
+}
+
+.opf-touch-skill {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 5px;
+  padding: 4px 6px;
+  border-color: color-mix(in srgb, var(--opf-character-accent), var(--opf-gold) 42%) !important;
+  background:
+    linear-gradient(120deg, color-mix(in srgb, var(--opf-character-accent), transparent 72%), transparent 55%),
+    linear-gradient(145deg, rgb(20 49 68 / 94%), rgb(5 16 27 / 96%)) !important;
+}
+
+.opf-touch-key {
+  display: grid;
+  min-width: 23px;
+  min-height: 23px;
+  place-items: center;
+  border: 1px solid rgb(242 193 78 / 68%);
+  border-radius: 7px;
+  color: var(--opf-gold-soft);
+  font-size: 10px;
+}
+
+.opf-touch-name {
+  overflow: hidden;
+  font-size: clamp(9px, 1.6vh, 13px);
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.opf-touch-skill.is-unavailable,
+.opf-touch-skill:disabled {
+  border-color: rgb(122 145 157 / 35%) !important;
+  color: rgb(220 236 242 / 42%) !important;
+  background: rgb(5 16 27 / 58%) !important;
+  box-shadow: none;
+  filter: grayscale(0.55);
+  opacity: 0.68;
+}
+
+@media (max-height: 430px) and (orientation: landscape) {
+  .opf-touch-topbar {
+    top: 0;
+  }
+
+  .opf-touch-character {
+    min-width: 76px;
+    padding: 5px 9px;
+  }
+
+  .opf-touch-dpad {
+    width: max(144px, 39vh);
+  }
+
+  .opf-touch-attacks {
+    width: max(108px, 29vh);
+  }
+
+  .opf-touch-skills {
+    top: 52px;
+    width: clamp(174px, 31vw, 280px);
+    grid-auto-rows: 44px;
+  }
+}
+
+@media (orientation: portrait) {
+  .opf-touch-controls {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opf-touch-controls button {
+    transition: none;
+  }
+}
